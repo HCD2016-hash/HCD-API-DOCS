@@ -1,0 +1,57 @@
+#customer.created Event
+
+{
+	"id": "Q8epr1aXRor9PG",
+	"name": "Forza",
+	"trashed": false,
+	"website": null,
+	"contacts": [
+		{
+			"id": "WQ9Mv4MydxlBXA",
+			"fax": "",
+			"email": "tasha@forzasiteservices.com",
+			"phone": "+1 806-466-7504",
+			"trashed": false,
+			"last_name": "Saiz",
+			"created_at": "2025-10-27T22:39:30+00:00",
+			"first_name": "Tasha",
+			"is_primary": false,
+			"updated_at": "2025-10-27T22:39:30+00:00",
+			"customer_id": "Q8epr1aXRor9PG",
+			"fax_country": "US",
+			"send_invoice": false,
+			"phone_country": "US",
+			"default_receive_sms": false
+		}
+	],
+	"created_at": "2025-10-27T22:39:30+00:00",
+	"tax_exempt": false,
+	"updated_at": "2025-10-27T22:39:30+00:00",
+	"vat_number": null,
+	"wallet_fund": 0,
+	"quote_amount": 0,
+	"resale_number": null,
+	"unpaid_amount": 0,
+	"internal_notes": null,
+	"ordered_amount": 0,
+	"overdue_amount": 0,
+	"wallet_currency": {
+		"id": "YyAgrW6Zjz98Me",
+		"iso": "USD",
+		"name": "United States Dollar",
+		"symbol": "$",
+		"default": true,
+		"trashed": false
+	},
+	"last_ordered_date": null,
+	"customer_portal_id": "xwp56q",
+	"deposit_due_amount": 0,
+	"customer_portal_link": "https://portal.hubcitydesignlbk.com/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjdXN0b21lciIsImNvbl9pZCI6MCwidGlkIjozMjMyLCJleHAiOjE3OTA5ODA3NzAsInN1YiI6MzkzOTg5LCJpYXQiOjE3NjE2MDQ3NzAsIm5iZiI6MTc2MTYwNDc3MCwianRpIjoicXhXQ1ZjbHVISjJZb0RpbCJ9.K566DMj8xPvgBlyB9XqFeVv2H3CAIfRgxQN4lJDl5UE",
+	"default_warehouse_id": null,
+	"default_payment_term_id": null,
+	"default_pricing_group_id": null,
+	"display_customer_portal_id": "xwp56q",
+	"customer_portal_id_override": null,
+	"customer_portal_payment_option": null,
+	"has_customer_portal_id_override": false
+}

@@ -1,0 +1,4771 @@
+{ 
+"team": { 
+"team_name": "HUB CITY DESIGN Inc.", 
+"team_timezone": "America/Chicago", 
+"team_website": "hubcitydesignlbk.com", 
+"team_email": "dillon@hubcitydesignlbk.com", 
+"team_phone": "+1 806-902-8408", 
+"team_logo_url": "https://download.yoprint.com/1200464/New-Logo-3D-outer-glow-Vector-black-01.png?s=2ffJHfxOyiK_3K9jNnCwjA&e=1765519200", 
+"team_tax_number": "84-5015709", 
+"team_tax_label": "GST", 
+"plan_has_customer_portal": true, 
+"team_default_currency_symbol": "$", 
+"team_settings": { 
+"pdf_header_use_logo": true, 
+"enable_ship_due_date": false, 
+"use_qr_code": true, 
+"pdf_shipment_label_display_option": [ 
+"related_jobs" 
+], 
+"pdf_show_contact_info": [ 
+"footer_left" 
+], 
+"show_address_label_in_pdf": true, 
+"show_pdf_invoice_header_text": true, 
+"get_pdf_tax_show_customer_tax_number": false, 
+"pdf_bill_addr_show_primary_contact": true, 
+"get_tax_number_label": "TIN", 
+"get_tax_invoice_label": "Invoice", 
+"get_tax_label_name": "Tax", 
+"pdf_sales_order_show_custom_product_description": "Tax", 
+"show_payment_history_in_invoice": true, 
+"pdf_show_packed_by": true, 
+"pdf_cp_packing_slip_option": [ 
+"customer_po_number" 
+], 
+"pdf_show_related_order_in_po": "all", 
+"pdf_purchase_order_options": [ 
+"name" 
+], 
+"pdf_internal_job_mockup_display_width": "half", 
+"pdf_job_label_dymo_30336_option": [ 
+"order_label", 
+"customer_name", 
+"cust_due_date" 
+], 
+"pdf_job_label_option": [ 
+"customer_po_number" 
+], 
+"pdf_sales_order_display_option": [ 
+"job_summary", 
+"created_by", 
+"shipment_summary" 
+], 
+"pdf_sales_order_mockup_display_width": "half", 
+"show_pdf_order_term": true, 
+"pdf_order_term_text": "*A Deposit of 50%-70% is required at the time of art and quote approval, unless your company has different terms already agreed upon with management.<br><br>**If you&#39;re providing us with items for decoration or customization, please note human or machine errors happen in this field of business. We do everything we can to assure there is no waste and your order turns out as expected in full.&nbsp; However, we cannot be held liable for these products. &nbsp;Please reach out and speak to us prior to supplying goods of your own.<br><br>***If paying with a credit card, there will be a 2.9% processing fee applied. Unless notified prior, this fee will automatically be&nbsp;included on your quote. If you would like to take advantage of a cash/check discount, please notify us about your method of payment and we will remove this fee.&nbsp;<br><br><br>" 
+} 
+}, 
+"shipment": { 
+"shipment_id": "Kg38zAwL0EvyeE", 
+"shipment_qr_code_url": "https://ypnt.us/qr/y9-0p-ship-897460", 
+"shipment_shipping_address_single_line": "19122 U.S. Hwy 281 N Suite 113 SAN ANTONIO, TX 78258 United States", 
+"shipment_delivery_notes": null, 
+"shipment_shipping_type": "integration_shippo", 
+"shipment_shipping_type_name": "Shippo", 
+"shipment_packed_by_user_name": null, 
+"shipment_scoped_id": "1551", 
+"shipment_notification_scoped_id": "SHIP-1551", 
+"shipment_items": [ 
+{ 
+"quantity": 48, 
+"_hydrate": { 
+"product": { 
+"type": "variant", 
+"product_type": "variant", 
+"variant_type": "size_color", 
+"title": "168", 
+"style_id": "LwYOznn0LdzGPb", 
+"brand": "Richardson", 
+"description": "7 Panel Trucker", 
+"trashed": false, 
+"id": "6oejzBWDmar8Gq", 
+"size_label": "OSFM", 
+"size_id": "OSFM", 
+"color_label": "Black/Green Camo/Loden", 
+"color_id": "Black/Green Camo/Loden", 
+"color_hex": "#000000", 
+"color_image": "", 
+"weight": null, 
+"available": true, 
+"supplier_id": "", 
+"price": 6310 
+}, 
+"product_display": { 
+"title": "Richardson - 168", 
+"color": "Black/Green Camo/Loden", 
+"size": "OSFM", 
+"display_title": "Richardson - 168 - Black/Green Camo/Loden - OSFM" 
+} 
+}, 
+"product": { 
+"type": "db_variant", 
+"id": "LwYOznn0LdzGPb", 
+"size": "OSFM", 
+"color": "Black/Green Camo/Loden" 
+}, 
+"pricing": { 
+"type": "product_cost_service", 
+"product": { 
+"total": 12620, 
+"cost": null 
+} 
+}, 
+"job_id": "knEdrQ7aOXljJ2" 
+} 
+], 
+"shipment_shipping_address": { 
+"id": "N4Lpz0w9Aql3R0", 
+"label": "Stakeholder Midstream Corporate ", 
+"address1": "19122 U.S. Hwy 281 N", 
+"address2": "Suite 113", 
+"city": "San Antonio", 
+"state": "Texas", 
+"state_code": "TX", 
+"country": "United States", 
+"country_code": "US", 
+"postcode": "78258", 
+"role": "shipping", 
+"note": "", 
+"is_primary": true, 
+"is_default_warehouse": false, 
+"hold_stock": false, 
+"nexus": true, 
+"postal_can_validate": true, 
+"postal_validated": false, 
+"postal_is_valid": false, 
+"trashed": false, 
+"address_single_line": "19122 U.S. Hwy 281 N Suite 113 SAN ANTONIO, TX 78258 United States", 
+"customer_id": "qdgwz3W2M7zG19" 
+}, 
+"shipment_items_group_by_job": [ 
+[ 
+{ 
+"id": 6718891, 
+"team_id": 3232, 
+"order_id": 921278, 
+"shipment_id": 897460, 
+"product_type": "order_item", 
+"cart_item_id": null, 
+"order_item_id": 7210335, 
+"product_hash": "5b7e6478dbea6c1fb8bbf05defe36a76", 
+"tax_type": "", 
+"tax_id": null, 
+"tax_total": null, 
+"tax_is_override": false, 
+"quantity": 48, 
+"calc_subtotal": 0, 
+"calc_tax": 0, 
+"calc_discount": 0, 
+"calc_total": 0, 
+"position": 100000, 
+"attr_hash": "a3f3deafe994fc1887c48b4d82dc7ec6", 
+"created_at": "2025-12-10 10:43:28", 
+"updated_at": "2025-12-10 10:43:28", 
+"lock_version": 1765363408525011, 
+"unique_key": "shpitm_8fa425f1dee5e431615267e068dg42cb2ed948-g841gabg02e0g-4cdce09", 
+"type": "order_item", 
+"product_name": null, 
+"pricing_type": "system", 
+"product_cost_override": 0, 
+"product_cost_total": null, 
+"product_cost_decimal": null, 
+"weight_type": "use_system", 
+"weight_value": null, 
+"weight_dp": null, 
+"weight_unit": null, 
+"weight_override": 0, 
+"weight_hash": "0c25bed90d8bb8081a760766c28898b4", 
+"quantity_type": "unit", 
+"quantity_hash": "4db79fbd7142f1ca927c083a37a714ce", 
+"order_item_unique_key": "orditm_27d86c4700-6gef31071e66-dg34e6a53911a08ccaef-9-67b73873b4ggg", 
+"deleted_at": null, 
+"position_hash": "14ee22eaba297944c96afdbe5b16c65b", 
+"order_unique_key": "ord_f1c6415e8bd6bg4031e6716fg02ge2ab32d015ad6fc5b94a41b2a460-d7a", 
+"shipment_unique_key": "shp_a2968--f4-g27cc9a1725110g3772a94385c0g94947-9f2-6d9-29b0g66d", 
+"quantity_decimal": 0, 
+"product_description": null, 
+"pricing_hash": "4aaf489fa165ed8361a6797c864802aa", 
+"computed_cost_total": null, 
+"computed_cost_total_decimal": null, 
+"cloned_from": null, 
+"product_cost_pricing_mode": null, 
+"product_cost_pricing_mode_total": null, 
+"product_cost_pricing_mode_decimal": null, 
+"product_pricing_total": null, 
+"product_pricing_decimal": null, 
+"version": 2, 
+"migrate_from_legacy": 0, 
+"product_shipment_estimate_id": null, 
+"product_shipment_package_id": null, 
+"order_item": { 
+"id": 7210335, 
+"team_id": 3232, 
+"order_id": 921278, 
+"cart_item_id": null, 
+"type": "db_variant", 
+"product_type": "db_variant", 
+"product_catalog_id": null, 
+"product_custom_id": 121303, 
+"product_name": "Richardson - 168", 
+"product_color": "Black/Green Camo/Loden", 
+"product_size": "OSFM", 
+"pricing_type": "product_cost_service", 
+"pricing_group_id": null, 
+"pricing_product_total": 12620, 
+"pricing_service_total": null, 
+"quantity": 48, 
+"leftover_quantity": 0, 
+"job_id": 1367573, 
+"calc_unit_price": 18980, 
+"calc_sum_total": 911040, 
+"product_hash": "7c8c8430bafd6df00f1e9a852135dba8", 
+"attr_hash": null, 
+"position": 100000, 
+"countable": true, 
+"committed": true, 
+"fulfilled": false, 
+"inventory_id": 2529338, 
+"auto_saved_for": null, 
+"created_at": "2025-12-10 08:13:15", 
+"updated_at": "2025-12-10 10:43:38", 
+"pricing_product_cost": null, 
+"lock_version": 1765363418972129, 
+"unique_key": "orditm_27d86c4700-6gef31071e66-dg34e6a53911a08ccaef-9-67b73873b4ggg", 
+"order_unique_key": "ord_f1c6415e8bd6bg4031e6716fg02ge2ab32d015ad6fc5b94a41b2a460-d7a", 
+"version": 2, 
+"deleted_at": null, 
+"product_catalog_style_id": null, 
+"product_variant_product_id": 810939, 
+"product_provider": null, 
+"product_brand": "Richardson", 
+"product_description": "", 
+"product_customer_supplied": false, 
+"product_pricing_override": 0, 
+"product_pricing_total": 0, 
+"product_pricing_decimal": 2, 
+"product_cost_override": false, 
+"product_cost_total": 6310, 
+"product_cost_decimal": 3, 
+"service_override": false, 
+"service_total": 0, 
+"service_decimal": 0, 
+"pricing_hash": "fd16f014f92691d02fd38242c639e9d2", 
+"job_type": "linked", 
+"job_unique_key": "job_add799ag-a9c443-851-9c-1aace9bf3d2d43bcb71c9e7df61d8g54a4-54", 
+"job_hash": "3c272779118a335cccae0e35de0111bc", 
+"weight_type": "use_system", 
+"weight_value": 0, 
+"weight_dp": 0, 
+"weight_unit": "lb", 
+"weight_override": 0, 
+"weight_hash": "546bde3b22138dc1b9cfb59053702af0", 
+"quantity_type": "unit", 
+"quantity_hash": "4db79fbd7142f1ca927c083a37a714ce", 
+"position_hash": "14ee22eaba297944c96afdbe5b16c65b", 
+"quantity_decimal": 0, 
+"product_pricing_catalog_provider": null, 
+"product_pricing_catalog_selected_type": null, 
+"product_pricing_catalog_pricing_date": null, 
+"product_pricing_catalog_total": null, 
+"product_pricing_catalog_decimal": null, 
+"computed_subtotal_total": 91104, 
+"computed_subtotal_decimal": 2, 
+"computed_unit_price_total": 18980, 
+"computed_unit_price_decimal": 3, 
+"original_product_pricing_total": 6310, 
+"original_product_pricing_decimal": 3, 
+"computed_product_pricing_total": 1262, 
+"computed_product_pricing_decimal": 2, 
+"invoice_allocation_status": "fully-invoiced", 
+"shipment_allocation_status": "fully_allocated", 
+"cloned_from": null, 
+"migrate_from_legacy": 0, 
+"item_profit": 63100, 
+"item_profit_decimal": 4, 
+"item_margin": 5000, 
+"item_margin_decimal": 2, 
+"item_markup": 10000, 
+"item_markup_decimal": 2, 
+"inventory_status": "not_committed", 
+"job": { 
+"id": 1367573, 
+"team_id": 3232, 
+"order_id": 921278, 
+"name": "Leather Patched Hats", 
+"note": "Recommended heat press settings, requires bottom heat press. Time and temperatures may vary. Testing application is recommended. Samples are available.<br data-pasted=\"true\">Not for extended use in areas over 110&deg;F (44&deg;C).<br><a href=\"https://arrowemblems.com/aemdnn/Products/Patches/Heat-Seal-Instructions/Soft-Rubber#\">Printer Friendly Version</a><br><h3>Top and Bottom Heat</h3><h3>TEMPERATURE:</h3><h3>330&deg; F</h3><h3>TIME:</h3><h3>25-30 Seconds</h3><h3>PRESSURE:</h3><h3>Medium/Heavy</h3><h3>COVER SHEET:</h3><h3>1/8&quot; Silicone Pad</h3><small>Note: Pre-heat garments for 2-3 seconds. Cotton garments may require up to 8 sec pre-heat.</small><h3>Soft Rubber requires bottom heat for heat seal application.</h3><h3>FOR USE ON:</h3><h3>Cotton, Cotton/Poly Blends, 100% Polyester, Fleece and Wool</h3><h3>DOES NOT WORK ON:</h3><h3>Leather, Nylon, some types of Coatings on Athletic Mesh and Safety Gear</h3><h3>Common Troubleshooting Instructions</h3><strong>Problem:</strong><br>The patch isn&rsquo;t sticking.<br>1.)&nbsp;<strong>Try letting it cool a bit more</strong>. If the patch is still hot when you&rsquo;re testing adhesion, it could come of before it has time to cool enough to hold tight. Please wait at least 10 minutes for the patch to cool. This allows it to set before you test adhesion.<br>2.)&nbsp;<strong>Check your heat and pressure settings</strong>. Are they in line with the recommended temperatures for the fabric type you&rsquo;re using? Some sporty polyesters, such as baseball uniforms, have a very high temperature setting needed to get the heat seal to properly adhere.<br>3.)&nbsp;<strong>Pro tip</strong>: Try preheating your fabric for a few seconds before adding the patch. Sometimes, this can make all the difference in the world.<br><strong>Problem:</strong><br>The patch/fabric is discoloring and burning.<br>1.)&nbsp;<strong>Use a back heat press</strong>. We always recommend using a back heat press, where the heat is only on the bottom and behind the patch. That way, it&#39;s closer to the heat seal, and won&#39;t hurt your emblem.<br>2.)&nbsp;<strong>Check your cover sheet!</strong> Barriers such as teflon or silicon can make a big difference. Have you tried using a silicon pad between the heat source and your patch? This can protect from burning.<br>3.) <strong>Experiment with application times</strong>. You could be keeping a patch under a press for too long. Try reducing the time and see how the application fares. Please reach out if you need similar product samples, we&rsquo;d be happy to send you some for free that you could test to get th", 
+"status_id": 174566, 
+"packing": false, 
+"start_date": "2025-12-10 08:12:05", 
+"due_date": "2025-12-22 08:12:05", 
+"service_hash": "", 
+"auto_saved_for": null, 
+"deleted": false, 
+"stock_on_hand_accounted": false, 
+"created_at": "2025-12-10 08:12:42", 
+"updated_at": "2025-12-10 10:43:39", 
+"impression_count": 48, 
+"item_count": 48, 
+"version": 2, 
+"need_cust_provide_product": false, 
+"scoped_id": "3166", 
+"position": null, 
+"is_rush": 0, 
+"status_last_change_date": null, 
+"status_completion_date": null, 
+"lock_version": 1765363358195372, 
+"unique_key": "job_add799ag-a9c443-851-9c-1aace9bf3d2d43bcb71c9e7df61d8g54a4-54", 
+"pricing_original_decimal": 3, 
+"pricing_original_total": 6360, 
+"pricing_decimal": 3, 
+"pricing_total": 6360, 
+"cloned_from": null, 
+"deleted_at": null, 
+"migrate_from_legacy": 0, 
+"inventory_status": "not_committed", 
+"services": [ 
+{ 
+"id": 1852091, 
+"service_id": 25096, 
+"job_id": 1367573, 
+"location_id": 21896, 
+"location_name": null, 
+"location_type": "database", 
+"note": "", 
+"option": "Leather Patched Hats-Genuine Leather", 
+"position": 0, 
+"attr_hash": "d8a6969dbf38a38b916635c34d2f9821", 
+"auto_saved_for": null, 
+"created_at": "2025-12-10 08:12:42", 
+"updated_at": "2025-12-10 10:42:54", 
+"pricing_decimal": 3, 
+"pricing_total": 6360, 
+"customer_note": "", 
+"pricing_strategy": "job_separately", 
+"pricing_matrix_used": "primary_pricing", 
+"pricing_quantity_used": null, 
+"cloned_from": null, 
+"deleted_at": null, 
+"version": 2, 
+"migrate_from_legacy": 0, 
+"service": { 
+"id": 25096, 
+"team_id": 3232, 
+"name": "Leather Patched Hats", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"Leather Patched Hats-Genuine Leather": [ 
+{ 
+"price": 7360, 
+"quantity": 1 
+}, 
+{ 
+"price": 7360, 
+"quantity": 24 
+}, 
+{ 
+"price": 6360, 
+"quantity": 48 
+}, 
+{ 
+"price": 5360, 
+"quantity": 96 
+}, 
+{ 
+"price": 4360, 
+"quantity": 144 
+} 
+], 
+"Leather Patched Hats- Faux Colored Leather": [ 
+{ 
+"price": 7360, 
+"quantity": 1 
+}, 
+{ 
+"price": 7360, 
+"quantity": 24 
+}, 
+{ 
+"price": 6360, 
+"quantity": 48 
+}, 
+{ 
+"price": 5360, 
+"quantity": 96 
+}, 
+{ 
+"price": 4360, 
+"quantity": 144 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"Leather Patched Hats-Genuine Leather", 
+"Leather Patched Hats- Faux Colored Leather" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2024-05-22 20:47:49", 
+"updated_at": "2025-07-09 05:23:23", 
+"version": null, 
+"position": 9 
+}, 
+"location": { 
+"id": 21896, 
+"team_id": 3232, 
+"name": "Hat - Middle", 
+"enable": 1, 
+"deleted_at": null, 
+"created_at": "2024-05-06 01:03:12", 
+"updated_at": "2024-05-06 01:03:12", 
+"services": [ 
+{ 
+"id": 24897, 
+"team_id": 3232, 
+"name": "DTF Printing", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"TBD": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 0, 
+"quantity": 25 
+}, 
+{ 
+"price": 0, 
+"quantity": 50 
+}, 
+{ 
+"price": 0, 
+"quantity": 100 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+}, 
+{ 
+"price": 0, 
+"quantity": 10000 
+} 
+], 
+"Small 36 Sq In or Less": [ 
+{ 
+"price": 4750, 
+"quantity": 1 
+}, 
+{ 
+"price": 4250, 
+"quantity": 25 
+}, 
+{ 
+"price": 3750, 
+"quantity": 50 
+}, 
+{ 
+"price": 3250, 
+"quantity": 100 
+}, 
+{ 
+"price": 3000, 
+"quantity": 500 
+}, 
+{ 
+"price": 0, 
+"quantity": 10000 
+} 
+], 
+"Large 285 Sq In or Less": [ 
+{ 
+"price": 8000, 
+"quantity": 1 
+}, 
+{ 
+"price": 7500, 
+"quantity": 25 
+}, 
+{ 
+"price": 7000, 
+"quantity": 50 
+}, 
+{ 
+"price": 6500, 
+"quantity": 100 
+}, 
+{ 
+"price": 6000, 
+"quantity": 500 
+}, 
+{ 
+"price": 0, 
+"quantity": 10000 
+} 
+], 
+"Medium 150 Sq in or Less": [ 
+{ 
+"price": 5500, 
+"quantity": 1 
+}, 
+{ 
+"price": 5000, 
+"quantity": 25 
+}, 
+{ 
+"price": 4500, 
+"quantity": 50 
+}, 
+{ 
+"price": 4000, 
+"quantity": 100 
+}, 
+{ 
+"price": 3750, 
+"quantity": 500 
+}, 
+{ 
+"price": 0, 
+"quantity": 10000 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"Small 36 Sq In or Less", 
+"Large 285 Sq In or Less", 
+"Medium 150 Sq in or Less", 
+"TBD" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2024-05-14 03:22:51", 
+"updated_at": "2025-07-09 05:23:23", 
+"version": null, 
+"position": 2, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 24897 
+} 
+}, 
+{ 
+"id": 24898, 
+"team_id": 3232, 
+"name": "Embroidery - Headwear", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"TBD": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 0, 
+"quantity": 2 
+}, 
+{ 
+"price": 0, 
+"quantity": 12 
+}, 
+{ 
+"price": 0, 
+"quantity": 24 
+}, 
+{ 
+"price": 0, 
+"quantity": 36 
+}, 
+{ 
+"price": 0, 
+"quantity": 48 
+}, 
+{ 
+"price": 0, 
+"quantity": 60 
+}, 
+{ 
+"price": 0, 
+"quantity": 72 
+}, 
+{ 
+"price": 0, 
+"quantity": 144 
+}, 
+{ 
+"price": 0, 
+"quantity": 250 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+}, 
+{ 
+"price": 0, 
+"quantity": 750 
+}, 
+{ 
+"price": 0, 
+"quantity": 1000 
+} 
+], 
+"6000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 12500, 
+"quantity": 2 
+}, 
+{ 
+"price": 6680, 
+"quantity": 12 
+}, 
+{ 
+"price": 5810, 
+"quantity": 24 
+}, 
+{ 
+"price": 5570, 
+"quantity": 36 
+}, 
+{ 
+"price": 5300, 
+"quantity": 48 
+}, 
+{ 
+"price": 5150, 
+"quantity": 60 
+}, 
+{ 
+"price": 4730, 
+"quantity": 72 
+}, 
+{ 
+"price": 3740, 
+"quantity": 144 
+}, 
+{ 
+"price": 3500, 
+"quantity": 250 
+}, 
+{ 
+"price": 3300, 
+"quantity": 500 
+}, 
+{ 
+"price": 3150, 
+"quantity": 750 
+}, 
+{ 
+"price": 3050, 
+"quantity": 1000 
+} 
+], 
+"7000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 12500, 
+"quantity": 2 
+}, 
+{ 
+"price": 7140, 
+"quantity": 12 
+}, 
+{ 
+"price": 6320, 
+"quantity": 24 
+}, 
+{ 
+"price": 6060, 
+"quantity": 36 
+}, 
+{ 
+"price": 5850, 
+"quantity": 48 
+}, 
+{ 
+"price": 5650, 
+"quantity": 60 
+}, 
+{ 
+"price": 5080, 
+"quantity": 72 
+}, 
+{ 
+"price": 4020, 
+"quantity": 144 
+}, 
+{ 
+"price": 3800, 
+"quantity": 250 
+}, 
+{ 
+"price": 3550, 
+"quantity": 500 
+}, 
+{ 
+"price": 3400, 
+"quantity": 750 
+}, 
+{ 
+"price": 3300, 
+"quantity": 1000 
+} 
+], 
+"8000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 15000, 
+"quantity": 2 
+}, 
+{ 
+"price": 7600, 
+"quantity": 12 
+}, 
+{ 
+"price": 6590, 
+"quantity": 24 
+}, 
+{ 
+"price": 6310, 
+"quantity": 36 
+}, 
+{ 
+"price": 6050, 
+"quantity": 48 
+}, 
+{ 
+"price": 5850, 
+"quantity": 60 
+}, 
+{ 
+"price": 5430, 
+"quantity": 72 
+}, 
+{ 
+"price": 4300, 
+"quantity": 144 
+}, 
+{ 
+"price": 4000, 
+"quantity": 250 
+}, 
+{ 
+"price": 3750, 
+"quantity": 500 
+}, 
+{ 
+"price": 3550, 
+"quantity": 750 
+}, 
+{ 
+"price": 3450, 
+"quantity": 1000 
+} 
+], 
+"9000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 15000, 
+"quantity": 2 
+}, 
+{ 
+"price": 8520, 
+"quantity": 12 
+}, 
+{ 
+"price": 7040, 
+"quantity": 24 
+}, 
+{ 
+"price": 6750, 
+"quantity": 36 
+}, 
+{ 
+"price": 6500, 
+"quantity": 48 
+}, 
+{ 
+"price": 6300, 
+"quantity": 60 
+}, 
+{ 
+"price": 5800, 
+"quantity": 72 
+}, 
+{ 
+"price": 4580, 
+"quantity": 144 
+}, 
+{ 
+"price": 4300, 
+"quantity": 250 
+}, 
+{ 
+"price": 4050, 
+"quantity": 500 
+}, 
+{ 
+"price": 3850, 
+"quantity": 750 
+}, 
+{ 
+"price": 3700, 
+"quantity": 1000 
+} 
+], 
+"10000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 15000, 
+"quantity": 2 
+}, 
+{ 
+"price": 8950, 
+"quantity": 12 
+}, 
+{ 
+"price": 7500, 
+"quantity": 24 
+}, 
+{ 
+"price": 7150, 
+"quantity": 36 
+}, 
+{ 
+"price": 6850, 
+"quantity": 48 
+}, 
+{ 
+"price": 6600, 
+"quantity": 60 
+}, 
+{ 
+"price": 6100, 
+"quantity": 72 
+}, 
+{ 
+"price": 4950, 
+"quantity": 144 
+}, 
+{ 
+"price": 4650, 
+"quantity": 250 
+}, 
+{ 
+"price": 4400, 
+"quantity": 500 
+}, 
+{ 
+"price": 4200, 
+"quantity": 750 
+}, 
+{ 
+"price": 4050, 
+"quantity": 1000 
+} 
+], 
+"11000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 15000, 
+"quantity": 2 
+}, 
+{ 
+"price": 9200, 
+"quantity": 12 
+}, 
+{ 
+"price": 7800, 
+"quantity": 24 
+}, 
+{ 
+"price": 7450, 
+"quantity": 36 
+}, 
+{ 
+"price": 7150, 
+"quantity": 48 
+}, 
+{ 
+"price": 6900, 
+"quantity": 60 
+}, 
+{ 
+"price": 6400, 
+"quantity": 72 
+}, 
+{ 
+"price": 5150, 
+"quantity": 144 
+}, 
+{ 
+"price": 4850, 
+"quantity": 250 
+}, 
+{ 
+"price": 4600, 
+"quantity": 500 
+}, 
+{ 
+"price": 4350, 
+"quantity": 750 
+}, 
+{ 
+"price": 4200, 
+"quantity": 1000 
+} 
+], 
+"12000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 15000, 
+"quantity": 2 
+}, 
+{ 
+"price": 9800, 
+"quantity": 12 
+}, 
+{ 
+"price": 8200, 
+"quantity": 24 
+}, 
+{ 
+"price": 7850, 
+"quantity": 36 
+}, 
+{ 
+"price": 7500, 
+"quantity": 48 
+}, 
+{ 
+"price": 7200, 
+"quantity": 60 
+}, 
+{ 
+"price": 6700, 
+"quantity": 72 
+}, 
+{ 
+"price": 5500, 
+"quantity": 144 
+}, 
+{ 
+"price": 5200, 
+"quantity": 250 
+}, 
+{ 
+"price": 4900, 
+"quantity": 500 
+}, 
+{ 
+"price": 4650, 
+"quantity": 750 
+}, 
+{ 
+"price": 4500, 
+"quantity": 1000 
+} 
+], 
+"13000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 15000, 
+"quantity": 2 
+}, 
+{ 
+"price": 10200, 
+"quantity": 12 
+}, 
+{ 
+"price": 8600, 
+"quantity": 24 
+}, 
+{ 
+"price": 8200, 
+"quantity": 36 
+}, 
+{ 
+"price": 7900, 
+"quantity": 48 
+}, 
+{ 
+"price": 7600, 
+"quantity": 60 
+}, 
+{ 
+"price": 7000, 
+"quantity": 72 
+}, 
+{ 
+"price": 5800, 
+"quantity": 144 
+}, 
+{ 
+"price": 5500, 
+"quantity": 250 
+}, 
+{ 
+"price": 5200, 
+"quantity": 500 
+}, 
+{ 
+"price": 4950, 
+"quantity": 750 
+}, 
+{ 
+"price": 4750, 
+"quantity": 1000 
+} 
+], 
+"14000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 15000, 
+"quantity": 2 
+}, 
+{ 
+"price": 10500, 
+"quantity": 12 
+}, 
+{ 
+"price": 8900, 
+"quantity": 24 
+}, 
+{ 
+"price": 8500, 
+"quantity": 36 
+}, 
+{ 
+"price": 8200, 
+"quantity": 48 
+}, 
+{ 
+"price": 7900, 
+"quantity": 60 
+}, 
+{ 
+"price": 7300, 
+"quantity": 72 
+}, 
+{ 
+"price": 6000, 
+"quantity": 144 
+}, 
+{ 
+"price": 5700, 
+"quantity": 250 
+}, 
+{ 
+"price": 5400, 
+"quantity": 500 
+}, 
+{ 
+"price": 5150, 
+"quantity": 750 
+}, 
+{ 
+"price": 4900, 
+"quantity": 1000 
+} 
+], 
+"15000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 15000, 
+"quantity": 2 
+}, 
+{ 
+"price": 10750, 
+"quantity": 12 
+}, 
+{ 
+"price": 9000, 
+"quantity": 24 
+}, 
+{ 
+"price": 8600, 
+"quantity": 36 
+}, 
+{ 
+"price": 8250, 
+"quantity": 48 
+}, 
+{ 
+"price": 8000, 
+"quantity": 60 
+}, 
+{ 
+"price": 7500, 
+"quantity": 72 
+}, 
+{ 
+"price": 6200, 
+"quantity": 144 
+}, 
+{ 
+"price": 5850, 
+"quantity": 250 
+}, 
+{ 
+"price": 5500, 
+"quantity": 500 
+}, 
+{ 
+"price": 5200, 
+"quantity": 750 
+}, 
+{ 
+"price": 5000, 
+"quantity": 1000 
+} 
+], 
+"5000 Stitches or less": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 12500, 
+"quantity": 2 
+}, 
+{ 
+"price": 6320, 
+"quantity": 12 
+}, 
+{ 
+"price": 5230, 
+"quantity": 24 
+}, 
+{ 
+"price": 4850, 
+"quantity": 36 
+}, 
+{ 
+"price": 4650, 
+"quantity": 48 
+}, 
+{ 
+"price": 4450, 
+"quantity": 60 
+}, 
+{ 
+"price": 4520, 
+"quantity": 72 
+}, 
+{ 
+"price": 3580, 
+"quantity": 144 
+}, 
+{ 
+"price": 3400, 
+"quantity": 250 
+}, 
+{ 
+"price": 3200, 
+"quantity": 500 
+}, 
+{ 
+"price": 3050, 
+"quantity": 750 
+}, 
+{ 
+"price": 2950, 
+"quantity": 1000 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"TBD", 
+"5000 Stitches or less", 
+"6000 Stitches", 
+"7000 Stitches", 
+"8000 Stitches", 
+"9000 Stitches", 
+"10000 Stitches", 
+"11000 Stitches", 
+"12000 Stitches", 
+"13000 Stitches", 
+"14000 Stitches", 
+"15000 Stitches" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2024-05-14 03:23:33", 
+"updated_at": "2025-07-09 05:23:23", 
+"version": null, 
+"position": 3, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 24898 
+} 
+}, 
+{ 
+"id": 25096, 
+"team_id": 3232, 
+"name": "Leather Patched Hats", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"Leather Patched Hats-Genuine Leather": [ 
+{ 
+"price": 7360, 
+"quantity": 1 
+}, 
+{ 
+"price": 7360, 
+"quantity": 24 
+}, 
+{ 
+"price": 6360, 
+"quantity": 48 
+}, 
+{ 
+"price": 5360, 
+"quantity": 96 
+}, 
+{ 
+"price": 4360, 
+"quantity": 144 
+} 
+], 
+"Leather Patched Hats- Faux Colored Leather": [ 
+{ 
+"price": 7360, 
+"quantity": 1 
+}, 
+{ 
+"price": 7360, 
+"quantity": 24 
+}, 
+{ 
+"price": 6360, 
+"quantity": 48 
+}, 
+{ 
+"price": 5360, 
+"quantity": 96 
+}, 
+{ 
+"price": 4360, 
+"quantity": 144 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"Leather Patched Hats-Genuine Leather", 
+"Leather Patched Hats- Faux Colored Leather" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2024-05-22 20:47:49", 
+"updated_at": "2025-07-09 05:23:23", 
+"version": null, 
+"position": 9, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 25096 
+} 
+}, 
+{ 
+"id": 25117, 
+"team_id": 3232, 
+"name": "Embroidery Headwear VIP", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"TBD": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 0, 
+"quantity": 2 
+}, 
+{ 
+"price": 0, 
+"quantity": 12 
+}, 
+{ 
+"price": 0, 
+"quantity": 24 
+}, 
+{ 
+"price": 0, 
+"quantity": 36 
+}, 
+{ 
+"price": 0, 
+"quantity": 48 
+}, 
+{ 
+"price": 0, 
+"quantity": 60 
+}, 
+{ 
+"price": 0, 
+"quantity": 72 
+}, 
+{ 
+"price": 0, 
+"quantity": 144 
+}, 
+{ 
+"price": 0, 
+"quantity": 250 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+}, 
+{ 
+"price": 0, 
+"quantity": 750 
+}, 
+{ 
+"price": 0, 
+"quantity": 1000 
+} 
+], 
+"6000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 7650, 
+"quantity": 2 
+}, 
+{ 
+"price": 6010, 
+"quantity": 12 
+}, 
+{ 
+"price": 5230, 
+"quantity": 24 
+}, 
+{ 
+"price": 4730, 
+"quantity": 36 
+}, 
+{ 
+"price": 4510, 
+"quantity": 48 
+}, 
+{ 
+"price": 4380, 
+"quantity": 60 
+}, 
+{ 
+"price": 4020, 
+"quantity": 72 
+}, 
+{ 
+"price": 3180, 
+"quantity": 144 
+}, 
+{ 
+"price": 2800, 
+"quantity": 250 
+}, 
+{ 
+"price": 2640, 
+"quantity": 500 
+}, 
+{ 
+"price": 2520, 
+"quantity": 750 
+}, 
+{ 
+"price": 2440, 
+"quantity": 1000 
+} 
+], 
+"7000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 8100, 
+"quantity": 2 
+}, 
+{ 
+"price": 6430, 
+"quantity": 12 
+}, 
+{ 
+"price": 5690, 
+"quantity": 24 
+}, 
+{ 
+"price": 5150, 
+"quantity": 36 
+}, 
+{ 
+"price": 4970, 
+"quantity": 48 
+}, 
+{ 
+"price": 4800, 
+"quantity": 60 
+}, 
+{ 
+"price": 4320, 
+"quantity": 72 
+}, 
+{ 
+"price": 3420, 
+"quantity": 144 
+}, 
+{ 
+"price": 3040, 
+"quantity": 250 
+}, 
+{ 
+"price": 2840, 
+"quantity": 500 
+}, 
+{ 
+"price": 2720, 
+"quantity": 750 
+}, 
+{ 
+"price": 2640, 
+"quantity": 1000 
+} 
+], 
+"8000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 8550, 
+"quantity": 2 
+}, 
+{ 
+"price": 6840, 
+"quantity": 12 
+}, 
+{ 
+"price": 5930, 
+"quantity": 24 
+}, 
+{ 
+"price": 5360, 
+"quantity": 36 
+}, 
+{ 
+"price": 5140, 
+"quantity": 48 
+}, 
+{ 
+"price": 4970, 
+"quantity": 60 
+}, 
+{ 
+"price": 4620, 
+"quantity": 72 
+}, 
+{ 
+"price": 3660, 
+"quantity": 144 
+}, 
+{ 
+"price": 3200, 
+"quantity": 250 
+}, 
+{ 
+"price": 3000, 
+"quantity": 500 
+}, 
+{ 
+"price": 2840, 
+"quantity": 750 
+}, 
+{ 
+"price": 2760, 
+"quantity": 1000 
+} 
+], 
+"9000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 9225, 
+"quantity": 2 
+}, 
+{ 
+"price": 7670, 
+"quantity": 12 
+}, 
+{ 
+"price": 6340, 
+"quantity": 24 
+}, 
+{ 
+"price": 5740, 
+"quantity": 36 
+}, 
+{ 
+"price": 5520, 
+"quantity": 48 
+}, 
+{ 
+"price": 5350, 
+"quantity": 60 
+}, 
+{ 
+"price": 4930, 
+"quantity": 72 
+}, 
+{ 
+"price": 3890, 
+"quantity": 144 
+}, 
+{ 
+"price": 3440, 
+"quantity": 250 
+}, 
+{ 
+"price": 3240, 
+"quantity": 500 
+}, 
+{ 
+"price": 3080, 
+"quantity": 750 
+}, 
+{ 
+"price": 2960, 
+"quantity": 1000 
+} 
+], 
+"10000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 9675, 
+"quantity": 2 
+}, 
+{ 
+"price": 8060, 
+"quantity": 12 
+}, 
+{ 
+"price": 6750, 
+"quantity": 24 
+}, 
+{ 
+"price": 6080, 
+"quantity": 36 
+}, 
+{ 
+"price": 5820, 
+"quantity": 48 
+}, 
+{ 
+"price": 5610, 
+"quantity": 60 
+}, 
+{ 
+"price": 5190, 
+"quantity": 72 
+}, 
+{ 
+"price": 4210, 
+"quantity": 144 
+}, 
+{ 
+"price": 3720, 
+"quantity": 250 
+}, 
+{ 
+"price": 3520, 
+"quantity": 500 
+}, 
+{ 
+"price": 3360, 
+"quantity": 750 
+}, 
+{ 
+"price": 3240, 
+"quantity": 1000 
+} 
+], 
+"11000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 9900, 
+"quantity": 2 
+}, 
+{ 
+"price": 8280, 
+"quantity": 12 
+}, 
+{ 
+"price": 7020, 
+"quantity": 24 
+}, 
+{ 
+"price": 6330, 
+"quantity": 36 
+}, 
+{ 
+"price": 6080, 
+"quantity": 48 
+}, 
+{ 
+"price": 5870, 
+"quantity": 60 
+}, 
+{ 
+"price": 5440, 
+"quantity": 72 
+}, 
+{ 
+"price": 4380, 
+"quantity": 144 
+}, 
+{ 
+"price": 3880, 
+"quantity": 250 
+}, 
+{ 
+"price": 3680, 
+"quantity": 500 
+}, 
+{ 
+"price": 3480, 
+"quantity": 750 
+}, 
+{ 
+"price": 3360, 
+"quantity": 1000 
+} 
+], 
+"12000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 10350, 
+"quantity": 2 
+}, 
+{ 
+"price": 8820, 
+"quantity": 12 
+}, 
+{ 
+"price": 7380, 
+"quantity": 24 
+}, 
+{ 
+"price": 6670, 
+"quantity": 36 
+}, 
+{ 
+"price": 6380, 
+"quantity": 48 
+}, 
+{ 
+"price": 6120, 
+"quantity": 60 
+}, 
+{ 
+"price": 5700, 
+"quantity": 72 
+}, 
+{ 
+"price": 4680, 
+"quantity": 144 
+}, 
+{ 
+"price": 4160, 
+"quantity": 250 
+}, 
+{ 
+"price": 3920, 
+"quantity": 500 
+}, 
+{ 
+"price": 3720, 
+"quantity": 750 
+}, 
+{ 
+"price": 3600, 
+"quantity": 1000 
+} 
+], 
+"13000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 10800, 
+"quantity": 2 
+}, 
+{ 
+"price": 9180, 
+"quantity": 12 
+}, 
+{ 
+"price": 7740, 
+"quantity": 24 
+}, 
+{ 
+"price": 6970, 
+"quantity": 36 
+}, 
+{ 
+"price": 6720, 
+"quantity": 48 
+}, 
+{ 
+"price": 6460, 
+"quantity": 60 
+}, 
+{ 
+"price": 5950, 
+"quantity": 72 
+}, 
+{ 
+"price": 4930, 
+"quantity": 144 
+}, 
+{ 
+"price": 4400, 
+"quantity": 250 
+}, 
+{ 
+"price": 4160, 
+"quantity": 500 
+}, 
+{ 
+"price": 3960, 
+"quantity": 750 
+}, 
+{ 
+"price": 3800, 
+"quantity": 1000 
+} 
+], 
+"14000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 11025, 
+"quantity": 2 
+}, 
+{ 
+"price": 9450, 
+"quantity": 12 
+}, 
+{ 
+"price": 8010, 
+"quantity": 24 
+}, 
+{ 
+"price": 7230, 
+"quantity": 36 
+}, 
+{ 
+"price": 6970, 
+"quantity": 48 
+}, 
+{ 
+"price": 6720, 
+"quantity": 60 
+}, 
+{ 
+"price": 6210, 
+"quantity": 72 
+}, 
+{ 
+"price": 5100, 
+"quantity": 144 
+}, 
+{ 
+"price": 4560, 
+"quantity": 250 
+}, 
+{ 
+"price": 4320, 
+"quantity": 500 
+}, 
+{ 
+"price": 4120, 
+"quantity": 750 
+}, 
+{ 
+"price": 3920, 
+"quantity": 1000 
+} 
+], 
+"15000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 11250, 
+"quantity": 2 
+}, 
+{ 
+"price": 9680, 
+"quantity": 12 
+}, 
+{ 
+"price": 8100, 
+"quantity": 24 
+}, 
+{ 
+"price": 7310, 
+"quantity": 36 
+}, 
+{ 
+"price": 7010, 
+"quantity": 48 
+}, 
+{ 
+"price": 6800, 
+"quantity": 60 
+}, 
+{ 
+"price": 6380, 
+"quantity": 72 
+}, 
+{ 
+"price": 5270, 
+"quantity": 144 
+}, 
+{ 
+"price": 4680, 
+"quantity": 250 
+}, 
+{ 
+"price": 4400, 
+"quantity": 500 
+}, 
+{ 
+"price": 4160, 
+"quantity": 750 
+}, 
+{ 
+"price": 4000, 
+"quantity": 1000 
+} 
+], 
+"<5000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 7200, 
+"quantity": 2 
+}, 
+{ 
+"price": 5690, 
+"quantity": 12 
+}, 
+{ 
+"price": 4710, 
+"quantity": 24 
+}, 
+{ 
+"price": 4120, 
+"quantity": 36 
+}, 
+{ 
+"price": 3950, 
+"quantity": 48 
+}, 
+{ 
+"price": 3780, 
+"quantity": 60 
+}, 
+{ 
+"price": 3840, 
+"quantity": 72 
+}, 
+{ 
+"price": 3040, 
+"quantity": 144 
+}, 
+{ 
+"price": 2720, 
+"quantity": 250 
+}, 
+{ 
+"price": 2560, 
+"quantity": 500 
+}, 
+{ 
+"price": 2440, 
+"quantity": 750 
+}, 
+{ 
+"price": 2360, 
+"quantity": 1000 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"TBD", 
+"<5000 Stitches", 
+"6000 Stitches", 
+"7000 Stitches", 
+"8000 Stitches", 
+"9000 Stitches", 
+"10000 Stitches", 
+"11000 Stitches", 
+"12000 Stitches", 
+"13000 Stitches", 
+"14000 Stitches", 
+"15000 Stitches" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2024-05-23 20:41:01", 
+"updated_at": "2025-07-09 05:23:23", 
+"version": null, 
+"position": 4, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 25117 
+} 
+}, 
+{ 
+"id": 25401, 
+"team_id": 3232, 
+"name": "Embroidered/Woven/Sublimated Patched Hats", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"TBD": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 0, 
+"quantity": 50 
+}, 
+{ 
+"price": 0, 
+"quantity": 100 
+}, 
+{ 
+"price": 0, 
+"quantity": 200 
+}, 
+{ 
+"price": 0, 
+"quantity": 300 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+}, 
+{ 
+"price": 0, 
+"quantity": 1000 
+} 
+], 
+"2\" sq in": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 5600, 
+"quantity": 50 
+}, 
+{ 
+"price": 3260, 
+"quantity": 100 
+}, 
+{ 
+"price": 1960, 
+"quantity": 200 
+}, 
+{ 
+"price": 1700, 
+"quantity": 300 
+}, 
+{ 
+"price": 1400, 
+"quantity": 500 
+}, 
+{ 
+"price": 1180, 
+"quantity": 1000 
+} 
+], 
+"3\" sq in": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 7740, 
+"quantity": 50 
+}, 
+{ 
+"price": 4320, 
+"quantity": 100 
+}, 
+{ 
+"price": 2940, 
+"quantity": 200 
+}, 
+{ 
+"price": 2700, 
+"quantity": 300 
+}, 
+{ 
+"price": 2200, 
+"quantity": 500 
+}, 
+{ 
+"price": 1760, 
+"quantity": 1000 
+} 
+], 
+"4\" sq in": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 9820, 
+"quantity": 50 
+}, 
+{ 
+"price": 5380, 
+"quantity": 100 
+}, 
+{ 
+"price": 5380, 
+"quantity": 200 
+}, 
+{ 
+"price": 3560, 
+"quantity": 300 
+}, 
+{ 
+"price": 3140, 
+"quantity": 500 
+}, 
+{ 
+"price": 2440, 
+"quantity": 1000 
+} 
+], 
+"2.5\" sq in": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 6480, 
+"quantity": 50 
+}, 
+{ 
+"price": 3720, 
+"quantity": 100 
+}, 
+{ 
+"price": 2560, 
+"quantity": 200 
+}, 
+{ 
+"price": 2160, 
+"quantity": 300 
+}, 
+{ 
+"price": 1800, 
+"quantity": 500 
+}, 
+{ 
+"price": 1520, 
+"quantity": 1000 
+} 
+], 
+"3.5\" sq in": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 8580, 
+"quantity": 50 
+}, 
+{ 
+"price": 4740, 
+"quantity": 100 
+}, 
+{ 
+"price": 3600, 
+"quantity": 200 
+}, 
+{ 
+"price": 3320, 
+"quantity": 300 
+}, 
+{ 
+"price": 2700, 
+"quantity": 500 
+}, 
+{ 
+"price": 1960, 
+"quantity": 1000 
+} 
+], 
+"4.5\" sq in": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 11580, 
+"quantity": 50 
+}, 
+{ 
+"price": 6240, 
+"quantity": 100 
+}, 
+{ 
+"price": 4480, 
+"quantity": 200 
+}, 
+{ 
+"price": 4260, 
+"quantity": 300 
+}, 
+{ 
+"price": 3620, 
+"quantity": 500 
+}, 
+{ 
+"price": 2760, 
+"quantity": 1000 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"2\" sq in", 
+"3\" sq in", 
+"4\" sq in", 
+"2.5\" sq in", 
+"3.5\" sq in", 
+"4.5\" sq in", 
+"TBD" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2024-06-04 01:11:11", 
+"updated_at": "2025-07-09 05:23:23", 
+"version": null, 
+"position": 13, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 25401 
+} 
+}, 
+{ 
+"id": 25577, 
+"team_id": 3232, 
+"name": "Puff Embroidery Headwear", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"TBD": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 0, 
+"quantity": 12 
+}, 
+{ 
+"price": 0, 
+"quantity": 24 
+}, 
+{ 
+"price": 0, 
+"quantity": 36 
+}, 
+{ 
+"price": 0, 
+"quantity": 48 
+}, 
+{ 
+"price": 0, 
+"quantity": 60 
+}, 
+{ 
+"price": 0, 
+"quantity": 72 
+}, 
+{ 
+"price": 0, 
+"quantity": 144 
+}, 
+{ 
+"price": 0, 
+"quantity": 250 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+} 
+], 
+"6000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 7930, 
+"quantity": 12 
+}, 
+{ 
+"price": 7060, 
+"quantity": 24 
+}, 
+{ 
+"price": 6820, 
+"quantity": 36 
+}, 
+{ 
+"price": 6550, 
+"quantity": 48 
+}, 
+{ 
+"price": 6400, 
+"quantity": 60 
+}, 
+{ 
+"price": 5980, 
+"quantity": 72 
+}, 
+{ 
+"price": 4990, 
+"quantity": 144 
+}, 
+{ 
+"price": 4750, 
+"quantity": 250 
+}, 
+{ 
+"price": 4550, 
+"quantity": 500 
+} 
+], 
+"7000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 8390, 
+"quantity": 12 
+}, 
+{ 
+"price": 7570, 
+"quantity": 24 
+}, 
+{ 
+"price": 7310, 
+"quantity": 36 
+}, 
+{ 
+"price": 7100, 
+"quantity": 48 
+}, 
+{ 
+"price": 6900, 
+"quantity": 60 
+}, 
+{ 
+"price": 6330, 
+"quantity": 72 
+}, 
+{ 
+"price": 5270, 
+"quantity": 144 
+}, 
+{ 
+"price": 5050, 
+"quantity": 250 
+}, 
+{ 
+"price": 4800, 
+"quantity": 500 
+} 
+], 
+"8000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 8850, 
+"quantity": 12 
+}, 
+{ 
+"price": 7840, 
+"quantity": 24 
+}, 
+{ 
+"price": 7560, 
+"quantity": 36 
+}, 
+{ 
+"price": 7300, 
+"quantity": 48 
+}, 
+{ 
+"price": 7100, 
+"quantity": 60 
+}, 
+{ 
+"price": 6680, 
+"quantity": 72 
+}, 
+{ 
+"price": 5550, 
+"quantity": 144 
+}, 
+{ 
+"price": 5250, 
+"quantity": 250 
+}, 
+{ 
+"price": 5000, 
+"quantity": 500 
+} 
+], 
+"9000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 9770, 
+"quantity": 12 
+}, 
+{ 
+"price": 8290, 
+"quantity": 24 
+}, 
+{ 
+"price": 8000, 
+"quantity": 36 
+}, 
+{ 
+"price": 7750, 
+"quantity": 48 
+}, 
+{ 
+"price": 7550, 
+"quantity": 60 
+}, 
+{ 
+"price": 7050, 
+"quantity": 72 
+}, 
+{ 
+"price": 5830, 
+"quantity": 144 
+}, 
+{ 
+"price": 5550, 
+"quantity": 250 
+}, 
+{ 
+"price": 5300, 
+"quantity": 500 
+} 
+], 
+"10000 Stitches": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 10200, 
+"quantity": 12 
+}, 
+{ 
+"price": 8750, 
+"quantity": 24 
+}, 
+{ 
+"price": 8400, 
+"quantity": 36 
+}, 
+{ 
+"price": 8100, 
+"quantity": 48 
+}, 
+{ 
+"price": 7850, 
+"quantity": 60 
+}, 
+{ 
+"price": 7350, 
+"quantity": 72 
+}, 
+{ 
+"price": 6200, 
+"quantity": 144 
+}, 
+{ 
+"price": 5900, 
+"quantity": 250 
+}, 
+{ 
+"price": 5650, 
+"quantity": 500 
+} 
+], 
+"5000 Stitches or less": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 7570, 
+"quantity": 12 
+}, 
+{ 
+"price": 6480, 
+"quantity": 24 
+}, 
+{ 
+"price": 6100, 
+"quantity": 36 
+}, 
+{ 
+"price": 5900, 
+"quantity": 48 
+}, 
+{ 
+"price": 5700, 
+"quantity": 60 
+}, 
+{ 
+"price": 5770, 
+"quantity": 72 
+}, 
+{ 
+"price": 4830, 
+"quantity": 144 
+}, 
+{ 
+"price": 4650, 
+"quantity": 250 
+}, 
+{ 
+"price": 4450, 
+"quantity": 500 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"TBD", 
+"5000 Stitches or less", 
+"6000 Stitches", 
+"7000 Stitches", 
+"8000 Stitches", 
+"9000 Stitches", 
+"10000 Stitches" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 0, 
+"deleted_at": null, 
+"created_at": "2024-06-10 02:24:46", 
+"updated_at": "2025-07-09 05:23:23", 
+"version": null, 
+"position": 5, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 25577 
+} 
+}, 
+{ 
+"id": 26561, 
+"team_id": 3232, 
+"name": "Silicone Patches Apparel", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"TBD": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 0, 
+"quantity": 50 
+}, 
+{ 
+"price": 0, 
+"quantity": 100 
+}, 
+{ 
+"price": 0, 
+"quantity": 200 
+}, 
+{ 
+"price": 0, 
+"quantity": 300 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+}, 
+{ 
+"price": 0, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 2\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 4810, 
+"quantity": 50 
+}, 
+{ 
+"price": 3910, 
+"quantity": 100 
+}, 
+{ 
+"price": 3440, 
+"quantity": 200 
+}, 
+{ 
+"price": 2930, 
+"quantity": 300 
+}, 
+{ 
+"price": 2450, 
+"quantity": 500 
+}, 
+{ 
+"price": 2290, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 3\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 4840, 
+"quantity": 50 
+}, 
+{ 
+"price": 3940, 
+"quantity": 100 
+}, 
+{ 
+"price": 3460, 
+"quantity": 200 
+}, 
+{ 
+"price": 2970, 
+"quantity": 300 
+}, 
+{ 
+"price": 2480, 
+"quantity": 500 
+}, 
+{ 
+"price": 2320, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 4\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 5450, 
+"quantity": 50 
+}, 
+{ 
+"price": 4550, 
+"quantity": 100 
+}, 
+{ 
+"price": 3980, 
+"quantity": 200 
+}, 
+{ 
+"price": 3420, 
+"quantity": 300 
+}, 
+{ 
+"price": 2840, 
+"quantity": 500 
+}, 
+{ 
+"price": 2630, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 1.5\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 5490, 
+"quantity": 50 
+}, 
+{ 
+"price": 4590, 
+"quantity": 100 
+}, 
+{ 
+"price": 4010, 
+"quantity": 200 
+}, 
+{ 
+"price": 3440, 
+"quantity": 300 
+}, 
+{ 
+"price": 2860, 
+"quantity": 500 
+}, 
+{ 
+"price": 2650, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 2.5\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 6050, 
+"quantity": 50 
+}, 
+{ 
+"price": 5150, 
+"quantity": 100 
+}, 
+{ 
+"price": 4460, 
+"quantity": 200 
+}, 
+{ 
+"price": 3800, 
+"quantity": 300 
+}, 
+{ 
+"price": 3110, 
+"quantity": 500 
+}, 
+{ 
+"price": 2860, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 3.5\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 6280, 
+"quantity": 50 
+}, 
+{ 
+"price": 5380, 
+"quantity": 100 
+}, 
+{ 
+"price": 4570, 
+"quantity": 200 
+}, 
+{ 
+"price": 3940, 
+"quantity": 300 
+}, 
+{ 
+"price": 3190, 
+"quantity": 500 
+}, 
+{ 
+"price": 2900, 
+"quantity": 1000 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"TBD", 
+"Largest Dimension 2\"", 
+"Largest Dimension 3\"", 
+"Largest Dimension 4\"", 
+"Largest Dimension 1.5\"", 
+"Largest Dimension 2.5\"", 
+"Largest Dimension 3.5\"" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2024-07-24 00:20:24", 
+"updated_at": "2025-07-09 05:23:23", 
+"version": null, 
+"position": 18, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 26561 
+} 
+}, 
+{ 
+"id": 28243, 
+"team_id": 3232, 
+"name": "Embroidered Patches (Patches Previously Paid)", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"Patches From Inventory": [ 
+{ 
+"price": 1000, 
+"quantity": 1 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"Patches From Inventory" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2024-09-15 19:39:41", 
+"updated_at": "2025-07-09 05:23:23", 
+"version": null, 
+"position": 14, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 28243 
+} 
+}, 
+{ 
+"id": 29003, 
+"team_id": 3232, 
+"name": "Sublimation Printing", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"TBD": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 0, 
+"quantity": 25 
+}, 
+{ 
+"price": 0, 
+"quantity": 50 
+}, 
+{ 
+"price": 0, 
+"quantity": 100 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+} 
+], 
+"Small 36 Sq In or Less": [ 
+{ 
+"price": 4750, 
+"quantity": 1 
+}, 
+{ 
+"price": 4250, 
+"quantity": 25 
+}, 
+{ 
+"price": 3750, 
+"quantity": 50 
+}, 
+{ 
+"price": 3250, 
+"quantity": 100 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+} 
+], 
+"Large 285 Sq In or Less": [ 
+{ 
+"price": 8000, 
+"quantity": 1 
+}, 
+{ 
+"price": 7500, 
+"quantity": 25 
+}, 
+{ 
+"price": 7000, 
+"quantity": 50 
+}, 
+{ 
+"price": 6500, 
+"quantity": 100 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+} 
+], 
+"Medium 150 Sq in or Less": [ 
+{ 
+"price": 5500, 
+"quantity": 1 
+}, 
+{ 
+"price": 5000, 
+"quantity": 25 
+}, 
+{ 
+"price": 4500, 
+"quantity": 50 
+}, 
+{ 
+"price": 4000, 
+"quantity": 100 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"Small 36 Sq In or Less", 
+"Large 285 Sq In or Less", 
+"Medium 150 Sq in or Less", 
+"TBD" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2024-10-02 02:39:02", 
+"updated_at": "2025-07-09 05:23:23", 
+"version": null, 
+"position": 21, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 29003 
+} 
+}, 
+{ 
+"id": 39189, 
+"team_id": 3232, 
+"name": "Silicone Patches Apparel Patches Previously Paid For", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"TBD": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 0, 
+"quantity": 50 
+}, 
+{ 
+"price": 0, 
+"quantity": 100 
+}, 
+{ 
+"price": 0, 
+"quantity": 200 
+}, 
+{ 
+"price": 0, 
+"quantity": 300 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+}, 
+{ 
+"price": 0, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 2\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 4810, 
+"quantity": 50 
+}, 
+{ 
+"price": 3910, 
+"quantity": 100 
+}, 
+{ 
+"price": 3440, 
+"quantity": 200 
+}, 
+{ 
+"price": 2930, 
+"quantity": 300 
+}, 
+{ 
+"price": 2450, 
+"quantity": 500 
+}, 
+{ 
+"price": 2290, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 3\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 4840, 
+"quantity": 50 
+}, 
+{ 
+"price": 3940, 
+"quantity": 100 
+}, 
+{ 
+"price": 3460, 
+"quantity": 200 
+}, 
+{ 
+"price": 2970, 
+"quantity": 300 
+}, 
+{ 
+"price": 2480, 
+"quantity": 500 
+}, 
+{ 
+"price": 2320, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 4\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 5450, 
+"quantity": 50 
+}, 
+{ 
+"price": 4550, 
+"quantity": 100 
+}, 
+{ 
+"price": 3980, 
+"quantity": 200 
+}, 
+{ 
+"price": 3420, 
+"quantity": 300 
+}, 
+{ 
+"price": 2840, 
+"quantity": 500 
+}, 
+{ 
+"price": 2630, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 1.5\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 5490, 
+"quantity": 50 
+}, 
+{ 
+"price": 4590, 
+"quantity": 100 
+}, 
+{ 
+"price": 4010, 
+"quantity": 200 
+}, 
+{ 
+"price": 3440, 
+"quantity": 300 
+}, 
+{ 
+"price": 2860, 
+"quantity": 500 
+}, 
+{ 
+"price": 2650, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 2.5\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 6050, 
+"quantity": 50 
+}, 
+{ 
+"price": 5150, 
+"quantity": 100 
+}, 
+{ 
+"price": 4460, 
+"quantity": 200 
+}, 
+{ 
+"price": 3800, 
+"quantity": 300 
+}, 
+{ 
+"price": 3110, 
+"quantity": 500 
+}, 
+{ 
+"price": 2860, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 3.5\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 6280, 
+"quantity": 50 
+}, 
+{ 
+"price": 5380, 
+"quantity": 100 
+}, 
+{ 
+"price": 4570, 
+"quantity": 200 
+}, 
+{ 
+"price": 3940, 
+"quantity": 300 
+}, 
+{ 
+"price": 3190, 
+"quantity": 500 
+}, 
+{ 
+"price": 2900, 
+"quantity": 1000 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"TBD", 
+"Largest Dimension 2\"", 
+"Largest Dimension 3\"", 
+"Largest Dimension 4\"", 
+"Largest Dimension 1.5\"", 
+"Largest Dimension 2.5\"", 
+"Largest Dimension 3.5\"" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2025-04-09 07:43:32", 
+"updated_at": "2025-07-09 05:23:23", 
+"version": null, 
+"position": 17, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 39189 
+} 
+}, 
+{ 
+"id": 42730, 
+"team_id": 3232, 
+"name": "PVC Patched Hats", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"default": { 
+"data": { 
+"TBD": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 0, 
+"quantity": 50 
+} 
+], 
+"Patch Price Separate Job": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 0, 
+"quantity": 50 
+} 
+], 
+"Patches From Inventory Application Fee": [ 
+{ 
+"price": 1750, 
+"quantity": 1 
+}, 
+{ 
+"price": 1250, 
+"quantity": 50 
+} 
+] 
+}, 
+"config": { 
+"type": "normal", 
+"column_position": [ 
+"TBD", 
+"Patch Price Separate Job", 
+"Patches From Inventory Application Fee" 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2025-08-06 04:42:07", 
+"updated_at": "2025-08-25 06:09:20", 
+"version": null, 
+"position": 12, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 42730 
+} 
+}, 
+{ 
+"id": 42731, 
+"team_id": 3232, 
+"name": "PVC Patches Manufacturing", 
+"pricing_type": "single", 
+"primary_matrix": { 
+"config": { 
+"type": "normal" 
+}, 
+"default": { 
+"data": { 
+"TBD": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 0, 
+"quantity": 50 
+}, 
+{ 
+"price": 0, 
+"quantity": 100 
+}, 
+{ 
+"price": 0, 
+"quantity": 200 
+}, 
+{ 
+"price": 0, 
+"quantity": 300 
+}, 
+{ 
+"price": 0, 
+"quantity": 500 
+}, 
+{ 
+"price": 0, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 01.5\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 7630, 
+"quantity": 50 
+}, 
+{ 
+"price": 4380, 
+"quantity": 100 
+}, 
+{ 
+"price": 2930, 
+"quantity": 200 
+}, 
+{ 
+"price": 2350, 
+"quantity": 300 
+}, 
+{ 
+"price": 1880, 
+"quantity": 500 
+}, 
+{ 
+"price": 1450, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 02.0\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 8380, 
+"quantity": 50 
+}, 
+{ 
+"price": 5000, 
+"quantity": 100 
+}, 
+{ 
+"price": 3350, 
+"quantity": 200 
+}, 
+{ 
+"price": 2750, 
+"quantity": 300 
+}, 
+{ 
+"price": 2250, 
+"quantity": 500 
+}, 
+{ 
+"price": 1750, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 02.5\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 8750, 
+"quantity": 50 
+}, 
+{ 
+"price": 5330, 
+"quantity": 100 
+}, 
+{ 
+"price": 3700, 
+"quantity": 200 
+}, 
+{ 
+"price": 3050, 
+"quantity": 300 
+}, 
+{ 
+"price": 2550, 
+"quantity": 500 
+}, 
+{ 
+"price": 2000, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 03.0\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 9630, 
+"quantity": 50 
+}, 
+{ 
+"price": 5800, 
+"quantity": 100 
+}, 
+{ 
+"price": 4180, 
+"quantity": 200 
+}, 
+{ 
+"price": 3600, 
+"quantity": 300 
+}, 
+{ 
+"price": 2950, 
+"quantity": 500 
+}, 
+{ 
+"price": 2400, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 03.5\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 10500, 
+"quantity": 50 
+}, 
+{ 
+"price": 6450, 
+"quantity": 100 
+}, 
+{ 
+"price": 4650, 
+"quantity": 200 
+}, 
+{ 
+"price": 4000, 
+"quantity": 300 
+}, 
+{ 
+"price": 3300, 
+"quantity": 500 
+}, 
+{ 
+"price": 2600, 
+"quantity": 1000 
+} 
+], 
+"Largest Dimension 04.0\"": [ 
+{ 
+"price": 0, 
+"quantity": 1 
+}, 
+{ 
+"price": 11150, 
+"quantity": 50 
+}, 
+{ 
+"price": 6850, 
+"quantity": 100 
+}, 
+{ 
+"price": 5000, 
+"quantity": 200 
+}, 
+{ 
+"price": 4330, 
+"quantity": 300 
+}, 
+{ 
+"price": 3880, 
+"quantity": 500 
+}, 
+{ 
+"price": 3030, 
+"quantity": 1000 
+} 
+] 
+} 
+} 
+}, 
+"additional_matrix": [], 
+"allow_cust_loc": 1, 
+"deleted_at": null, 
+"created_at": "2025-08-06 04:46:25", 
+"updated_at": "2025-08-08 04:05:04", 
+"version": null, 
+"position": 12, 
+"pivot": { 
+"service_location_id": 21896, 
+"service_id": 42731 
+} 
+} 
+] 
+} 
+} 
+], 
+"pipelines": [ 
+{ 
+"id": 20996, 
+"team_id": 3232, 
+"label": "Laser Engraving Work", 
+"color": "#ccd5e1", 
+"enable": true, 
+"created_at": "2024-12-16 03:04:09", 
+"updated_at": "2024-12-16 03:04:48", 
+"deleted_at": null, 
+"version": 1, 
+"pivot": { 
+"job_id": 1367573, 
+"pipeline_id": 20996, 
+"order_id": 921278, 
+"status_id": 254552, 
+"start_date": "2025-12-10 08:12:05", 
+"due_date": "2025-12-22 08:12:05", 
+"position": 0, 
+"created_at": "2025-12-10 08:12:42", 
+"updated_at": "2025-12-10 08:12:42" 
+}, 
+"statuses": [ 
+{ 
+"id": 254552, 
+"team_id": 3232, 
+"pipeline_id": 20996, 
+"role": "pipeline", 
+"type": "start", 
+"label": "Pending", 
+"customer_label": null, 
+"color": "#1976d2", 
+"position": 0, 
+"deleted_at": null, 
+"created_at": "2024-12-16 03:04:09", 
+"updated_at": "2024-12-16 03:04:09" 
+}, 
+{ 
+"id": 254553, 
+"team_id": 3232, 
+"pipeline_id": 20996, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "In Production", 
+"customer_label": null, 
+"color": "#76bb40", 
+"position": 2, 
+"deleted_at": null, 
+"created_at": "2024-12-16 03:04:09", 
+"updated_at": "2024-12-16 03:08:10" 
+}, 
+{ 
+"id": 254554, 
+"team_id": 3232, 
+"pipeline_id": 20996, 
+"role": "pipeline", 
+"type": "end", 
+"label": "Completed", 
+"customer_label": null, 
+"color": "#424242", 
+"position": 3, 
+"deleted_at": null, 
+"created_at": "2024-12-16 03:04:09", 
+"updated_at": "2024-12-16 03:08:10" 
+}, 
+{ 
+"id": 254555, 
+"team_id": 3232, 
+"pipeline_id": 20996, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "Ready For Production", 
+"customer_label": null, 
+"color": "#982abc", 
+"position": 1, 
+"deleted_at": null, 
+"created_at": "2024-12-16 03:07:36", 
+"updated_at": "2024-12-16 03:08:10" 
+} 
+] 
+}, 
+{ 
+"id": 14811, 
+"team_id": 3232, 
+"label": "Leather Patched Hats", 
+"color": "#0061fd", 
+"enable": true, 
+"created_at": "2024-05-29 02:49:38", 
+"updated_at": "2024-05-29 02:49:38", 
+"deleted_at": null, 
+"version": 1, 
+"pivot": { 
+"job_id": 1367573, 
+"pipeline_id": 14811, 
+"order_id": 921278, 
+"status_id": 179103, 
+"start_date": "2025-12-10 08:12:05", 
+"due_date": "2025-12-22 08:12:05", 
+"position": 0, 
+"created_at": "2025-12-10 08:12:42", 
+"updated_at": "2025-12-10 08:12:42" 
+}, 
+"statuses": [ 
+{ 
+"id": 179103, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "start", 
+"label": "Pending", 
+"customer_label": null, 
+"color": "#00fff3", 
+"position": 0, 
+"deleted_at": null, 
+"created_at": "2024-05-29 02:49:38", 
+"updated_at": "2024-11-26 05:26:18" 
+}, 
+{ 
+"id": 179104, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "Patch Production", 
+"customer_label": null, 
+"color": "#235d01", 
+"position": 1, 
+"deleted_at": "2024-11-26 05:27:35", 
+"created_at": "2024-05-29 02:49:38", 
+"updated_at": "2024-11-26 05:27:35" 
+}, 
+{ 
+"id": 179105, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "end", 
+"label": "Completed", 
+"customer_label": null, 
+"color": "#000000", 
+"position": 2, 
+"deleted_at": null, 
+"created_at": "2024-05-29 02:49:38", 
+"updated_at": "2025-05-02 02:18:03" 
+}, 
+{ 
+"id": 179106, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "Patch Application", 
+"customer_label": null, 
+"color": "#0061fd", 
+"position": 2, 
+"deleted_at": "2024-11-26 05:27:38", 
+"created_at": "2024-05-29 02:51:06", 
+"updated_at": "2024-11-26 05:27:38" 
+}, 
+{ 
+"id": 184757, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "Notes Added-Production", 
+"customer_label": null, 
+"color": "#fefb41", 
+"position": 3, 
+"deleted_at": "2024-10-03 03:19:05", 
+"created_at": "2024-06-26 19:32:46", 
+"updated_at": "2024-10-03 03:19:05" 
+}, 
+{ 
+"id": 230563, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "Ready For Production", 
+"customer_label": null, 
+"color": "#be04fb", 
+"position": 1, 
+"deleted_at": null, 
+"created_at": "2024-11-26 05:27:50", 
+"updated_at": "2025-05-02 02:17:55" 
+} 
+] 
+} 
+], 
+"status": { 
+"id": 174566, 
+"team_id": 3232, 
+"pipeline_id": null, 
+"role": "job", 
+"type": "start", 
+"label": "Pending", 
+"customer_label": "Pending", 
+"color": "#0df6ff", 
+"position": 0, 
+"deleted_at": null, 
+"created_at": "2024-04-30 03:57:49", 
+"updated_at": "2024-09-14 20:31:03" 
+}, 
+"order": { 
+"id": 921278, 
+"scoped_id": "SO1363", 
+"object_type": "quote", 
+"team_id": 3232, 
+"customer_id": 271266, 
+"billing_address_id": 307551, 
+"shipping_address_id": 335441, 
+"warehouse_id": 254423, 
+"pricing_group_id": 21477, 
+"status_id": 174563, 
+"payment_term_id": 7637, 
+"customer_po_number": null, 
+"auto_saved_for": null, 
+"converted_order_id": null, 
+"created_by": 7758, 
+"client_note": null, 
+"prod_note": "Message from the customer:<br><br><em>I was told Friday to order 4 dozon of the hat that you sent a sample of to the corporate office.</em><br data-pasted=\"true\"><br>Link to comms:&nbsp;<a data-fr-linked=\"true\" href=\"https://mail.missiveapp.com/#inbox/conversations/3553a6d8-e3ae-47ae-a3b0-ffcfcc4c5cde\" data-pasted=\"true\">https://mail.missiveapp.com/#inbox/conversations/3553a6d8-e3ae-47ae-a3b0-ffcfcc4c5cde</a>", 
+"issue_date": "2025-12-10 08:12:05", 
+"start_date": null, 
+"due_date": null, 
+"cust_due_date": null, 
+"paid_amount": 0, 
+"wallet_currency_id": 3299, 
+"draft": false, 
+"created": true, 
+"locked": 0, 
+"fulfilled": 0, 
+"cart_hash": null, 
+"attr_hash": "24c59608bc922f29bf7df842defbf56f", 
+"discount_total": 0, 
+"calc_subtotal": 911040, 
+"calc_tax": 61500, 
+"calc_discount": 0, 
+"calc_deposit_total": 486270, 
+"calc_total": 972540, 
+"deposit_custom": false, 
+"deposit_required": true, 
+"deposit_total": 50000, 
+"deposit_due": "2025-12-12 08:12:20", 
+"full_amount_due": "2025-12-24 08:12:20", 
+"created_at": "2025-12-10 08:12:05", 
+"updated_at": "2025-12-10 17:12:02", 
+"deleted_at": null, 
+"version": 2, 
+"pricing_strategy": "job_separately", 
+"quote": true, 
+"customer_profile_id": null, 
+"approval_status": "approved", 
+"ship_due_date": null, 
+"customer_contact_id": 288681, 
+"name": "Leather Patch Hat", 
+"is_rush": 0, 
+"status_last_change_date": "2025-12-10 10:46:46", 
+"status_completion_date": null, 
+"quickbook_last_error_sync": null, 
+"quickbook_last_success_sync": "2025-12-10 10:45:49", 
+"quickbook_disable_sync": false, 
+"lock_version": 1765386722433916, 
+"payment_lock_version": 1765354325916078, 
+"order_item_lock_version": 1765363419148959, 
+"unique_key": "ord_f1c6415e8bd6bg4031e6716fg02ge2ab32d015ad6fc5b94a41b2a460-d7a", 
+"job_lock_version": 1765363419161949, 
+"computed_shipment_cost_total": 0, 
+"computed_shipment_cost_decimal": 2, 
+"invoiced_shipment_subtotal": 0, 
+"invoiced_shipment_subtotal_decimal": 2, 
+"invoiced_tax_subtotal": 6150, 
+"invoiced_tax_subtotal_decimal": 2, 
+"invoiced_cart_item_subtotal": 91104, 
+"invoiced_cart_item_subtotal_decimal": 2, 
+"invoiced_discount_subtotal": 0, 
+"invoiced_discount_subtotal_decimal": 2, 
+"invoiced_total": 97254, 
+"invoiced_total_decimal": 2, 
+"computed_sales_order_total": 91104, 
+"computed_sales_order_total_decimal": 2, 
+"has_over_invoiced_items": false, 
+"has_not_invoiced_items": false, 
+"has_shipment_items_over_allocated": false, 
+"has_shipment_items_not_allocated": false, 
+"shipment_lock_version": 1765363419133013, 
+"invoice_lock_version": 1765363419136784, 
+"internal_status": "published", 
+"cloned_from": null, 
+"computed_shipment_billable_fee_total": 0, 
+"computed_shipment_billable_fee_total_decimal": 2, 
+"shipment_billable_fee_invoice_status": "fully_billed", 
+"migrate_from_legacy": 0, 
+"order_profit": 6081600, 
+"order_profit_decimal": 4, 
+"order_margin": 6675, 
+"order_margin_decimal": 2, 
+"order_markup": 20079, 
+"order_markup_decimal": 2, 
+"inventory_status": "not_committed", 
+"quickbook_synced_payment_lock_version": 1765354325916078, 
+"quickbook_synced_invoice_lock_version": 1765363419136784, 
+"auto_invoice_managed": true, 
+"auto_invoice_type": "single_invoice", 
+"auto_invoice_shipment_price_type": "DONOTMANAGE", 
+"auto_invoice_shipment_price_rate": 0, 
+"auto_invoice_shipment_price_rate_dp": 2, 
+"computed_surcharge_total": 0, 
+"computed_surcharge_decimal": null 
+}, 
+"work_pipelines": [ 
+{ 
+"id": 702705, 
+"pipeline_id": 20996, 
+"job_id": 1367573, 
+"order_id": 921278, 
+"status_id": 254552, 
+"start_date": "2025-12-10 08:12:05", 
+"due_date": "2025-12-22 08:12:05", 
+"progress": 0, 
+"note": null, 
+"created_at": "2025-12-10 08:12:42", 
+"updated_at": "2025-12-10 08:12:42", 
+"name": "Laser Engraving Work", 
+"position": 0, 
+"status_last_change_date": null, 
+"status_completion_date": null, 
+"team_id": null, 
+"status": { 
+"id": 254552, 
+"team_id": 3232, 
+"pipeline_id": 20996, 
+"role": "pipeline", 
+"type": "start", 
+"label": "Pending", 
+"customer_label": null, 
+"color": "#1976d2", 
+"position": 0, 
+"deleted_at": null, 
+"created_at": "2024-12-16 03:04:09", 
+"updated_at": "2024-12-16 03:04:09" 
+}, 
+"pipeline": { 
+"id": 20996, 
+"team_id": 3232, 
+"label": "Laser Engraving Work", 
+"color": "#ccd5e1", 
+"enable": true, 
+"created_at": "2024-12-16 03:04:09", 
+"updated_at": "2024-12-16 03:04:48", 
+"deleted_at": null, 
+"version": 1, 
+"statuses": [ 
+{ 
+"id": 254552, 
+"team_id": 3232, 
+"pipeline_id": 20996, 
+"role": "pipeline", 
+"type": "start", 
+"label": "Pending", 
+"customer_label": null, 
+"color": "#1976d2", 
+"position": 0, 
+"deleted_at": null, 
+"created_at": "2024-12-16 03:04:09", 
+"updated_at": "2024-12-16 03:04:09" 
+}, 
+{ 
+"id": 254553, 
+"team_id": 3232, 
+"pipeline_id": 20996, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "In Production", 
+"customer_label": null, 
+"color": "#76bb40", 
+"position": 2, 
+"deleted_at": null, 
+"created_at": "2024-12-16 03:04:09", 
+"updated_at": "2024-12-16 03:08:10" 
+}, 
+{ 
+"id": 254554, 
+"team_id": 3232, 
+"pipeline_id": 20996, 
+"role": "pipeline", 
+"type": "end", 
+"label": "Completed", 
+"customer_label": null, 
+"color": "#424242", 
+"position": 3, 
+"deleted_at": null, 
+"created_at": "2024-12-16 03:04:09", 
+"updated_at": "2024-12-16 03:08:10" 
+}, 
+{ 
+"id": 254555, 
+"team_id": 3232, 
+"pipeline_id": 20996, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "Ready For Production", 
+"customer_label": null, 
+"color": "#982abc", 
+"position": 1, 
+"deleted_at": null, 
+"created_at": "2024-12-16 03:07:36", 
+"updated_at": "2024-12-16 03:08:10" 
+} 
+] 
+}, 
+"order": null 
+}, 
+{ 
+"id": 702706, 
+"pipeline_id": 14811, 
+"job_id": 1367573, 
+"order_id": 921278, 
+"status_id": 179103, 
+"start_date": "2025-12-10 08:12:05", 
+"due_date": "2025-12-22 08:12:05", 
+"progress": 0, 
+"note": null, 
+"created_at": "2025-12-10 08:12:42", 
+"updated_at": "2025-12-10 08:12:42", 
+"name": "Patch Application", 
+"position": 0, 
+"status_last_change_date": null, 
+"status_completion_date": null, 
+"team_id": null, 
+"status": { 
+"id": 179103, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "start", 
+"label": "Pending", 
+"customer_label": null, 
+"color": "#00fff3", 
+"position": 0, 
+"deleted_at": null, 
+"created_at": "2024-05-29 02:49:38", 
+"updated_at": "2024-11-26 05:26:18" 
+}, 
+"pipeline": { 
+"id": 14811, 
+"team_id": 3232, 
+"label": "Leather Patched Hats", 
+"color": "#0061fd", 
+"enable": true, 
+"created_at": "2024-05-29 02:49:38", 
+"updated_at": "2024-05-29 02:49:38", 
+"deleted_at": null, 
+"version": 1, 
+"statuses": [ 
+{ 
+"id": 179103, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "start", 
+"label": "Pending", 
+"customer_label": null, 
+"color": "#00fff3", 
+"position": 0, 
+"deleted_at": null, 
+"created_at": "2024-05-29 02:49:38", 
+"updated_at": "2024-11-26 05:26:18" 
+}, 
+{ 
+"id": 179104, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "Patch Production", 
+"customer_label": null, 
+"color": "#235d01", 
+"position": 1, 
+"deleted_at": "2024-11-26 05:27:35", 
+"created_at": "2024-05-29 02:49:38", 
+"updated_at": "2024-11-26 05:27:35" 
+}, 
+{ 
+"id": 179105, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "end", 
+"label": "Completed", 
+"customer_label": null, 
+"color": "#000000", 
+"position": 2, 
+"deleted_at": null, 
+"created_at": "2024-05-29 02:49:38", 
+"updated_at": "2025-05-02 02:18:03" 
+}, 
+{ 
+"id": 179106, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "Patch Application", 
+"customer_label": null, 
+"color": "#0061fd", 
+"position": 2, 
+"deleted_at": "2024-11-26 05:27:38", 
+"created_at": "2024-05-29 02:51:06", 
+"updated_at": "2024-11-26 05:27:38" 
+}, 
+{ 
+"id": 184757, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "Notes Added-Production", 
+"customer_label": null, 
+"color": "#fefb41", 
+"position": 3, 
+"deleted_at": "2024-10-03 03:19:05", 
+"created_at": "2024-06-26 19:32:46", 
+"updated_at": "2024-10-03 03:19:05" 
+}, 
+{ 
+"id": 230563, 
+"team_id": 3232, 
+"pipeline_id": 14811, 
+"role": "pipeline", 
+"type": "in_progress", 
+"label": "Ready For Production", 
+"customer_label": null, 
+"color": "#be04fb", 
+"position": 1, 
+"deleted_at": null, 
+"created_at": "2024-11-26 05:27:50", 
+"updated_at": "2025-05-02 02:17:55" 
+} 
+] 
+}, 
+"order": null 
+} 
+] 
+}, 
+"variant_product": { 
+"id": 810939, 
+"team_id": 3232, 
+"product_id": 121303, 
+"vendor_id": null, 
+"size_id": "OSFM", 
+"size_label": "OSFM", 
+"color_id": "Black/Green Camo/Loden", 
+"color_hex": "#000000", 
+"color_label": "Black/Green Camo/Loden", 
+"weight": null, 
+"dimension_x": null, 
+"dimension_y": null, 
+"dimension_z": null, 
+"supplier_id": "", 
+"barcode": null, 
+"enable": true, 
+"track_inventory": 1, 
+"inventory_id": null, 
+"price_data": [], 
+"default_price": 6310, 
+"deleted_at": null, 
+"created_at": "2024-05-23 18:22:59", 
+"updated_at": "2025-09-24 07:34:29", 
+"variant": { 
+"id": 121303, 
+"team_id": 3232, 
+"product_type": "variant", 
+"brand": "Richardson", 
+"vendor_id": null, 
+"title": "168", 
+"description": "7 Panel Trucker", 
+"taxable": true, 
+"weight": null, 
+"dimension_x": null, 
+"dimension_y": null, 
+"dimension_z": null, 
+"supplier_id": "168", 
+"barcode": null, 
+"enable": true, 
+"size_data": [ 
+{ 
+"id": "OSFM", 
+"label": "OSFM" 
+} 
+], 
+"color_data": [ 
+{ 
+"id": "Solid Black", 
+"hex": "", 
+"label": "Solid Black" 
+}, 
+{ 
+"id": "Black/Green Camo/Loden", 
+"hex": "", 
+"label": "Black/Green Camo/Loden" 
+}, 
+{ 
+"id": "Alternate Brown/Khaki", 
+"hex": "", 
+"label": "Alternate Brown/Khaki" 
+}, 
+{ 
+"id": "Solid Charcoal", 
+"hex": "", 
+"label": "Solid Charcoal" 
+}, 
+{ 
+"id": "Charcoal/Black", 
+"hex": "", 
+"label": "Charcoal/Black" 
+}, 
+{ 
+"id": "Charcoal/Burnt Orange/Black", 
+"hex": "", 
+"label": "Charcoal/Burnt Orange/Black" 
+}, 
+{ 
+"id": "Charcoal/Black/White", 
+"hex": "", 
+"label": "Charcoal/Black/White" 
+}, 
+{ 
+"id": "Charcoal/Old Gold", 
+"hex": "", 
+"label": "Charcoal/Old Gold" 
+}, 
+{ 
+"id": "Solid Caramel", 
+"hex": "", 
+"label": "Solid Caramel" 
+}, 
+{ 
+"id": "Dark Green/Black", 
+"hex": "", 
+"label": "Dark Green/Black" 
+}, 
+{ 
+"id": "Alternate Heather Grey/Black", 
+"hex": "", 
+"label": "Alternate Heather Grey/Black" 
+}, 
+{ 
+"id": "Pale Khaki/Brown", 
+"hex": "", 
+"label": "Pale Khaki/Brown" 
+}, 
+{ 
+"id": "Solid Loden", 
+"hex": "", 
+"label": "Solid Loden" 
+}, 
+{ 
+"id": "Solid Navy", 
+"hex": "", 
+"label": "Solid Navy" 
+}, 
+{ 
+"id": "Pale Khaki/Loden", 
+"hex": "", 
+"label": "Pale Khaki/Loden" 
+}, 
+{ 
+"id": "Solid Quarry", 
+"hex": "", 
+"label": "Solid Quarry" 
+}, 
+{ 
+"id": "Royal/Black", 
+"hex": "", 
+"label": "Royal/Black" 
+}, 
+{ 
+"id": "Red/Black", 
+"hex": "", 
+"label": "Red/Black" 
+}, 
+{ 
+"id": "Solid White", 
+"hex": "", 
+"label": "Solid White" 
+} 
+], 
+"track_inventory": true, 
+"inventory_id": null, 
+"price_data": [], 
+"default_price": 12810, 
+"created_at": "2024-05-23 18:22:59", 
+"updated_at": "2025-09-24 07:34:29", 
+"deleted_at": null, 
+"version": null 
+} 
+} 
+}, 
+"team": { 
+"id": 3232, 
+"owner_id": 5386, 
+"name": "HUB CITY DESIGN Inc.", 
+"slug": "hub-city-design-inc", 
+"salt": "67593da3-6986-40d3-9bb5-72f8a7c1632d", 
+"custom_domain": "portal.hubcitydesignlbk.com", 
+"website": "hubcitydesignlbk.com", 
+"email": "dillon@hubcitydesignlbk.com", 
+"phone": "+1 806-902-8408", 
+"phone_country": null, 
+"timezone": "America/Chicago", 
+"tax_id": null, 
+"tax_label": "GST", 
+"secret": null, 
+"settings": { 
+"column": [], 
+"weight": "lbs", 
+"dimension": "in", 
+"catalog_alp": false, 
+"catalog_ssa": true, 
+"catalog_tsf": false, 
+"use_qr_code": true, 
+"catalog_alpca": false, 
+"catalog_conde": false, 
+"catalog_delta": false, 
+"catalog_ssaca": false, 
+"order_due_day": 14, 
+"quote_due_day": 14, 
+"ui_preference": { 
+"version": 3, 
+"list_column_order": { 
+"inventory_list_page:default": [ 
+{ 
+"field": "product_id", 
+"can_show": true 
+}, 
+{ 
+"field": "warehouse_id", 
+"can_show": false 
+}, 
+{ 
+"field": "reorder", 
+"can_show": true 
+}, 
+{ 
+"field": "stock_available", 
+"can_show": true 
+}, 
+{ 
+"field": "stock_on_hand", 
+"can_show": true 
+}, 
+{ 
+"field": "stock_committed", 
+"can_show": true 
+}, 
+{ 
+"field": "stock_incoming", 
+"can_show": true 
+} 
+] 
+}, 
+"list_column_order_v2": [], 
+"production_control_job_color": "#35B7F4", 
+"production_control_sales_order_text": [ 
+"scoped_id", 
+"name", 
+"customer_name" 
+], 
+"production_control_sales_order_color": "#757575" 
+}, 
+"catalog_sanmar": true, 
+"show_so_profit": true, 
+"tax_label_name": "Tax", 
+"catalog_augusta": true, 
+"order_term_text": "Payment terms for your order are listed at the top right of your invoice.<br>Deposit terms we use based on items being ordered are 50%, 60%, 70%<br><strong>&nbsp;Deposit &nbsp;is required</strong> at the time of art and quote approval, unless your company has different terms already agreed upon with management.<br><br>If you purchase patches for headwear and take advantage of ordering higher quantities for price breaks those purchased patches must be used on product provided by Hub City Design Inc. Patches are considered property of Hub City Design <strong>until applied to finished goods</strong> and cannot be received later as individual items.&nbsp;<br><br>If you&#39;re providing us with items for decoration or customization please note human or machine errors happen in this field of business. We do everything we can to assure there is no waste and your order turns out as expected in full. We cannot be held liable for these products, please reach out and speak to us prior to supplying goods of your own.<br><br><span data-darkreader-inline-color=\"\" style=\"color: rgb(184, 49, 47); --darkreader-inline-color: var(--darkreader-text-b8312f, #d5605e);\"><strong><span style=\"font-size: 14px;\">If paying with Cash/Check/Bank Transfer there is 3% discount, please notify us prior to making any payments to have this reflected on your total balance! You will see a line item as &quot;Credit Card Processing&quot; if this fee is active on your order. If we are already aware of your payment method not being by card this will not be listed on your invoice and no further discount is needed.</span></strong></span>", 
+"pdf_date_format": "std", 
+"show_order_term": true, 
+"web_date_format": "default", 
+"tax_number_label": "TIN", 
+"tax_invoice_label": "Invoice", 
+"order_prod_end_day": 12, 
+"pdf_show_packed_by": true, 
+"quote_prod_end_day": 12, 
+"pagination_per_page": 100, 
+"pdf_header_use_logo": true, 
+"pdf_order_term_text": "*A Deposit of 50%-70% is required at the time of art and quote approval, unless your company has different terms already agreed upon with management.<br><br>**If you&#39;re providing us with items for decoration or customization, please note human or machine errors happen in this field of business. We do everything we can to assure there is no waste and your order turns out as expected in full.&nbsp; However, we cannot be held liable for these products. &nbsp;Please reach out and speak to us prior to supplying goods of your own.<br><br>***If paying with a credit card, there will be a 2.9% processing fee applied. Unless notified prior, this fee will automatically be&nbsp;included on your quote. If you would like to take advantage of a cash/check discount, please notify us about your method of payment and we will remove this fee.&nbsp;<br><br><br>", 
+"show_pdf_order_term": true, 
+"enable_ship_due_date": false, 
+"order_prod_start_day": 7, 
+"pdf_job_label_option": [ 
+"customer_po_number" 
+], 
+"quote_prod_start_day": 7, 
+"enable_ship_packed_by": false, 
+"pdf_show_contact_info": [ 
+"footer_left" 
+], 
+"job_approval_term_text": "<span style=\"font-size: 10px;\"><strong>Artwork Approval Terms</strong><strong><br><br></strong></span><ul><li data-end=\"179\" data-start=\"96\"><p data-end=\"179\" data-start=\"99\"><strong data-end=\"26\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">Proof Review &amp; Signoff</strong><br data-start=\"136\" data-end=\"139\">\nBefore we print, you&#39;ll receive a digital proof. Please check spelling, layout, color, and design carefully and approve it in writing&mdash;via email or online form&mdash;before we proceed.</p></li><li data-end=\"246\" data-start=\"181\"><p data-end=\"246\" data-start=\"184\"><strong data-end=\"203\" data-start=\"184\">Revision Policy</strong><br data-start=\"203\" data-end=\"206\">\nWe offer two rounds of revisions at no extra cost. Any additional edits or changes requested after final proof approval may result in extra charges or delays.</p></li><li data-end=\"331\" data-start=\"248\"><p data-end=\"331\" data-start=\"251\"><strong data-end=\"39\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">Color Accuracy &amp; Design Adjustments</strong><br data-start=\"288\" data-end=\"291\">\nWe aim to match colors accurately, but slight differences can occur due to screen display or printing processes. Precise Pantone matching is available for a fee. We may also make minor adjustments for print quality or production constraints&mdash;major changes will be communicated to you for approval.</p></li><li data-end=\"404\" data-start=\"333\"><p data-end=\"404\" data-start=\"336\"><strong data-end=\"361\" data-start=\"336\">Timelines &amp; Liability</strong><br data-start=\"361\" data-end=\"364\">\nTimely feedback helps ensure production and delivery stay on schedule. Once you approve the proof, you&#39;re confirming that everything is correct&mdash;and any errors in the approved proof become your responsibility.</p></li><li data-end=\"479\" data-start=\"406\"><p data-end=\"479\" data-start=\"409\"><strong data-end=\"436\" data-start=\"409\">Cancellations &amp; Refunds</strong><br data-start=\"436\" data-end=\"439\">\nOnce production begins, cancellations or refunds aren&rsquo;t available. If you cancel before approval, design or material costs may be deducted from your refund.</p></li><li data-end=\"479\" data-start=\"406\"><p data-end=\"479\" data-start=\"409\">If you purchase patches for headwear and take advantage of ordering higher quantities for price breaks those purchased patches must be used on product provided by Hub City Design Inc. Patches are considered property of Hub City Design <strong>until applied to finished goods</strong> and cannot be received later as individual items. </p></li><li data-end=\"546\" data-start=\"481\"><p data-end=\"546\" data-start=\"484\"><strong data-end=\"503\" data-start=\"484\">Confidentiality</strong><br data-start=\"503\" data-end=\"506\">\nYour artwork and related designs are confidential and will only be used to fulfill your order.</p></li></ul><span style=\"font-size: 10px;\"><strong><br></strong></span><br><br>", 
+"show_job_approval_term": true, 
+"conde_markup_percentage": 0, 
+"enable_customer_message": true, 
+"enable_estimated_profit": true, 
+"enable_stock_management": true, 
+"pdf_invoice_header_text": "<div style=\"margin-left: 20px;\">View the full list of all products we offer here:<br> <a href=\"https://catalogs.hubcitydesignlbk.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Hub City Design Catalog Gallery</a></div><div style=\"margin-left: 40px;\"><br></div>", 
+"order_approval_term_text": "<p data-end=\"223\" data-start=\"189\"><strong data-end=\"221\" data-start=\"189\">\n\n</strong></p><div class=\"approval-terms\"><strong data-end=\"221\" data-start=\"189\">\n <ul>\n <li>\n <strong>Order Approval by Payment:</strong>\n Making any payment means you approve the order details as quoted (items, quantities, and pricing). No order will proceed without payment or written approval.\n </li>\n <li>\n <strong>Separate Artwork Approval Required:</strong>\n Artwork proofs must always be approved in writing, even if payment has been made. Production will not begin until artwork is approved.\n </li>\n <li>\n <strong>Changes &amp; Additional Costs:</strong>\n Changes to orders or artwork after approval may result in extra charges and impact delivery time. All changes must be confirmed in writing.\n </li>\n <li>\n <strong>Timelines &amp; Delivery:</strong>\n Production and delivery dates are based on prompt payment and approvals. Delays in approval or payment may delay your order.\n </li>\n <li>\n <strong>Cancellations &amp; Refunds:</strong>\n No cancellations or refunds once production or ordering has started. If canceled before production, non-recoverable costs may be deducted from any refund.\n </li>\n <li>\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<strong>Client Responsibility:</strong>\n &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;You are responsible for reviewing and confirming all order and artwork details. Hub City Design Inc. is not liable for errors present in approved proofs or orders.</li><li>If you purchase patches for headwear and take advantage of ordering higher quantities for price breaks those purchased patches must be used on product provided by Hub City Design Inc. Patches are considered property of Hub City Design <strong>until applied to finished goods</strong> and cannot be received later as individual items. <br>\n &nbsp; &nbsp; &nbsp; &nbsp;</li></ul>\n <div class=\"note\">\n <strong>By making payment or providing written approval, you agree to these terms.<br><br>\n <span data-darkreader-inline-color=\"\" style=\"color: rgb(226, 80, 65); --darkreader-inline-color: var(--darkreader-text-e25041, #e46456);\">If paying with Cash/Check/Bank Transfer, a 3% discount applies. Please notify us prior to payment to have this reflected on your total balance! You will see a line item as &quot;Credit Card Processing&quot; if this fee is active on your order. If we already know your payment method is not by card, this will not be listed on your invoice and no further discount is needed.</span></strong>\n </div>\n</strong></div><strong data-end=\"221\" data-start=\"189\">\n</strong>", 
+"show_order_approval_term": true, 
+"catalog_catalog_sanmar_ca": false, 
+"show_address_label_in_pdf": true, 
+"pdf_cp_packing_slip_option": [ 
+"customer_po_number" 
+], 
+"pdf_purchase_order_options": { 
+"0": "name", 
+"*": [ 
+"name" 
+] 
+}, 
+"pdf_show_related_order_in_po": "all", 
+"pdf_tax_show_team_tax_number": false, 
+"show_pdf_invoice_header_text": true, 
+"team_wide_notification_order": true, 
+"enable_cust_portal_email_login": false, 
+"pdf_sales_order_display_option": [ 
+"job_summary", 
+"created_by", 
+"shipment_summary" 
+], 
+"pdf_job_label_dymo_30336_option": [ 
+"order_label", 
+"customer_name", 
+"cust_due_date" 
+], 
+"show_payment_history_in_invoice": true, 
+"message_use_customer_portal_link": true, 
+"pdf_purchase_order_label_options": { 
+"0": "name", 
+"*": [ 
+"name" 
+] 
+}, 
+"pdf_tax_show_customer_tax_number": false, 
+"pdf_shipment_label_display_option": [ 
+"related_jobs" 
+], 
+"pdf_bill_addr_show_primary_contact": true, 
+"pdf_sales_order_mockup_display_width": "half", 
+"pdf_internal_job_mockup_display_width": "half", 
+"enable_cust_portal_split_payment_button": true, 
+"cust_portal_payment_option_default_enabled": true, 
+"enable_cust_portal_custom_product_description": true, 
+"pdf_sales_order_show_custom_product_description": true 
+}, 
+"trial_ends_at": "2024-05-15 03:57:44", 
+"created_at": "2024-04-30 03:57:44", 
+"updated_at": "2025-09-15 22:02:20", 
+"seeded": true, 
+"version": null, 
+"trial_plan": "essential-v2", 
+"trial_extra_select": [], 
+"stripe_id": "cus_Q56L7WBw8smGKY", 
+"avail_private_plan": [], 
+"stripe_card_brand": "Visa", 
+"stripe_card_last_four": "0665", 
+"plan_region": "US", 
+"lead_team_size": null, 
+"lead_phone": null, 
+"cust_msg_status_enabled": true, 
+"tax_number": "84-5015709", 
+"onboard_status": "completed", 
+"ref_referral_id": null, 
+"ref_conversion_id": null, 
+"ftp_pass": null, 
+"theme_override": { 
+"primary": { 
+"base": "#728298", 
+"light": "#a4afbd", 
+"darkest": "#647285", 
+"lighter": "#d1d6de", 
+"lightest": "#f4f6f7" 
+}, 
+"version": 1, 
+"secondary": { 
+"base": "#f63e14", 
+"light": "#ff8e74", 
+"darkest": "#cd3311", 
+"lighter": "#ffcabd", 
+"lightest": "#fff3f0" 
+} 
+}, 
+"enable_email_in_trial": null, 
+"message_blocked_at": null, 
+"onboard_country_code": "US", 
+"onboard_seeding_job_id": null 
+} 
+} 
+] 
+], 
+"invoice_items_by_color_and_size": [ 
+[ 
+{ 
+"quantity": 48, 
+"_hydrate": { 
+"product": { 
+"type": "variant", 
+"product_type": "variant", 
+"variant_type": "size_color", 
+"title": "168", 
+"style_id": "LwYOznn0LdzGPb", 
+"brand": "Richardson", 
+"description": "7 Panel Trucker", 
+"trashed": false, 
+"id": "6oejzBWDmar8Gq", 
+"size_label": "OSFM", 
+"size_id": "OSFM", 
+"color_label": "Black/Green Camo/Loden", 
+"color_id": "Black/Green Camo/Loden", 
+"color_hex": "#000000", 
+"color_image": "", 
+"weight": null, 
+"available": true, 
+"supplier_id": "", 
+"price": 6310 
+}, 
+"product_display": { 
+"title": "Richardson - 168", 
+"color": "Black/Green Camo/Loden", 
+"size": "OSFM", 
+"display_title": "Richardson - 168 - Black/Green Camo/Loden - OSFM" 
+} 
+}, 
+"product": { 
+"type": "db_variant", 
+"id": "LwYOznn0LdzGPb", 
+"size": "OSFM", 
+"color": "Black/Green Camo/Loden" 
+}, 
+"pricing": { 
+"type": "product_cost_service", 
+"product": { 
+"total": 12620, 
+"cost": null 
+} 
+}, 
+"job_id": "knEdrQ7aOXljJ2" 
+} 
+] 
+] 
+}, 
+"shipment_customer_profile": null, 
+"order": { 
+"order_mode": "view", 
+"order_qr_code_url": "https://ypnt.us/qr/y9-0p-ord-921278", 
+"order_name": "Leather Patch Hat", 
+"order_scoped_id": "SO1363", 
+"order_customer_po_number": null, 
+"order_client_note": null, 
+"order_notification_scoped_id": "Quote-SO1363", 
+"order_payment_term_id": "X5PVrExkKzGWbB", 
+"order_payment_term_name": "50/50 (50% deposit/upfront)", 
+"order_is_paid": false, 
+"order_type": "quote", 
+"order_internal_status": "published", 
+"order_deposit_required": true, 
+"order_prod_note": "Message from the customer:<br><br><em>I was told Friday to order 4 dozon of the hat that you sent a sample of to the corporate office.</em><br data-pasted=\"true\"><br>Link to comms:&nbsp;<a data-fr-linked=\"true\" href=\"https://mail.missiveapp.com/#inbox/conversations/3553a6d8-e3ae-47ae-a3b0-ffcfcc4c5cde\" data-pasted=\"true\">https://mail.missiveapp.com/#inbox/conversations/3553a6d8-e3ae-47ae-a3b0-ffcfcc4c5cde</a>", 
+"order_has_pending_approval": false, 
+"order_has_pending_order_approval": false, 
+"order_has_pending_job_approval": false, 
+"order_customer_has_email": true, 
+"order_trashed": false, 
+"order_pricing_strategy": "job_separately", 
+"order_approval_status": "approved", 
+"order_status_id": "WQ9Mv4yy9AlBXA", 
+"order_is_rush": false, 
+"order_has_external_integration_sync_error": false, 
+"order_quickbook_disable_sync": false, 
+"order_shipment_cost_total": "0.00", 
+"order_shipment_billable_fee_total": "0.00", 
+"order_invoiced_shipment_subtotal": "0.00", 
+"order_invoiced_tax_subtotal": "61.50", 
+"order_invoiced_order_item_subtotal": "911.04", 
+"order_invoiced_discount_subtotal": "0.00", 
+"order_invoiced_total": "972.54", 
+"order_item_cart_total": "911.04", 
+"order_balance_due": "972.54", 
+"order_deposit_due": "12 Dec 2025", 
+"order_paid_amount": "0.00", 
+"formatted_order_shipment_cost_total": "$0.00", 
+"formatted_order_shipment_billable_fee_total": "$0.00", 
+"formatted_order_invoiced_shipment_subtotal": "$0.00", 
+"formatted_order_invoiced_tax_subtotal": "$61.50", 
+"formatted_order_invoiced_order_item_subtotal": "$911.04", 
+"formatted_order_invoiced_discount_subtotal": "$0.00", 
+"formatted_order_invoiced_total": "$972.54", 
+"formatted_order_item_cart_total": "$911.04", 
+"formatted_order_balance_due": "$972.54", 
+"formatted_order_deposit_due": "$486.27", 
+"formatted_order_paid_amount": "$0.00", 
+"order_items": [ 
+{ 
+"id": "EV1vX8D4P6v3LR", 
+"invoice_product_name": "Richardson - 168 - BLACK/GREEN CAMO/LODEN", 
+"order_id": "nm51l68Ro7rR37", 
+"product_type": "db_variant", 
+"quantity": 48, 
+"formatted_unit_price": "$18.980", 
+"formatted_subtotal": "$911.04", 
+"countable": true, 
+"position": 100000, 
+"shipment_leftover_quantity": 0, 
+"customer_supplied": false, 
+"_hydrate": { 
+"product": { 
+"type": "variant", 
+"product_type": "variant", 
+"variant_type": "size_color", 
+"title": "168", 
+"style_id": "LwYOznn0LdzGPb", 
+"brand": "Richardson", 
+"description": "7 Panel Trucker", 
+"trashed": false, 
+"id": "6oejzBWDmar8Gq", 
+"size_label": "OSFM", 
+"size_id": "OSFM", 
+"color_label": "Black/Green Camo/Loden", 
+"color_id": "Black/Green Camo/Loden", 
+"color_hex": "#000000", 
+"color_image": "", 
+"weight": null, 
+"available": true, 
+"supplier_id": "", 
+"price": 6310 
+}, 
+"product_display": { 
+"title": "Richardson - 168", 
+"color": "Black/Green Camo/Loden", 
+"size": "OSFM", 
+"display_title": "Richardson - 168 - Black/Green Camo/Loden - OSFM" 
+} 
+}, 
+"product": { 
+"type": "db_variant", 
+"id": "LwYOznn0LdzGPb", 
+"size": "OSFM", 
+"color": "Black/Green Camo/Loden" 
+}, 
+"pricing": { 
+"type": "product_cost_service", 
+"product": { 
+"total": 12620, 
+"cost": null 
+} 
+}, 
+"job_id": "knEdrQ7aOXljJ2" 
+} 
+], 
+"order_items_by_color_and_size": [ 
+[ 
+{ 
+"id": "EV1vX8D4P6v3LR", 
+"invoice_product_name": "Richardson - 168 - BLACK/GREEN CAMO/LODEN", 
+"order_id": "nm51l68Ro7rR37", 
+"product_type": "db_variant", 
+"quantity": 48, 
+"formatted_unit_price": "$18.980", 
+"formatted_subtotal": "$911.04", 
+"countable": true, 
+"position": 100000, 
+"shipment_leftover_quantity": 0, 
+"customer_supplied": false, 
+"_hydrate": { 
+"product": { 
+"type": "variant", 
+"product_type": "variant", 
+"variant_type": "size_color", 
+"title": "168", 
+"style_id": "LwYOznn0LdzGPb", 
+"brand": "Richardson", 
+"description": "7 Panel Trucker", 
+"trashed": false, 
+"id": "6oejzBWDmar8Gq", 
+"size_label": "OSFM", 
+"size_id": "OSFM", 
+"color_label": "Black/Green Camo/Loden", 
+"color_id": "Black/Green Camo/Loden", 
+"color_hex": "#000000", 
+"color_image": "", 
+"weight": null, 
+"available": true, 
+"supplier_id": "", 
+"price": 6310 
+}, 
+"product_display": { 
+"title": "Richardson - 168", 
+"color": "Black/Green Camo/Loden", 
+"size": "OSFM", 
+"display_title": "Richardson - 168 - Black/Green Camo/Loden - OSFM" 
+} 
+}, 
+"product": { 
+"type": "db_variant", 
+"id": "LwYOznn0LdzGPb", 
+"size": "OSFM", 
+"color": "Black/Green Camo/Loden" 
+}, 
+"pricing": { 
+"type": "product_cost_service", 
+"product": { 
+"total": 12620, 
+"cost": null 
+} 
+}, 
+"job_id": "knEdrQ7aOXljJ2" 
+} 
+] 
+], 
+"order_warehouse": { 
+"id": "1oVOzZo504rW5G", 
+"label": "HUB CITY DESIGN Inc.", 
+"address1": "12213 University Avenue", 
+"address2": "10", 
+"city": "Lubbock", 
+"state": "Texas", 
+"state_code": "TX", 
+"country": "United States", 
+"country_code": "US", 
+"postcode": "79423", 
+"role": "store_location", 
+"note": "", 
+"is_primary": true, 
+"is_default_warehouse": true, 
+"hold_stock": true, 
+"nexus": true, 
+"postal_can_validate": true, 
+"postal_validated": false, 
+"postal_is_valid": false, 
+"trashed": false, 
+"address_single_line": "12213 University Avenue 10 LUBBOCK, TX 79423 United States" 
+}, 
+"order_last_payment_request_date": null, 
+"order_issue_date": "10 Dec 2025", 
+"order_start_date": "-", 
+"order_due_date": "-", 
+"order_cust_due_date": "-", 
+"order_ship_due_date": "-", 
+"order_full_amount_due": "24 Dec 2025", 
+"order_created_at": "10 Dec 2025", 
+"order_updated_at": "10 Dec 2025", 
+"order_status_last_change_date": "10 Dec 2025", 
+"order_status_completion_date": "-", 
+"order_quickbook_last_error_sync": "-", 
+"order_quickbook_last_success_sync": "10 Dec 2025", 
+"customer": { 
+"id": "qdgwz3W2M7zG19", 
+"customer_portal_id": "9gx8vo", 
+"customer_portal_id_override": null, 
+"customer_has_customer_portal_id_override": false, 
+"customer_display_customer_portal_id": "9gx8vo", 
+"customer_customer_portal_link": "https://portal.hubcitydesignlbk.com/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjdXN0b21lciIsImNvbl9pZCI6Mjg4NjgxLCJ0aWQiOjMyMzIsImV4cCI6MTc5NDgwMjg2Nywic3ViIjoyNzEyNjYsImlhdCI6MTc2NTQyNjg2NywibmJmIjoxNzY1NDI2ODY3LCJqdGkiOiJNUDZBRmZtVEZTSmxwckxsIn0.Sad_gaRFc7Zxk9pKBqvmsmJwsEYtOHgNLiyTO4Va2ac", 
+"customer_name": "Stakeholder Midstream", 
+"customer_website": "", 
+"customer_internal_notes": "", 
+"customer_tax_exempt": false, 
+"customer_vat_number": null, 
+"customer_resale_number": "", 
+"formatted_customer_wallet_fund": "$0.00", 
+"formatted_customer_ordered_amount": "$62510.87", 
+"formatted_customer_unpaid_amount": "$8612.59", 
+"formatted_customer_deposit_due_amount": "$0.00", 
+"formatted_customer_overdue_amount": "$0.00", 
+"formatted_customer_quote_amount": "$0.00", 
+"customer_default_payment_term_id": null, 
+"customer_last_ordered_date": "2025-10-01T05:00:00+00:00", 
+"customer_trashed": false, 
+"customer_hide": false, 
+"customer_portal_payment_option": null, 
+"customer_created_at": "2024-05-04T02:45:39+00:00", 
+"customer_updated_at": "2025-12-05T09:54:30+00:00", 
+"customer_wallet_currency": { 
+"id": 3299, 
+"team_id": 3232, 
+"name": "United States Dollar", 
+"iso": "USD", 
+"symbol": "$", 
+"rate": null, 
+"auto_rate": false, 
+"is_default": true, 
+"created_at": "2024-04-30 03:57:49", 
+"updated_at": "2024-04-30 03:57:49", 
+"deleted_at": null 
+} 
+}, 
+"customer_profile": null 
+}, 
+"order_customer": { 
+"id": "qdgwz3W2M7zG19", 
+"customer_portal_id": "9gx8vo", 
+"customer_portal_id_override": null, 
+"customer_has_customer_portal_id_override": false, 
+"customer_display_customer_portal_id": "9gx8vo", 
+"customer_customer_portal_link": "https://portal.hubcitydesignlbk.com/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjdXN0b21lciIsImNvbl9pZCI6Mjg4NjgxLCJ0aWQiOjMyMzIsImV4cCI6MTc5NDgwMjg2Nywic3ViIjoyNzEyNjYsImlhdCI6MTc2NTQyNjg2NywibmJmIjoxNzY1NDI2ODY3LCJqdGkiOiJ3Wk1uM2VkcHgzd1lwWVBGIn0.I8-01eOqY5Onk99I_qfssP4egwdOwf_CEtO_OKLX9dY", 
+"customer_name": "Stakeholder Midstream", 
+"customer_website": "", 
+"customer_internal_notes": "", 
+"customer_tax_exempt": false, 
+"customer_vat_number": null, 
+"customer_resale_number": "", 
+"formatted_customer_wallet_fund": "$0.00", 
+"formatted_customer_ordered_amount": "$62510.87", 
+"formatted_customer_unpaid_amount": "$8612.59", 
+"formatted_customer_deposit_due_amount": "$0.00", 
+"formatted_customer_overdue_amount": "$0.00", 
+"formatted_customer_quote_amount": "$0.00", 
+"customer_default_payment_term_id": null, 
+"customer_last_ordered_date": "2025-10-01T05:00:00+00:00", 
+"customer_trashed": false, 
+"customer_hide": false, 
+"customer_portal_payment_option": null, 
+"customer_created_at": "2024-05-04T02:45:39+00:00", 
+"customer_updated_at": "2025-12-05T09:54:30+00:00", 
+"customer_wallet_currency": { 
+"id": 3299, 
+"team_id": 3232, 
+"name": "United States Dollar", 
+"iso": "USD", 
+"symbol": "$", 
+"rate": null, 
+"auto_rate": false, 
+"is_default": true, 
+"created_at": "2024-04-30 03:57:49", 
+"updated_at": "2024-04-30 03:57:49", 
+"deleted_at": null 
+} 
+} 
+}
+

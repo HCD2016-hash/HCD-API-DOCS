@@ -1,0 +1,267 @@
+#shipment.status_changed Event
+
+{
+	"id": "qdgwz34mWDrG19",
+	"pdf": [
+		{
+			"url": "https://secure.yoprint.com/api/document/shipment/k9re6jkEK2IXvE/hub-city-design-inc/qdgwz34mWDrG19",
+			"label": "Packing Slip",
+			"description": "Packing Slip"
+		},
+		{
+			"url": "https://secure.yoprint.com/api/document/shipment_label/k9re6jkEK2IXvE/hub-city-design-inc/qdgwz34mWDrG19?doc_size=full",
+			"label": "Shipment Label (Letter Size)",
+			"description": "Shipment label printed on Letter Size"
+		},
+		{
+			"url": "https://secure.yoprint.com/api/document/shipment_label/k9re6jkEK2IXvE/hub-city-design-inc/qdgwz34mWDrG19?doc_size=label",
+			"label": "Shipment Label (4\" x 6\")",
+			"description": "Shipment label printed on 4\" x 6\" label"
+		},
+		{
+			"url": "https://secure.yoprint.com/api/document/shipment_dymo_label/k9re6jkEK2IXvE/hub-city-design-inc/qdgwz34mWDrG19?doc_size=label",
+			"label": "Shipment Label (1\" x 2-1/8\")",
+			"description": "Shipment label printed on (1\" x 2-1/8\")"
+		}
+	],
+	"items": [
+		{
+			"id": "O0ZvaN81WklnMK",
+			"tax": {
+				"type": "",
+				"total": null,
+				"is_override": false
+			},
+			"job_id": "KG1dvwNAbareP3",
+			"pricing": {
+				"type": "system",
+				"product": {
+					"cost": null
+				}
+			},
+			"product": {
+				"id": "k6bzKpWmp9r9G5",
+				"type": "order_item"
+			},
+			"_hydrate": {
+				"job": {
+					"id": "KG1dvwNAbareP3",
+					"pdf": [
+						{
+							"url": "https://secure.yoprint.com/api/v2/document/pdf/job/k9re6jkEK2IXvE/hub-city-design-inc/KG1dvwNAbareP3?show_mockup=0",
+							"label": "Job Details",
+							"description": "Job details without mockup",
+							"object_type": "job"
+						},
+						{
+							"url": "https://secure.yoprint.com/api/v2/document/pdf/job/k9re6jkEK2IXvE/hub-city-design-inc/KG1dvwNAbareP3?show_mockup=1",
+							"label": "Job Details (Mockups Incl.)",
+							"description": "Job details including mockups",
+							"object_type": "job"
+						},
+						{
+							"url": "https://secure.yoprint.com/api/v2/document/pdf/job_label/k9re6jkEK2IXvE/hub-city-design-inc/KG1dvwNAbareP3",
+							"label": "Job Label (4\" x 6\")",
+							"description": "Job Label (4\" x 6\")",
+							"object_type": "job"
+						},
+						{
+							"url": "https://secure.yoprint.com/api/v2/document/pdf/job_dymo_label/k9re6jkEK2IXvE/hub-city-design-inc/KG1dvwNAbareP3",
+							"label": "Job Label (1\" x 2-1/8\")",
+							"description": "Job Label (1\" x 2-1/8\")",
+							"object_type": "job"
+						}
+					],
+					"name": "Embroidery Apparel",
+					"note": "",
+					"is_rush": false,
+					"version": 2,
+					"customer": {
+						"id": "4L9MzLGb6WlXQP",
+						"name": "Royal Equine Dentistry"
+					},
+					"due_date": "2025-03-23T18:20:05+00:00",
+					"order_id": "LwYOzn7gR1rGPb",
+					"position": 1175184,
+					"scoped_id": "JOB-1834",
+					"status_id": "qQxmrDQQPVvdyA",
+					"item_count": 5,
+					"start_date": "2025-03-11T18:20:05+00:00",
+					"unique_key": "job_aad0-49159c6c8cbb3614b72ff1f16783d00b1d44g7f1-2-8e0g84f9df66",
+					"from_legacy": false,
+					"has_service": true,
+					"qr_code_url": "https://ypnt.us/qr/y9-0p-job-1175184",
+					"sales_order": {
+						"name": "Jackets",
+						"is_rush": false,
+						"due_date": null,
+						"is_quote": false,
+						"status_id": "OwakrePPQ1z697",
+						"created_by": "N4Lpz0wojl3R0m",
+						"issue_date": "2025-03-11T18:20:05+00:00",
+						"start_date": null,
+						"cust_due_date": null,
+						"ship_due_date": null
+					},
+					"pricing_total": {
+						"dp": 3,
+						"value": 12500
+					},
+					"auto_saved_for": null,
+					"location_count": 1,
+					"order_scoped_id": "SO0799",
+					"impression_count": 5,
+					"inventory_status": "not_applicable",
+					"services_still_valid": true,
+					"pricing_original_total": {
+						"dp": 3,
+						"value": 12500
+					},
+					"status_completion_date": "2025-03-11T21:42:11+00:00",
+					"status_last_change_date": "2025-03-11T21:42:11+00:00",
+					"stock_on_hand_accounted": false,
+					"order_customer_po_number": null,
+					"need_cust_provide_product": false
+				},
+				"job_status": {
+					"id": "qQxmrDQQPVvdyA",
+					"role": "job",
+					"type": "end",
+					"color": "#0f151e",
+					"label": "Completed",
+					"trashed": false,
+					"position": 7,
+					"customer_label": "Completed"
+				},
+				"product_display": {
+					"tax": 0,
+					"total": 0,
+					"discount": 0,
+					"subtotal": 0
+				}
+			},
+			"position": 100000,
+			"quantity": 5
+		},
+		{
+			"id": "VXdljQGgBjvpgY",
+			"tax": {
+				"type": "",
+				"total": null,
+				"is_override": false
+			},
+			"job_id": null,
+			"pricing": {
+				"type": "shipment_cost",
+				"product": {
+					"cost": null
+				}
+			},
+			"product": {
+				"type": "shipment_cost"
+			},
+			"_hydrate": {
+				"product_display": {
+					"tax": 0,
+					"total": 0,
+					"discount": 0,
+					"subtotal": 0
+				}
+			},
+			"position": 200000,
+			"quantity": 1
+		}
+	],
+	"status": {
+		"id": "OxBDzyeeyJzAVK",
+		"role": "shipment",
+		"type": "end",
+		"color": "#161f2c",
+		"label": "Shipped",
+		"trashed": false,
+		"position": 6,
+		"customer_label": "Completed"
+	},
+	"tax_id": null,
+	"version": 2,
+	"calc_tax": 0,
+	"customer": {
+		"id": "4L9MzLGb6WlXQP",
+		"pdf": {
+			"invoice_statement": "https://secure.yoprint.com/api/v2/document/pdf/customer_invoice_statement/k9re6jkEK2IXvE/hub-city-design-inc/4L9MzLGb6WlXQP"
+		},
+		"hide": false,
+		"name": "Royal Equine Dentistry",
+		"trashed": false,
+		"website": "",
+		"created_at": "2024-05-04T02:45:38+00:00",
+		"tax_exempt": true,
+		"updated_at": "2025-03-19T15:33:59+00:00",
+		"vat_number": null,
+		"wallet_fund": 0,
+		"quote_amount": 0,
+		"resale_number": "",
+		"unpaid_amount": 0,
+		"internal_notes": "",
+		"ordered_amount": 1290870,
+		"overdue_amount": 0,
+		"wallet_currency": {
+			"id": "YyAgrW6Zjz98Me",
+			"iso": "USD",
+			"name": "United States Dollar",
+			"symbol": "$",
+			"default": true,
+			"trashed": false
+		},
+		"last_ordered_date": "2025-03-11T18:20:05+00:00",
+		"customer_portal_id": "e6p7yo",
+		"deposit_due_amount": 0,
+		"customer_portal_link": "https://portal.hubcitydesignlbk.com/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjdXN0b21lciIsImNvbl9pZCI6Mjg4NjcyLCJ0aWQiOjMyMzIsImV4cCI6MTc5MTAwOTgxNywic3ViIjoyNzEyNTcsImlhdCI6MTc2MTYzMzgxNywibmJmIjoxNzYxNjMzODE3LCJqdGkiOiJGcVp2cU9zdUpJVFhEblFOIn0.BHM-KLtdLj3T37C4w2eBUXNI7ycPbsjKtd2AYf6QK6Q",
+		"default_warehouse_id": null,
+		"default_payment_term_id": null,
+		"default_pricing_group_id": null,
+		"display_customer_portal_id": "beaukelley62",
+		"customer_portal_id_override": "beaukelley62",
+		"customer_portal_payment_option": null,
+		"has_customer_portal_id_override": true
+	},
+	"order_id": "LwYOzn7gR1rGPb",
+	"tax_type": null,
+	"packed_by": null,
+	"scoped_id": "SHIP-1110",
+	"status_id": "OxBDzyeeyJzAVK",
+	"tax_total": null,
+	"calc_total": 0,
+	"customer_id": "4L9MzLGb6WlXQP",
+	"calc_discount": 0,
+	"calc_subtotal": 0,
+	"delivery_cost": null,
+	"discount_type": "percent",
+	"ready_to_ship": true,
+	"ship_due_date": null,
+	"auto_saved_for": null,
+	"delivery_notes": null,
+	"delivery_total": null,
+	"discount_total": 0,
+	"internal_notes": null,
+	"order_scoped_id": "SO0799",
+	"previous_status": {
+		"id": "OPALrYZZ07vexy",
+		"role": "shipment",
+		"type": "start",
+		"color": "#a7c6ff",
+		"label": "Shipment Created Awaiting Confirmation",
+		"trashed": false,
+		"position": 0,
+		"customer_label": "Shipment Created Awaiting Confirmation"
+	},
+	"delivery_is_cost": false,
+	"delivery_taxable": false,
+	"shipping_type_id": "xwaArdQODvBGKZ",
+	"customer_due_date": null,
+	"customer_po_number": null,
+	"previous_status_id": "OPALrYZZ07vexy",
+	"shipping_address_id": "mV4XzgVbXxlqKd",
+	"status_completion_date": "2025-10-28T06:43:37+00:00",
+	"status_last_change_date": "2025-10-28T06:43:37+00:00"
+}

@@ -1,0 +1,107 @@
+{
+  "description": "Archive of Claude-fixed issues",
+  "fixes": [
+    {
+      "date": "2026-01-07",
+      "script": "YoPrint-Launcher-v2.ps1",
+      "issue": "Arrow key selector creating duplicate lines on each keypress",
+      "resolution": "Rewrote Select-Option to use carriage return for same-line redraw, hide cursor during selection"
+    },
+    {
+      "date": "2026-01-07",
+      "script": "YoPrint-Launcher-v2.ps1",
+      "issue": "[C] claudeModified badge not clearing when user marks new status",
+      "resolution": "Added PSObject.Properties.Remove('claudeModified') to all status update paths"
+    },
+    {
+      "date": "2026-01-07",
+      "script": "Global-Search.ps1",
+      "issue": "No action menu showing after selecting item from results",
+      "resolution": "Added try/catch around detail loading, ensured action menu always displays with fallback data"
+    },
+    {
+      "date": "2026-01-07",
+      "script": "YoPrint-Launcher-v2.ps1",
+      "issue": "D command required manual copy/paste",
+      "resolution": "Auto-copies action items to clipboard using Set-Clipboard"
+    },
+    {
+      "date": "2026-01-09",
+      "script": "Get-JobPresetById.ps1",
+      "issue": "Note field displayed inline without formatting for multi-line content",
+      "resolution": "Added dedicated NOTE section with header, divider lines, and line-by-line output for multi-line notes"
+    },
+    {
+      "date": "2026-01-09",
+      "script": "Get-UserActivityFeed.ps1",
+      "issue": "Only showing dates with no useful data",
+      "resolution": "Added subject name/scoped_id, user who performed action, seen/archived status, pagination info, and numbered list"
+    },
+    {
+      "date": "2026-01-09",
+      "script": "Get-Vendors.ps1",
+      "issue": "Need vendor detail selection after list and pagination",
+      "resolution": "Added pagination (N/P navigation), return-to-list after viewing details, try/catch on initial load, pretty-printed notes"
+    },
+    {
+      "date": "2026-01-09",
+      "script": "Get-WebhookSubscriptions.ps1",
+      "issue": "TestNote described launcher UI bug, not script issue",
+      "resolution": "Reviewed script - works correctly. TestNote was about launcher arrow-key selector bug which was fixed in YoPrint-Launcher-v2.ps1 on 2026-01-07"
+    },
+    {
+      "date": "2026-01-09",
+      "script": "Global-Search.ps1",
+      "issue": "TestNote says no action after selection, but this was already fixed on 2026-01-07",
+      "resolution": "Reviewed script - action menu exists and works (Open in browser, Copy ID, Back, New search, Quit). TestNote is outdated."
+    },
+    {
+      "date": "2026-01-11",
+      "script": "Get-WebhookSubscriptions.ps1",
+      "issue": "User wanted to know which webhook endpoints are actually live/reachable",
+      "resolution": "Added [H] Health check option that tests each webhook URL with HEAD request (5s timeout), shows LIVE/RESPONDS/DEAD status and summary count"
+    },
+    {
+      "date": "2026-01-11",
+      "script": "Update-Webhook.ps1",
+      "issue": "Asked for webhook ID immediately without showing what webhooks exist",
+      "resolution": "Now loads and displays all webhooks first with selection by number, shows current values, press Enter to keep existing value"
+    },
+    {
+      "date": "2026-01-11",
+      "script": "Export-ServiceMatrix.ps1",
+      "issue": "Service names not showing, no option to display in terminal",
+      "resolution": "Added fallback name detection (service.name, name, title, ID), added 3 options: save to Downloads, display in terminal with pagination, or both"
+    },
+    {
+      "date": "2026-01-11",
+      "script": "Get-AdjustmentReasons.ps1",
+      "issue": "Corrupted test note (just showed divider line)",
+      "resolution": "Reviewed script - works correctly, no code changes needed. TestNote was corrupted during input."
+    },
+    {
+      "date": "2026-01-11",
+      "script": "Get-ApprovalDetails.ps1",
+      "issue": "Asked for approval ID without showing available approvals, endpoint returned 404",
+      "resolution": "Now tries approval/search endpoint to list approvals first, then select by number. Falls back with helpful error message if search endpoint doesn't exist."
+    },
+    {
+      "date": "2026-01-11",
+      "script": "Get-PurchaseOrderHistory.ps1",
+      "issue": "Used 'id' instead of 'scoped_id' in scoped_id_search (known API gotcha)",
+      "resolution": "Fixed to use 'scoped_id' parameter, added PO prefix auto-formatting, added exact match filtering for fuzzy search results"
+    },
+    {
+      "date": "2026-01-11",
+      "script": "Get-WebhookLogs.ps1",
+      "issue": "Asked for webhook ID without showing available webhooks",
+      "resolution": "Now loads webhook list first with selection by number, better error handling for log endpoint (may be YoPrint API limitation)"
+    },
+    {
+      "date": "2026-01-11",
+      "script": "Set-FeedItemsUnarchived.ps1",
+      "issue": "Asked for feed item IDs without showing available items",
+      "resolution": "Now loads archived feed items first, shows list with dates/types, allows selection by number or 'all', handles single/multi item JSON properly"
+    }
+  ]
+}

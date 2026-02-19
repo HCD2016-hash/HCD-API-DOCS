@@ -1,0 +1,467 @@
+#job.marked_as_not_rush Event
+
+{
+	"id": "mV4Xzg5264vqKd",
+	"name": "Graphic Design Work",
+	"note": "Most of the time you will submit customer poor artwork to be remade to&nbsp;​<a href=\"https://www.jjdigitizing.com/login.html\" rel=\"noopener noreferrer\" target=\"_blank\">JJ Digitizing CLICK HERE</a>​​​",
+	"order": {
+		"id": "aO0Zva65kElnMK",
+		"mode": "create",
+		"name": "Logo Vectorizing and File Collection ",
+		"tags": [],
+		"type": "quote",
+		"quote": true,
+		"status": {
+			"id": "xDQwr811yLvRyG",
+			"role": "quote",
+			"type": "start",
+			"color": "#0bf5fe",
+			"label": "Pending",
+			"trashed": false,
+			"position": 0,
+			"customer_label": "Pending"
+		},
+		"is_rush": false,
+		"trashed": false,
+		"version": 2,
+		"calc_tax": 3140,
+		"customer": {
+			"id": "OaoDvOjXbXr8wA",
+			"pdf": {
+				"invoice_statement": "https://secure.yoprint.com/api/v2/document/pdf/customer_invoice_statement/GprQ3p8NGXtYlR/hub-city-design-inc/OaoDvOjXbXr8wA"
+			},
+			"hide": false,
+			"name": "Foerster Travel",
+			"trashed": false,
+			"website": "",
+			"created_at": "2024-05-04T02:45:56+00:00",
+			"tax_exempt": false,
+			"updated_at": "2025-03-21T21:26:48+00:00",
+			"vat_number": null,
+			"wallet_fund": 0,
+			"quote_amount": 0,
+			"resale_number": "",
+			"unpaid_amount": 64050,
+			"internal_notes": "",
+			"ordered_amount": 80060,
+			"overdue_amount": 0,
+			"wallet_currency": {
+				"id": "YyAgrW6Zjz98Me",
+				"iso": "USD",
+				"name": "United States Dollar",
+				"symbol": "$",
+				"default": true,
+				"trashed": false
+			},
+			"last_ordered_date": "2025-03-21T21:23:19+00:00",
+			"customer_portal_id": "0vkvjo",
+			"deposit_due_amount": 30000,
+			"customer_portal_link": "https://portal.hubcitydesignlbk.com/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjdXN0b21lciIsImNvbl9pZCI6Mjg4OTA0LCJ0aWQiOjMyMzIsImV4cCI6MTc5MDc1ODMyOSwic3ViIjoyNzE0ODgsImlhdCI6MTc2MTM4MjMyOSwibmJmIjoxNzYxMzgyMzI5LCJqdGkiOiJpcVpubFJHdGZ4T0VnR2l1In0.NbQ09o1PkdaJn-h7NpbXMlCj2NCwBELfDuJymKa4SIs",
+			"default_warehouse_id": null,
+			"default_payment_term_id": null,
+			"default_pricing_group_id": null,
+			"display_customer_portal_id": "0vkvjo",
+			"customer_portal_id_override": null,
+			"customer_portal_payment_option": null,
+			"has_customer_portal_id_override": false
+		},
+		"due_date": "2025-11-06T08:43:23+00:00",
+		"is_draft": true,
+		"is_quote": true,
+		"is_legacy": false,
+		"prod_note": "Test Production Notes",
+		"scoped_id": "SO1278",
+		"status_id": "xDQwr811yLvRyG",
+		"calc_total": 49590,
+		"created_at": "2025-10-25T08:43:23+00:00",
+		"created_by": "4DKZvMB42l7n2J",
+		"is_created": false,
+		"issue_date": "2025-10-25T08:43:23+00:00",
+		"start_date": "2025-11-01T08:43:23+00:00",
+		"unique_key": "ord_fee6e03-fe0696ga2ad0524c77c6-71712567f6a167b5facga46-d44d5ad",
+		"updated_at": "2025-10-25T08:52:09+00:00",
+		"client_note": "Test notes to customer",
+		"customer_id": "OaoDvOjXbXr8wA",
+		"deposit_due": "2025-10-27T08:43:34+00:00",
+		"from_legacy": false,
+		"grouped_pdf": [
+			{
+				"label": "Main",
+				"documents": [
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/quote/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK",
+						"label": "Quote",
+						"description": "Quote details",
+						"object_type": "quote"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/quote_compact/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK",
+						"label": "Quote (Compact)",
+						"description": "Quote details optimized for printing",
+						"object_type": "quote"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_invoices/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK",
+						"label": "All Invoices",
+						"description": "All invoices",
+						"object_type": "invoice"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_compact_invoices/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK",
+						"label": "All Invoices (Compact)",
+						"description": "All invoices optimized for printing",
+						"object_type": "invoice"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_as_invoice/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK",
+						"label": "Quote as Invoice",
+						"description": "Uses the Quote ID as the Invoice ID",
+						"object_type": "quote"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_as_invoice_compact/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK",
+						"label": "Quote as Invoice (Compact)",
+						"description": "Uses the Quote ID as the Invoice ID. Optimized for printing",
+						"object_type": "quote"
+					}
+				]
+			},
+			{
+				"label": "Custom PDF",
+				"documents": []
+			},
+			{
+				"label": "Job",
+				"documents": [
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK?show_mockup=0",
+						"label": "All Jobs",
+						"description": "All job details without mockup",
+						"object_type": "job"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK?show_mockup=1",
+						"label": "All Jobs (Mockups Incl.)",
+						"description": "All job details including mockups",
+						"object_type": "job"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs_label/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK",
+						"label": "All Job Labels (4\" x 6\")",
+						"description": "All Job Labels (4\" x 6\")",
+						"object_type": "job"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs_dymo_label/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK",
+						"label": "All Job Labels (1\" x 2-1/8\")",
+						"description": "All Job Labels in  (1\" x 2-1/8\")",
+						"object_type": "job"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_worksheet/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK",
+						"label": "All Jobs Worksheet",
+						"description": "All Jobs Worksheet",
+						"object_type": "job"
+					}
+				]
+			},
+			{
+				"label": "Shipment",
+				"documents": [
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipment_uni/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK",
+						"label": "All Packing Slips",
+						"description": "All shipment packing slips",
+						"object_type": "shipment"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipment_label_uni/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK?doc_size=full",
+						"label": "All Shipment Labels (Letter size)",
+						"description": "All shipment labels with white labeling (Letter Size)",
+						"object_type": "shipment"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipment_label_uni/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK?doc_size=label",
+						"label": "All Shipment Labels (4\" x 6\")",
+						"description": "All shipment labels with white labeling (4\" x 6\")",
+						"object_type": "shipment"
+					},
+					{
+						"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipments_dymo_label/GprQ3p8NGXtYlR/hub-city-design-inc/aO0Zva65kElnMK",
+						"label": "All Shipment Labels (1\" x 2-1/8\")",
+						"description": "All Shipment Labels to be printed on (1\" x 2-1/8\")",
+						"object_type": "shipment"
+					}
+				]
+			}
+		],
+		"paid_amount": 0,
+		"creator_name": "Dillon White",
+		"lock_version": 1761382329880948,
+		"order_profit": {
+			"dp": 2,
+			"value": 4573
+		},
+		"warehouse_id": "1oVOzZo504rW5G",
+		"calc_discount": 0,
+		"calc_subtotal": 46450,
+		"cust_due_date": "2025-11-08T08:43:23+00:00",
+		"deposit_total": 50000,
+		"ship_due_date": null,
+		"assigned_users": [],
+		"auto_saved_for": null,
+		"invoiced_total": {
+			"dp": 2,
+			"value": 4959
+		},
+		"_legacy_hash_id": "aO0Zva65kElnMK",
+		"approval_status": null,
+		"billing_address": null,
+		"full_amount_due": "2025-11-08T08:43:34+00:00",
+		"internal_status": "draft",
+		"payment_term_id": "X5PVrExkKzGWbB",
+		"deposit_required": true,
+		"inventory_status": "pending",
+		"job_lock_version": 1761382329880882,
+		"pricing_group_id": "gO4Klq8aJvMPex",
+		"pricing_strategy": "job_separately",
+		"shipping_address": null,
+		"auto_invoice_type": "single_invoice",
+		"has_valid_invoice": true,
+		"order_balance_due": {
+			"dp": 3,
+			"value": 49590
+		},
+		"billing_address_id": null,
+		"calc_deposit_total": 24800,
+		"customer_has_email": true,
+		"customer_po_number": "TEST Customer po",
+		"deposit_amount_due": {
+			"dp": 3,
+			"value": 24800
+		},
+		"has_valid_shipment": false,
+		"unallocated_amount": 0,
+		"customer_contact_id": "Q5XOvkOZDBvxna",
+		"customer_profile_id": null,
+		"shipment_cost_total": {
+			"dp": 2,
+			"value": 0
+		},
+		"shipping_address_id": null,
+		"auto_invoice_managed": true,
+		"invoice_lock_version": 1761382329876317,
+		"payment_lock_version": 1761381803392039,
+		"credit_card_surcharge": {
+			"dp": 2,
+			"value": 0
+		},
+		"invoiced_tax_subtotal": {
+			"dp": 2,
+			"value": 314
+		},
+		"order_item_cart_total": {
+			"dp": 2,
+			"value": 4645
+		},
+		"producible_item_count": 1,
+		"shipment_lock_version": 1761382329874387,
+		"has_not_invoiced_items": false,
+		"quickbook_disable_sync": false,
+		"status_completion_date": null,
+		"has_over_invoiced_items": false,
+		"order_item_lock_version": 1761382329879256,
+		"order_margin_percentage": {
+			"dp": 2,
+			"value": 9844
+		},
+		"order_markup_percentage": {
+			"dp": 2,
+			"value": 630690
+		},
+		"status_last_change_date": null,
+		"last_payment_request_date": null,
+		"quickbook_last_error_sync": null,
+		"auto_invoice_shipment_rate": {
+			"dp": 2,
+			"value": 0
+		},
+		"invoiced_discount_subtotal": {
+			"dp": 2,
+			"value": 0
+		},
+		"invoiced_shipment_subtotal": {
+			"dp": 2,
+			"value": 0
+		},
+		"customer_billing_contact_id": "Q5XOvkOZDBvxna",
+		"quickbook_last_success_sync": null,
+		"shipment_billable_fee_total": {
+			"dp": 2,
+			"value": 0
+		},
+		"invoiced_order_item_subtotal": {
+			"dp": 2,
+			"value": 4645
+		},
+		"auto_invoice_shipment_price_type": "NONE",
+		"has_shipment_items_not_allocated": true,
+		"has_shipment_items_over_allocated": false,
+		"has_external_integration_sync_error": false,
+		"shipment_billable_fee_invoice_status": "fully_billed"
+	},
+	"mockup": [
+		{
+			"id": "6Z9Bz53q39vmab",
+			"url": "https://download.yoprint.com/1431408/Logo-Package-Full-Color.png?s=CwOV63sLF5qehnjr9EyJKw&e=1761458400&download=1",
+			"name": "Logo Package PNG Mockup Test",
+			"size": 42873,
+			"job_id": "mV4Xzg5264vqKd",
+			"preview": {
+				"large": "https://preview-v1.yoprint.com/12/fit/1200/1200/sm/0/plain/1431408/Logo-Package-Full-Color.png?secure=MuEiQMt9tGChbSC5cKUwAw==,1813222329",
+				"small": "https://preview-v1.yoprint.com/12/fit/250/250/sm/0/plain/1431408/Logo-Package-Full-Color.png?secure=xwE9_FIAVMkGw3P44ZWd8Q==,1813222329",
+				"medium": "https://preview-v1.yoprint.com/12/fit/800/800/sm/0/plain/1431408/Logo-Package-Full-Color.png?secure=oWMvnwH3lZd9KrkdYIjQkw==,1813222329"
+			},
+			"is_image": true,
+			"position": 0,
+			"view_url": "https://download.yoprint.com/1431408/Logo-Package-Full-Color.png?s=CwOV63sLF5qehnjr9EyJKw&e=1761458400",
+			"file_name": "Logo-Package-Full-Color.png",
+			"mime_type": "image/png",
+			"collection": "mockup",
+			"created_at": "2025-10-25T08:49:30+00:00",
+			"preview_url": "https://preview-v1.yoprint.com/12/fit/0/900/sm/0/plain/1431408/Logo-Package-Full-Color.png?secure=a7t0kd3HC6Rosjg6PiDEew==,1813222329",
+			"show_in_pdf": true,
+			"job_services": [
+				{
+					"id": "4L9MzLnDy1vXQP",
+					"note": "Standard Vectorizing Fee. Multiple logos depending on complexity can be eligible for a 5-10$ discount per. Complex jobs could be priced upwards of 100$<br>All based on time, if outsourced we need to get a quote from designer or have the final price prior to providing a $ figure to customer.&nbsp;",
+					"_edit": {
+						"is_new": true
+					},
+					"valid": true,
+					"option": "Vectorizing/Redrawing Fee",
+					"location": {
+						"id": "QJw0rJ7d2vXBO3",
+						"type": "database",
+						"trashed": false,
+						"display_name": "N/A"
+					},
+					"position": 1,
+					"service_id": "Owakre16Or6975",
+					"service_name": "Graphic Design Logo Clean Up All Files Delivered to Customer",
+					"customer_note": null,
+					"pricing_strategy": "job_separately",
+					"pricing_matrix_used": "primary_pricing",
+					"formatted_pricing_total": "$45.00"
+				}
+			],
+			"current_approval": null,
+			"current_approval_status": null
+		}
+	],
+	"is_rush": false,
+	"due_date": "2025-11-06T08:43:23+00:00",
+	"order_id": "aO0Zva65kElnMK",
+	"position": null,
+	"services": [
+		{
+			"id": "4L9MzLnDy1vXQP",
+			"note": "Standard Vectorizing Fee. Multiple logos depending on complexity can be eligible for a 5-10$ discount per. Complex jobs could be priced upwards of 100$<br>All based on time, if outsourced we need to get a quote from designer or have the final price prior to providing a $ figure to customer.&nbsp;",
+			"_edit": {
+				"is_new": true
+			},
+			"valid": true,
+			"option": "Vectorizing/Redrawing Fee",
+			"location": {
+				"id": "QJw0rJ7d2vXBO3",
+				"type": "database",
+				"trashed": false,
+				"display_name": "N/A"
+			},
+			"position": 1,
+			"service_id": "Owakre16Or6975",
+			"service_name": "Graphic Design Logo Clean Up All Files Delivered to Customer",
+			"customer_note": null,
+			"pricing_strategy": "job_separately",
+			"pricing_matrix_used": "primary_pricing",
+			"formatted_pricing_total": "$45.00"
+		}
+	],
+	"scoped_id": "JOB-2931",
+	"status_id": "qdgwz3mm9bvG19",
+	"created_at": "2025-10-25T08:44:37+00:00",
+	"item_count": 1,
+	"start_date": "2025-10-25T08:43:23+00:00",
+	"unique_key": "job_c174c8e1b379ge908-5b4b87da8d768ae1gc2ef6-695f7febg4gfb474bab",
+	"updated_at": "2025-10-25T08:52:09+00:00",
+	"has_service": true,
+	"qr_code_url": "https://ypnt.us/qr/y9-0p-job-1335810",
+	"sales_order": {
+		"name": "Logo Vectorizing and File Collection ",
+		"is_rush": false,
+		"due_date": "2025-11-06T08:43:23+00:00",
+		"is_quote": true,
+		"status_id": "xDQwr811yLvRyG",
+		"created_by": "4DKZvMB42l7n2J",
+		"issue_date": "2025-10-25T08:43:23+00:00",
+		"start_date": "2025-11-01T08:43:23+00:00",
+		"cust_due_date": "2025-11-08T08:43:23+00:00",
+		"ship_due_date": null
+	},
+	"mockup_count": 1,
+	"pricing_total": "$45.00",
+	"location_count": 1,
+	"order_scoped_id": "SO1278",
+	"production_file": [
+		{
+			"id": "OPALrY2R2Wvexy",
+			"url": "https://download.yoprint.com/1431409/Logo-Package-Full-Color.svg?s=-CkpkTkULVdSTQF7DqNnnA&e=1761458400&download=1",
+			"name": "Logo Package Full Color",
+			"size": 23115,
+			"job_id": "mV4Xzg5264vqKd",
+			"preview": null,
+			"is_image": true,
+			"position": 0,
+			"view_url": "https://download.yoprint.com/1431409/Logo-Package-Full-Color.svg?s=-CkpkTkULVdSTQF7DqNnnA&e=1761458400",
+			"file_name": "Logo-Package-Full-Color.svg",
+			"mime_type": "image/svg+xml",
+			"collection": "production_file",
+			"created_at": "2025-10-25T08:51:58+00:00",
+			"preview_url": null,
+			"show_in_pdf": true,
+			"job_services": [
+				{
+					"id": "4L9MzLnDy1vXQP",
+					"note": "Standard Vectorizing Fee. Multiple logos depending on complexity can be eligible for a 5-10$ discount per. Complex jobs could be priced upwards of 100$<br>All based on time, if outsourced we need to get a quote from designer or have the final price prior to providing a $ figure to customer.&nbsp;",
+					"_edit": {
+						"is_new": true
+					},
+					"valid": true,
+					"option": "Vectorizing/Redrawing Fee",
+					"location": {
+						"id": "QJw0rJ7d2vXBO3",
+						"type": "database",
+						"trashed": false,
+						"display_name": "N/A"
+					},
+					"position": 1,
+					"service_id": "Owakre16Or6975",
+					"service_name": "Graphic Design Logo Clean Up All Files Delivered to Customer",
+					"customer_note": null,
+					"pricing_strategy": "job_separately",
+					"pricing_matrix_used": "primary_pricing",
+					"formatted_pricing_total": "$45.00"
+				}
+			],
+			"current_approval": null,
+			"current_approval_status": null
+		}
+	],
+	"impression_count": 1,
+	"inventory_status": "pending",
+	"pricing_original_total": "$45.00",
+	"status_completion_date": null,
+	"status_last_change_date": null,
+	"stock_on_hand_accounted": false,
+	"need_cust_provide_product": false
+}

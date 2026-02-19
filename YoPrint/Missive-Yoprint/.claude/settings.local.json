@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\hubci\\\\Desktop\\\\github\\\\Missive-Yoprint\" /b)",
+      "Bash(xargs:*)",
+      "Skill(yoprint-api-knowledge)",
+      "WebFetch(domain:missiveapp.com)"
+    ]
+  }
+}

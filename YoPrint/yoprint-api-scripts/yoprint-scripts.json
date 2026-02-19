@@ -1,0 +1,3726 @@
+﻿{
+    "version":  "1.0",
+    "lastUpdated":  "2026-01-11T04:16:03Z",
+    "scripts":  [
+                    {
+                        "index":  1,
+                        "name":  "Get-AdjustmentReasons",
+                        "path":  "GET/Get-AdjustmentReasons.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/adjustment_reason",
+                        "description":  "View all configured adjustment reasons.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "needs_improvement",
+                        "testDate":  "2026-01-09",
+                        "testNote":  " ============================================",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  2,
+                        "name":  "Get-ApprovalDetails",
+                        "path":  "GET/Get-ApprovalDetails.ps1",
+                        "method":  "GET",
+                        "category":  "approvals",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/approvals/$ApprovalId",
+                        "description":  "View details for a specific approval.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "broken",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "404",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  3,
+                        "name":  "Get-AvailableIdentifier",
+                        "path":  "GET/Get-AvailableIdentifier.ps1",
+                        "method":  "GET",
+                        "category":  "utilities",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/available_identifier/$type",
+                        "description":  "Get available identifiers for new records.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "verified",
+                        "testDate":  "2026-01-11",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  4,
+                        "name":  "Get-ConnectedDevices",
+                        "path":  "GET/Get-ConnectedDevices.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/connected_device",
+                        "description":  "View all connected devices (Square terminals, etc.).",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  5,
+                        "name":  "Get-CSVJobs",
+                        "path":  "GET/Get-CSVJobs.ps1",
+                        "method":  "GET",
+                        "category":  "utilities",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/csv/jobs",
+                        "description":  "Shows all CSV import jobs and their status.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  6,
+                        "name":  "Get-Currencies",
+                        "path":  "GET/Get-Currencies.ps1",
+                        "method":  "GET",
+                        "category":  "other",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/currency",
+                        "description":  "View configured currencies.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "verified",
+                        "testDate":  "2026-01-07",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  7,
+                        "name":  "Get-CustomerAddressById",
+                        "path":  "GET/Get-CustomerAddressById.ps1",
+                        "method":  "GET",
+                        "category":  "customers",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/customer/$CustomerId/address/$AddressId",
+                        "description":  "Get details for a specific address.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  8,
+                        "name":  "Get-CustomerAddresses",
+                        "path":  "GET/Get-CustomerAddresses.ps1",
+                        "method":  "GET",
+                        "category":  "customers",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/customer/$CustomerId/address",
+                        "description":  "View all addresses for a customer.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  9,
+                        "name":  "Get-CustomerContacts",
+                        "path":  "GET/Get-CustomerContacts.ps1",
+                        "method":  "GET",
+                        "category":  "customers",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/customer/$CustomerId/contact",
+                        "description":  "View all contacts for a customer.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  10,
+                        "name":  "Get-JobComments",
+                        "path":  "GET/Get-JobComments.ps1",
+                        "method":  "GET",
+                        "category":  "comments",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/job/$JobId/comment",
+                        "description":  "View all comments on a job.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "broken",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  11,
+                        "name":  "Get-JobCommentsV2",
+                        "path":  "GET/Get-JobCommentsV2.ps1",
+                        "method":  "GET",
+                        "category":  "comments",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/job/$JobId/comment",
+                        "description":  "Get all comments for a job.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "broken",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "404",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  12,
+                        "name":  "Get-JobPresetById",
+                        "path":  "GET/Get-JobPresetById.ps1",
+                        "method":  "GET",
+                        "category":  "jobs",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/job_preset/$PresetId",
+                        "description":  "Get details of a specific job preset.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "needs_improvement",
+                        "testDate":  "2026-01-11",
+                        "testNote":  "Note needs to output as pretty print. ",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  13,
+                        "name":  "Get-JobPresets",
+                        "path":  "GET/Get-JobPresets.ps1",
+                        "method":  "GET",
+                        "category":  "jobs",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/job_preset",
+                        "description":  "View all configured job presets.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  14,
+                        "name":  "Get-Locations",
+                        "path":  "GET/Get-Locations.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/location",
+                        "description":  "View all company/warehouse locations.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  15,
+                        "name":  "Get-MessageTemplateById",
+                        "path":  "GET/Get-MessageTemplateById.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/setting/message_template/$TemplateId",
+                        "description":  "Get details of a specific message template.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  16,
+                        "name":  "Get-MessageTemplates",
+                        "path":  "GET/Get-MessageTemplates.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/setting/message_template",
+                        "description":  "View all email/message templates.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  17,
+                        "name":  "Get-MessageTemplatesV2",
+                        "path":  "GET/Get-MessageTemplatesV2.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/setting/message_template",
+                        "description":  "List all message templates.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  18,
+                        "name":  "Get-OrderApprovals",
+                        "path":  "GET/Get-OrderApprovals.ps1",
+                        "method":  "GET",
+                        "category":  "approvals",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v1/api/store/{slug}/scoped_id_search",
+                        "description":  "View all approvals (order + job level) for a sales order.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "Fixed and tested - auto-prefix, correct endpoints",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  19,
+                        "name":  "Get-OrderDetails",
+                        "path":  "GET/Get-OrderDetails.ps1",
+                        "method":  "GET",
+                        "category":  "orders",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v1/api/store/{slug}/global/scoped_id_search",
+                        "description":  "Shows all details for ONE order.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  20,
+                        "name":  "Get-PaymentMethodById",
+                        "path":  "GET/Get-PaymentMethodById.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_method/$MethodId",
+                        "description":  "Get details of a specific payment method.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  21,
+                        "name":  "Get-PaymentMethods",
+                        "path":  "GET/Get-PaymentMethods.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_method",
+                        "description":  "View all configured payment methods.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  22,
+                        "name":  "Get-PaymentTermById",
+                        "path":  "GET/Get-PaymentTermById.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_term/$TermId",
+                        "description":  "Get details of a specific payment term.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  23,
+                        "name":  "Get-PaymentTerms",
+                        "path":  "GET/Get-PaymentTerms.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_term",
+                        "description":  "View all configured payment terms.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  24,
+                        "name":  "Get-PipelineById",
+                        "path":  "GET/Get-PipelineById.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/pipeline/$PipelineId",
+                        "description":  "Get details of a specific pipeline.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  25,
+                        "name":  "Get-Pipelines",
+                        "path":  "GET/Get-Pipelines.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/pipeline",
+                        "description":  "View all workflow pipelines and their statuses.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "Verified working manually - large output causes test timeout",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  26,
+                        "name":  "Get-PurchaseOrderComments",
+                        "path":  "GET/Get-PurchaseOrderComments.ps1",
+                        "method":  "GET",
+                        "category":  "comments",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/scoped_id_search",
+                        "description":  "View all comments on a purchase order.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  27,
+                        "name":  "Get-PurchaseOrderHistory",
+                        "path":  "GET/Get-PurchaseOrderHistory.ps1",
+                        "method":  "GET",
+                        "category":  "purchase_orders",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/scoped_id_search",
+                        "description":  "View activity history for a purchase order.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "broken",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "404",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  28,
+                        "name":  "Get-RunningNumbers",
+                        "path":  "GET/Get-RunningNumbers.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/running_number",
+                        "description":  "View current running numbers for documents.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  29,
+                        "name":  "Get-SalesOrderComments",
+                        "path":  "GET/Get-SalesOrderComments.ps1",
+                        "method":  "GET",
+                        "category":  "comments",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v1/api/store/{slug}/global/scoped_id_search",
+                        "description":  "View all comments on a sales order.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  30,
+                        "name":  "Get-SalesOrderCommentsV2",
+                        "path":  "GET/Get-SalesOrderCommentsV2.ps1",
+                        "method":  "GET",
+                        "category":  "comments",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/sales_order/$OrderId/comment/index",
+                        "description":  "Get all comments for a sales order.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "Fixed and tested - auto-prefix, correct endpoints",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  31,
+                        "name":  "Get-SalesOrderHistory",
+                        "path":  "GET/Get-SalesOrderHistory.ps1",
+                        "method":  "GET",
+                        "category":  "orders",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v1/api/store/{slug}/scoped_id_search",
+                        "description":  "View activity history for a sales order.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "Fixed and tested - auto-prefix, correct endpoints",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  32,
+                        "name":  "Get-ServiceById",
+                        "path":  "GET/Get-ServiceById.ps1",
+                        "method":  "GET",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service/$ServiceId",
+                        "description":  "Get full details for a specific service.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "Fixed and tested - auto-prefix, correct endpoints",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  33,
+                        "name":  "Get-ServiceLocationById",
+                        "path":  "GET/Get-ServiceLocationById.ps1",
+                        "method":  "GET",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service_location/$LocationId",
+                        "description":  "Get details for a specific location.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  34,
+                        "name":  "Get-Services",
+                        "path":  "GET/Get-Services.ps1",
+                        "method":  "GET",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service_location",
+                        "description":  "These are placement locations for logos/designs.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "verified",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  35,
+                        "name":  "Get-ServicesList",
+                        "path":  "GET/Get-ServicesList.ps1",
+                        "method":  "GET",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service_location",
+                        "description":  "View all services with pricing types.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  36,
+                        "name":  "Get-SettingUsers",
+                        "path":  "GET/Get-SettingUsers.ps1",
+                        "method":  "GET",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/user",
+                        "description":  "Get all users in the team with their roles.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  37,
+                        "name":  "Get-ShipmentBoxById",
+                        "path":  "GET/Get-ShipmentBoxById.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/shipment_box/$BoxId",
+                        "description":  "Get details of a specific shipment box.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  38,
+                        "name":  "Get-ShipmentBoxes",
+                        "path":  "GET/Get-ShipmentBoxes.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/shipment_box",
+                        "description":  "View all configured shipment box sizes.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  39,
+                        "name":  "Get-ShippingTypeById",
+                        "path":  "GET/Get-ShippingTypeById.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/shipping_type/$ShipId",
+                        "description":  "Get details of a specific shipping type.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  40,
+                        "name":  "Get-ShippingTypes",
+                        "path":  "GET/Get-ShippingTypes.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/shipping_type",
+                        "description":  "View all configured shipping types.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  41,
+                        "name":  "Get-StatusConfigs",
+                        "path":  "GET/Get-StatusConfigs.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/status",
+                        "description":  "View all status configurations with details.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "Verified working manually - large output causes test timeout",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  42,
+                        "name":  "Get-Statuses",
+                        "path":  "GET/Get-Statuses.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/status",
+                        "description":  "These are all the status options in your YoPrint.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  43,
+                        "name":  "Get-Tags",
+                        "path":  "GET/Get-Tags.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/tag?page=1",
+                        "description":  "These are the tags you use to organize orders.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  44,
+                        "name":  "Get-TaxTypeById",
+                        "path":  "GET/Get-TaxTypeById.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "no-version",
+                        "endpoint":  "/api/store/{slug}/setting/tax_type/$TaxId",
+                        "description":  "Get details of a specific tax type.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  45,
+                        "name":  "Get-TaxTypes",
+                        "path":  "GET/Get-TaxTypes.ps1",
+                        "method":  "GET",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/tax_type",
+                        "description":  "View all configured tax types and rates.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  46,
+                        "name":  "Get-TeamDetails",
+                        "path":  "GET/Get-TeamDetails.ps1",
+                        "method":  "GET",
+                        "category":  "team",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/detail",
+                        "description":  "Get team contact and business information.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  47,
+                        "name":  "Get-TeamSettings",
+                        "path":  "GET/Get-TeamSettings.ps1",
+                        "method":  "GET",
+                        "category":  "team",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting",
+                        "description":  "View your YoPrint team configuration.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "Verified working manually - large output causes test timeout",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  48,
+                        "name":  "Get-UserActivityFeed",
+                        "path":  "GET/Get-UserActivityFeed.ps1",
+                        "method":  "GET",
+                        "category":  "activity",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/current_user_feed?page=1",
+                        "description":  "View your recent activity notifications.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "needs_improvement",
+                        "testDate":  "2026-01-11",
+                        "testNote":  "data for what the notification is not showing detail [2026-01-10 21:16] unknown activity",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  49,
+                        "name":  "Get-UserGroupById",
+                        "path":  "GET/Get-UserGroupById.ps1",
+                        "method":  "GET",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/group/$GroupId",
+                        "description":  "Get details of a specific user group.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  50,
+                        "name":  "Get-UserGroups",
+                        "path":  "GET/Get-UserGroups.ps1",
+                        "method":  "GET",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/group",
+                        "description":  "View all user groups and their members.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  51,
+                        "name":  "Get-UserInvitations",
+                        "path":  "GET/Get-UserInvitations.ps1",
+                        "method":  "GET",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/invite",
+                        "description":  "View all pending user invitations.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  52,
+                        "name":  "Get-UserInvites",
+                        "path":  "GET/Get-UserInvites.ps1",
+                        "method":  "GET",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/invite",
+                        "description":  "Get all pending user invitations.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  53,
+                        "name":  "Get-UserPreference",
+                        "path":  "GET/Get-UserPreference.ps1",
+                        "method":  "GET",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/current_user_preference",
+                        "description":  "Get current user\u0027s UI preferences.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "Verified working manually - large output causes test timeout",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  54,
+                        "name":  "Get-Users",
+                        "path":  "GET/Get-Users.ps1",
+                        "method":  "GET",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/user",
+                        "description":  "View all users in your YoPrint team.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "verified",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  55,
+                        "name":  "Get-VendorById",
+                        "path":  "GET/Get-VendorById.ps1",
+                        "method":  "GET",
+                        "category":  "vendors",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/vendor/$VendorId",
+                        "description":  "Get full details for a specific vendor.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  56,
+                        "name":  "Get-VendorContacts",
+                        "path":  "GET/Get-VendorContacts.ps1",
+                        "method":  "GET",
+                        "category":  "vendors",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/vendor/$VendorId/contact",
+                        "description":  "View all contacts for a vendor/supplier.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  57,
+                        "name":  "Get-Vendors",
+                        "path":  "GET/Get-Vendors.ps1",
+                        "method":  "GET",
+                        "category":  "vendors",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/vendor?page=1",
+                        "description":  "These are your suppliers/vendors.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "needs_improvement",
+                        "testDate":  "2026-01-11",
+                        "testNote":  "When you select a vendor and it populates the detail screen. There should be an option  to then update or delete that vendor. Also, for global improvement.. when I go to review a call that I marked for improvement or broken etc. When I go and test that again after you tag C for your review and updates I want the summary detail of what I requested or reported to display when I select that number again for review. I need to remember what I said was wrong..",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  58,
+                        "name":  "Get-WebhookById",
+                        "path":  "GET/Get-WebhookById.ps1",
+                        "method":  "GET",
+                        "category":  "webhooks",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/webhook_subscription/$WebhookId",
+                        "description":  "Get details of a specific webhook.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "verified",
+                        "testDate":  "2026-01-11",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  59,
+                        "name":  "Get-WebhookLogs",
+                        "path":  "GET/Get-WebhookLogs.ps1",
+                        "method":  "GET",
+                        "category":  "webhooks",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/webhook_subscription/$WebhookId/log?page=$Page",
+                        "description":  "View delivery logs for a webhook.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "broken",
+                        "testDate":  "2026-01-04",
+                        "testNote":  "ERROR: Response status code does not indicate success: 404",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  60,
+                        "name":  "Get-WebhookSubscriptions",
+                        "path":  "GET/Get-WebhookSubscriptions.ps1",
+                        "method":  "GET",
+                        "category":  "webhooks",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/webhook_subscription",
+                        "description":  "View all configured webhook subscriptions.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "needs_improvement",
+                        "testDate":  "2026-01-11",
+                        "testNote":  "list what the errors mean example 404 405 I have no clue. What does it mean respond? Did the data its sending out from yoprint have the error or are these responding to you pinging. All webhooks in yoprint are post or outgoing to a catch. Unless they told us wrong",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  61,
+                        "name":  "Add-AdjustmentReason",
+                        "path":  "POST/Add-AdjustmentReason.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/adjustment_reason",
+                        "description":  "Create a new inventory adjustment reason.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  62,
+                        "name":  "Add-CustomerAddress",
+                        "path":  "POST/Add-CustomerAddress.ps1",
+                        "method":  "POST",
+                        "category":  "customers",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/customer/$CustomerId/address",
+                        "description":  "Add a new address to a customer.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  63,
+                        "name":  "Add-CustomerContact",
+                        "path":  "POST/Add-CustomerContact.ps1",
+                        "method":  "POST",
+                        "category":  "customers",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/customer/$CustomerId/contact",
+                        "description":  "Add a new contact to a customer.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  64,
+                        "name":  "Add-JobApproval",
+                        "path":  "POST/Add-JobApproval.ps1",
+                        "method":  "POST",
+                        "category":  "jobs",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/job/$JobId/approval",
+                        "description":  "Create an approval request for a specific job.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  65,
+                        "name":  "Add-JobComment",
+                        "path":  "POST/Add-JobComment.ps1",
+                        "method":  "POST",
+                        "category":  "comments",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/job/$JobId/comment",
+                        "description":  "Add a new comment to a job.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "broken",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  66,
+                        "name":  "Add-JobCommentV2",
+                        "path":  "POST/Add-JobCommentV2.ps1",
+                        "method":  "POST",
+                        "category":  "comments",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/job/$JobId/comment",
+                        "description":  "Add a comment to a job.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  67,
+                        "name":  "Add-JobPreset",
+                        "path":  "POST/Add-JobPreset.ps1",
+                        "method":  "POST",
+                        "category":  "jobs",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/job_preset",
+                        "description":  "Create a new job preset for quick job setup.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  68,
+                        "name":  "Add-LineTaxType",
+                        "path":  "POST/Add-LineTaxType.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "no-version",
+                        "endpoint":  "/api/store/{slug}/setting/tax_type",
+                        "description":  "Create a combined tax with multiple lines.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  69,
+                        "name":  "Add-Location",
+                        "path":  "POST/Add-Location.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/location",
+                        "description":  "Add a new company location.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "needs_improvement",
+                        "testDate":  "2026-01-11",
+                        "testNote":  "delete this call from list all together do not need",
+                        "modifiesData":  true,
+                        "favorite":  true,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  70,
+                        "name":  "Add-MessageTemplate",
+                        "path":  "POST/Add-MessageTemplate.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/setting/message_template",
+                        "description":  "Create a new message template.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  71,
+                        "name":  "Add-OrderApproval",
+                        "path":  "POST/Add-OrderApproval.ps1",
+                        "method":  "POST",
+                        "category":  "approvals",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/sales_order/$OrderId/approval",
+                        "description":  "Create a new approval request for an order.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  72,
+                        "name":  "Add-PaymentMethod",
+                        "path":  "POST/Add-PaymentMethod.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_method",
+                        "description":  "Add a new payment method to YoPrint.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  73,
+                        "name":  "Add-PaymentTerm",
+                        "path":  "POST/Add-PaymentTerm.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_term",
+                        "description":  "Create a new payment term.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  74,
+                        "name":  "Add-Pipeline",
+                        "path":  "POST/Add-Pipeline.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/pipeline",
+                        "description":  "Create a new production pipeline.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  75,
+                        "name":  "Add-PurchaseOrderComment",
+                        "path":  "POST/Add-PurchaseOrderComment.ps1",
+                        "method":  "POST",
+                        "category":  "comments",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/scoped_id_search",
+                        "description":  "Add a comment to a purchase order.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  76,
+                        "name":  "Add-SalesOrderComment",
+                        "path":  "POST/Add-SalesOrderComment.ps1",
+                        "method":  "POST",
+                        "category":  "comments",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v1/api/store/{slug}/global/scoped_id_search",
+                        "description":  "Add a new comment to a sales order.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  77,
+                        "name":  "Add-SalesOrderCommentV2",
+                        "path":  "POST/Add-SalesOrderCommentV2.ps1",
+                        "method":  "POST",
+                        "category":  "comments",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/sales_order/$OrderId/comment",
+                        "description":  "Add a comment to a sales order.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  78,
+                        "name":  "Add-Service",
+                        "path":  "POST/Add-Service.ps1",
+                        "method":  "POST",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service",
+                        "description":  "Create a new service in YoPrint.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  79,
+                        "name":  "Add-ServiceLocation",
+                        "path":  "POST/Add-ServiceLocation.ps1",
+                        "method":  "POST",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service_location",
+                        "description":  "Create a new service location.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  80,
+                        "name":  "Add-ShipmentBox",
+                        "path":  "POST/Add-ShipmentBox.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/shipment_box",
+                        "description":  "Create a new shipment box configuration.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  81,
+                        "name":  "Add-ShippingType",
+                        "path":  "POST/Add-ShippingType.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/shipping_type",
+                        "description":  "Add a new shipping type to YoPrint.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  82,
+                        "name":  "Add-StatusConfig",
+                        "path":  "POST/Add-StatusConfig.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/status",
+                        "description":  "Add a new status to YoPrint.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  83,
+                        "name":  "Add-Tag",
+                        "path":  "POST/Add-Tag.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/tag",
+                        "description":  "Create a new tag for orders/jobs.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  84,
+                        "name":  "Add-TagV2",
+                        "path":  "POST/Add-TagV2.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/tag",
+                        "description":  "Create a new tag for orders/jobs.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  85,
+                        "name":  "Add-TaxType",
+                        "path":  "POST/Add-TaxType.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "no-version",
+                        "endpoint":  "/api/store/{slug}/setting/tax_type",
+                        "description":  "Create a new tax type configuration.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  86,
+                        "name":  "Add-UserGroup",
+                        "path":  "POST/Add-UserGroup.ps1",
+                        "method":  "POST",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/group",
+                        "description":  "Create a new user group/role.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  87,
+                        "name":  "Add-UserInvitation",
+                        "path":  "POST/Add-UserInvitation.ps1",
+                        "method":  "POST",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/user/invitation",
+                        "description":  "Send an invitation to join your YoPrint team.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  88,
+                        "name":  "Add-Vendor",
+                        "path":  "POST/Add-Vendor.ps1",
+                        "method":  "POST",
+                        "category":  "vendors",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/vendor",
+                        "description":  "Create a new vendor in YoPrint.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  89,
+                        "name":  "Add-VendorContact",
+                        "path":  "POST/Add-VendorContact.ps1",
+                        "method":  "POST",
+                        "category":  "vendors",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/vendor/$VendorId/contact",
+                        "description":  "Add a new contact to an existing vendor.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  90,
+                        "name":  "Add-Webhook",
+                        "path":  "POST/Add-Webhook.ps1",
+                        "method":  "POST",
+                        "category":  "webhooks",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/webhook_subscription",
+                        "description":  "Create a new webhook subscription.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  91,
+                        "name":  "Calc-Tax",
+                        "path":  "POST/Calc-Tax.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/tax/calculate",
+                        "description":  "Calculate tax for an amount and address.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "Endpoint may be wrong - returned 404",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  92,
+                        "name":  "Calc-TaxByCustomer",
+                        "path":  "POST/Calc-TaxByCustomer.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/misc/calc_tax",
+                        "description":  "Calculate tax using a customer\u0027s saved address.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  93,
+                        "name":  "Compile-MessageTemplate",
+                        "path":  "POST/Compile-MessageTemplate.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/setting/message_template/compile",
+                        "description":  "Compile a template with real order data.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  94,
+                        "name":  "Decode-Barcode",
+                        "path":  "POST/Decode-Barcode.ps1",
+                        "method":  "POST",
+                        "category":  "utilities",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/decode_barcode",
+                        "description":  "Decode a YoPrint barcode/QR code value.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "Needs real YoPrint barcode value (y9-0p-job-xxxx format)",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  95,
+                        "name":  "Get-Approvals",
+                        "path":  "POST/Get-Approvals.ps1",
+                        "method":  "POST",
+                        "category":  "approvals",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/approvals/filter",
+                        "description":  "View all pending and completed approvals.",
+                        "complexity":  "simple",
+                        "requiresInput":  false,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "Verified working manually - large output causes test timeout",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  96,
+                        "name":  "Global-Search",
+                        "path":  "POST/Global-Search.ps1",
+                        "method":  "POST",
+                        "category":  "search",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/global/search",
+                        "description":  "This searches ALL of YoPrint at once:",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "needs_improvement",
+                        "testDate":  "2026-01-11",
+                        "testNote":  "The first action needs to be a list of types you can search so you can select ex. customers which prompts another input option to then search ex. Ron Hoover. All jobs, sales orders, shipments, invoices etc should always populate with most recent on top of list",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  97,
+                        "name":  "Import-CustomerCSV",
+                        "path":  "POST/Import-CustomerCSV.ps1",
+                        "method":  "POST",
+                        "category":  "utilities",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/csv/import/customer",
+                        "description":  "Upload a CSV file to import customers.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  98,
+                        "name":  "Lookup-OrderByNumber",
+                        "path":  "POST/Lookup-OrderByNumber.ps1",
+                        "method":  "POST",
+                        "category":  "search",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/global/scoped_id_search",
+                        "description":  "Find an order using its order number.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  99,
+                        "name":  "Preview-MessageTemplate",
+                        "path":  "POST/Preview-MessageTemplate.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/setting/message_template/preview",
+                        "description":  "Preview a message template with sample data.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  100,
+                        "name":  "Search-Customers",
+                        "path":  "POST/Search-Customers.ps1",
+                        "method":  "POST",
+                        "category":  "customers",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/customer/search",
+                        "description":  "Search by company name, person name, or leave blank for all.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  101,
+                        "name":  "Search-CustomersByName",
+                        "path":  "POST/Search-CustomersByName.ps1",
+                        "method":  "POST",
+                        "category":  "customers",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/global/customer_name_search",
+                        "description":  "Quick customer name search.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  102,
+                        "name":  "Search-Products",
+                        "path":  "POST/Search-Products.ps1",
+                        "method":  "POST",
+                        "category":  "search",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/product_list_search",
+                        "description":  "Search your YoPrint product catalog.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  103,
+                        "name":  "Search-SalesOrders",
+                        "path":  "POST/Search-SalesOrders.ps1",
+                        "method":  "POST",
+                        "category":  "orders",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/sales_order/search",
+                        "description":  "Search by customer name, order number, or leave blank for all.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "tested",
+                        "testDate":  "2026-01-03",
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  104,
+                        "name":  "Search-Vendors",
+                        "path":  "POST/Search-Vendors.ps1",
+                        "method":  "POST",
+                        "category":  "search",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/vendor/search",
+                        "description":  "Search for vendors/suppliers by name.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  105,
+                        "name":  "Update-StatusOrder",
+                        "path":  "POST/Update-StatusOrder.ps1",
+                        "method":  "POST",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/status/order",
+                        "description":  "Reorder statuses in a pipeline.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  106,
+                        "name":  "Update-UserPreference",
+                        "path":  "POST/Update-UserPreference.ps1",
+                        "method":  "POST",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/current_user_preference",
+                        "description":  "Update current user\u0027s UI preferences.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  107,
+                        "name":  "Upload-PortalBackground",
+                        "path":  "POST/Upload-PortalBackground.ps1",
+                        "method":  "POST",
+                        "category":  "team",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/customer_portal_bg",
+                        "description":  "Upload a background image for customer portal.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  108,
+                        "name":  "Upload-TeamLogo",
+                        "path":  "POST/Upload-TeamLogo.ps1",
+                        "method":  "POST",
+                        "category":  "team",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/photo",
+                        "description":  "Upload a new team logo image.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  109,
+                        "name":  "Validate-ElasticsearchQuery",
+                        "path":  "POST/Validate-ElasticsearchQuery.ps1",
+                        "method":  "POST",
+                        "category":  "utilities",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/misc/validate_elastic_search_query",
+                        "description":  "Check if an Elasticsearch query syntax is valid.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  false,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  110,
+                        "name":  "Complete-JobApproval",
+                        "path":  "PUT/Complete-JobApproval.ps1",
+                        "method":  "PUT",
+                        "category":  "jobs",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/job/approval/$ApprovalId/complete",
+                        "description":  "Mark a job approval as complete with customer feedback.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  111,
+                        "name":  "Complete-OrderApproval",
+                        "path":  "PUT/Complete-OrderApproval.ps1",
+                        "method":  "PUT",
+                        "category":  "approvals",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/sales_order/$OrderId/approval/$ApprovalId/complete",
+                        "description":  "Mark an approval as completed or needs-changes.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  112,
+                        "name":  "Disable-FeatureAddon",
+                        "path":  "PUT/Disable-FeatureAddon.ps1",
+                        "method":  "PUT",
+                        "category":  "team",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/feature_addon/$Feature/disable",
+                        "description":  "Disable a feature addon for your team.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  113,
+                        "name":  "Enable-FeatureAddon",
+                        "path":  "PUT/Enable-FeatureAddon.ps1",
+                        "method":  "PUT",
+                        "category":  "team",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/feature_addon/$Feature/enable",
+                        "description":  "Enable a feature addon for your team.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  114,
+                        "name":  "Get-SquareLocations",
+                        "path":  "PUT/Get-SquareLocations.ps1",
+                        "method":  "PUT",
+                        "category":  "team",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_gateway/get_square_location_list",
+                        "description":  "Retrieve available Square locations.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  115,
+                        "name":  "Set-FeedAllArchived",
+                        "path":  "PUT/Set-FeedAllArchived.ps1",
+                        "method":  "PUT",
+                        "category":  "activity",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/current_user_feed/mark_all_as_archive",
+                        "description":  "Archive all activity feed items.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "verified",
+                        "testDate":  "2026-01-06",
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  116,
+                        "name":  "Set-FeedAllSeen",
+                        "path":  "PUT/Set-FeedAllSeen.ps1",
+                        "method":  "PUT",
+                        "category":  "activity",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/current_user_feed/mark_all_as_seen",
+                        "description":  "Mark all activity feed items as seen.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  117,
+                        "name":  "Set-FeedItemsArchived",
+                        "path":  "PUT/Set-FeedItemsArchived.ps1",
+                        "method":  "PUT",
+                        "category":  "activity",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/current_user_feed/archive",
+                        "description":  "Archive specific activity feed items.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  118,
+                        "name":  "Set-FeedItemsSeen",
+                        "path":  "PUT/Set-FeedItemsSeen.ps1",
+                        "method":  "PUT",
+                        "category":  "activity",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/current_user_feed/seen",
+                        "description":  "Mark specific activity feed items as seen.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  119,
+                        "name":  "Set-FeedItemsUnarchived",
+                        "path":  "PUT/Set-FeedItemsUnarchived.ps1",
+                        "method":  "PUT",
+                        "category":  "activity",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/current_user_feed/unarchive",
+                        "description":  "Unarchive specific activity feed items.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "broken",
+                        "testDate":  "2026-01-07",
+                        "testNote":  "Marked broken by user",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  120,
+                        "name":  "Set-ServiceOrder",
+                        "path":  "PUT/Set-ServiceOrder.ps1",
+                        "method":  "PUT",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service",
+                        "description":  "Reorder services by specifying positions.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  121,
+                        "name":  "Setup-TeamAddress",
+                        "path":  "PUT/Setup-TeamAddress.ps1",
+                        "method":  "PUT",
+                        "category":  "team",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/onboard/setup_address",
+                        "description":  "Configure team address (onboarding).",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  122,
+                        "name":  "Update-AdjustmentReason",
+                        "path":  "PUT/Update-AdjustmentReason.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/adjustment_reason/$ReasonId",
+                        "description":  "Update an existing adjustment reason.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  123,
+                        "name":  "Update-Comment",
+                        "path":  "PUT/Update-Comment.ps1",
+                        "method":  "PUT",
+                        "category":  "comments",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/comment/$CommentId",
+                        "description":  "Edit an existing comment.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  124,
+                        "name":  "Update-Contact",
+                        "path":  "PUT/Update-Contact.ps1",
+                        "method":  "PUT",
+                        "category":  "other",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/contact/$ContactId",
+                        "description":  "Update a contact (customer or vendor).",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  125,
+                        "name":  "Update-Currency",
+                        "path":  "PUT/Update-Currency.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/currency",
+                        "description":  "Update currency settings.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  126,
+                        "name":  "Update-CustomDomain",
+                        "path":  "PUT/Update-CustomDomain.ps1",
+                        "method":  "PUT",
+                        "category":  "other",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/custom_domain/update",
+                        "description":  "Configure a custom domain for customer portal.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  127,
+                        "name":  "Update-CustomerAddress",
+                        "path":  "PUT/Update-CustomerAddress.ps1",
+                        "method":  "PUT",
+                        "category":  "customers",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/customer/$CustomerId/address/$AddressId",
+                        "description":  "Update an existing customer address.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  128,
+                        "name":  "Update-JobApproval",
+                        "path":  "PUT/Update-JobApproval.ps1",
+                        "method":  "PUT",
+                        "category":  "jobs",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/job/approval/$ApprovalId",
+                        "description":  "Update an existing job approval request.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  129,
+                        "name":  "Update-JobPreset",
+                        "path":  "PUT/Update-JobPreset.ps1",
+                        "method":  "PUT",
+                        "category":  "jobs",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/job_preset/$PresetId",
+                        "description":  "Update an existing job preset.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  130,
+                        "name":  "Update-Location",
+                        "path":  "PUT/Update-Location.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/location/$LocationId",
+                        "description":  "Update an existing company location.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  131,
+                        "name":  "Update-MessageTemplate",
+                        "path":  "PUT/Update-MessageTemplate.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/setting/message_template/$TemplateId",
+                        "description":  "Update an existing message template.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  132,
+                        "name":  "Update-OrderApproval",
+                        "path":  "PUT/Update-OrderApproval.ps1",
+                        "method":  "PUT",
+                        "category":  "approvals",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/v2/sales_order/$OrderId/approval/$ApprovalId",
+                        "description":  "Update notes on an existing approval.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  133,
+                        "name":  "Update-PaymentGateway",
+                        "path":  "PUT/Update-PaymentGateway.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_gateway",
+                        "description":  "Configure payment gateway settings.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  134,
+                        "name":  "Update-PaymentMethod",
+                        "path":  "PUT/Update-PaymentMethod.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_method/$MethodId",
+                        "description":  "Update an existing payment method.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  135,
+                        "name":  "Update-PaymentTerm",
+                        "path":  "PUT/Update-PaymentTerm.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_term/$TermId",
+                        "description":  "Update an existing payment term.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  136,
+                        "name":  "Update-Pipeline",
+                        "path":  "PUT/Update-Pipeline.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/pipeline/$PipelineId",
+                        "description":  "Update an existing pipeline.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  137,
+                        "name":  "Update-RunningNumbers",
+                        "path":  "PUT/Update-RunningNumbers.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/running_number",
+                        "description":  "Set the next order/PO/invoice numbers.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  138,
+                        "name":  "Update-Service",
+                        "path":  "PUT/Update-Service.ps1",
+                        "method":  "PUT",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service/$ServiceId",
+                        "description":  "Update an existing service.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  139,
+                        "name":  "Update-ServiceLocation",
+                        "path":  "PUT/Update-ServiceLocation.ps1",
+                        "method":  "PUT",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service_location/$LocationId",
+                        "description":  "Update an existing service location.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  140,
+                        "name":  "Update-ShipmentBox",
+                        "path":  "PUT/Update-ShipmentBox.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/shipment_box/$BoxId",
+                        "description":  "Update an existing shipment box.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  141,
+                        "name":  "Update-ShippingType",
+                        "path":  "PUT/Update-ShippingType.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/shipping_type/$ShipId",
+                        "description":  "Update an existing shipping type.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  142,
+                        "name":  "Update-StatusConfig",
+                        "path":  "PUT/Update-StatusConfig.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/status/$StatusId",
+                        "description":  "Update an existing status configuration.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  143,
+                        "name":  "Update-Tag",
+                        "path":  "PUT/Update-Tag.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/tag/$TagId",
+                        "description":  "Update an existing tag.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  144,
+                        "name":  "Update-TaxType",
+                        "path":  "PUT/Update-TaxType.ps1",
+                        "method":  "PUT",
+                        "category":  "settings",
+                        "apiVersion":  "no-version",
+                        "endpoint":  "/api/store/{slug}/setting/tax_type/$TaxId",
+                        "description":  "Update an existing tax type.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  145,
+                        "name":  "Update-TeamDetails",
+                        "path":  "PUT/Update-TeamDetails.ps1",
+                        "method":  "PUT",
+                        "category":  "team",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting",
+                        "description":  "Update team contact and business info.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  146,
+                        "name":  "Update-TeamGeneral",
+                        "path":  "PUT/Update-TeamGeneral.ps1",
+                        "method":  "PUT",
+                        "category":  "team",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/general",
+                        "description":  "Update general team configuration.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  147,
+                        "name":  "Update-UserGroup",
+                        "path":  "PUT/Update-UserGroup.ps1",
+                        "method":  "PUT",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/group/$GroupId",
+                        "description":  "Update an existing user group/role.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  148,
+                        "name":  "Update-UserInvite",
+                        "path":  "PUT/Update-UserInvite.ps1",
+                        "method":  "PUT",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/invite/$InviteId",
+                        "description":  "Update an existing user invitation.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  149,
+                        "name":  "Update-Vendor",
+                        "path":  "PUT/Update-Vendor.ps1",
+                        "method":  "PUT",
+                        "category":  "vendors",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/vendor/$VendorId",
+                        "description":  "Update an existing vendor\u0027s information.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  150,
+                        "name":  "Update-Webhook",
+                        "path":  "PUT/Update-Webhook.ps1",
+                        "method":  "PUT",
+                        "category":  "webhooks",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/webhook_subscription/$WebhookId",
+                        "description":  "Update an existing webhook subscription.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "needs_improvement",
+                        "testDate":  "2026-01-11",
+                        "testNote":  "changed name but wanted to leave others the same. Which called failure, no entry should populate previous data to stay the same",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  151,
+                        "name":  "Clone-Service",
+                        "path":  "PATCH/Clone-Service.ps1",
+                        "method":  "PATCH",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service/$ServiceId/clone",
+                        "description":  "Create a copy of an existing service.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  152,
+                        "name":  "Export-ServiceMatrix",
+                        "path":  "PATCH/Export-ServiceMatrix.ps1",
+                        "method":  "PATCH",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service/$ServiceId/export_matrix",
+                        "description":  "Export a service\u0027s pricing matrix as CSV.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "needs_improvement",
+                        "testDate":  "2026-01-11",
+                        "testNote":  "The call worked but wrong endpoint. data populated was service location not price matrix",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  153,
+                        "name":  "Send-ApprovalToCustomer",
+                        "path":  "PATCH/Send-ApprovalToCustomer.ps1",
+                        "method":  "PATCH",
+                        "category":  "approvals",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/approvals/$ApprovalId/send_to_customer",
+                        "description":  "Send an approval request to the customer.",
+                        "complexity":  "medium",
+                        "requiresInput":  true,
+                        "testStatus":  "not_tested",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  154,
+                        "name":  "Set-DefaultWarehouse",
+                        "path":  "PATCH/Set-DefaultWarehouse.ps1",
+                        "method":  "PATCH",
+                        "category":  "other",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/location/$LocationId/default_warehouse",
+                        "description":  "Set a location as the default warehouse.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  155,
+                        "name":  "Set-LocationHoldStock",
+                        "path":  "PATCH/Set-LocationHoldStock.ps1",
+                        "method":  "PATCH",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/location/$LocationId/hold_stock",
+                        "description":  "Toggle the hold stock status for a location.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  156,
+                        "name":  "Set-PrimaryContact",
+                        "path":  "PATCH/Set-PrimaryContact.ps1",
+                        "method":  "PATCH",
+                        "category":  "other",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/$endpoint",
+                        "description":  "Set a contact as primary for a customer.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  157,
+                        "name":  "Set-PrimaryCustomerAddress",
+                        "path":  "PATCH/Set-PrimaryCustomerAddress.ps1",
+                        "method":  "PATCH",
+                        "category":  "customers",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/customer/$CustomerId/address/$AddressId/primary",
+                        "description":  "Set an address as primary for a customer.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  158,
+                        "name":  "Set-PrimaryLocation",
+                        "path":  "PATCH/Set-PrimaryLocation.ps1",
+                        "method":  "PATCH",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/location/$LocationId/primary",
+                        "description":  "Set a location as the primary location.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  159,
+                        "name":  "Set-UserRole",
+                        "path":  "PATCH/Set-UserRole.ps1",
+                        "method":  "PATCH",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/group/$RoleId/change_user_group",
+                        "description":  "Assign a user to a different role/group.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  160,
+                        "name":  "Set-VendorPrimaryContact",
+                        "path":  "PATCH/Set-VendorPrimaryContact.ps1",
+                        "method":  "PATCH",
+                        "category":  "vendors",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/vendor/$VendorId/contact/$ContactId/primary",
+                        "description":  "Set a contact as the primary for a vendor.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  161,
+                        "name":  "Remove-AdjustmentReason",
+                        "path":  "DEL/Remove-AdjustmentReason.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/adjustment_reason/$ReasonId",
+                        "description":  "Delete an adjustment reason.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  162,
+                        "name":  "Remove-Approval",
+                        "path":  "DEL/Remove-Approval.ps1",
+                        "method":  "DEL",
+                        "category":  "approvals",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/approvals/$ApprovalId",
+                        "description":  "Permanently delete an approval request.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  163,
+                        "name":  "Remove-AsyncUpload",
+                        "path":  "DEL/Remove-AsyncUpload.ps1",
+                        "method":  "DEL",
+                        "category":  "utilities",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/async_upload/$UploadId",
+                        "description":  "Remove an uploaded file before it\u0027s attached.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "needs_improvement",
+                        "testDate":  "2026-01-11",
+                        "testNote":  "I don\u0027t even know what Async upload is for, but should populate the list of upload ID\u0027s and detail of them for the ones that are available to delete. ",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  164,
+                        "name":  "Remove-Comment",
+                        "path":  "DEL/Remove-Comment.ps1",
+                        "method":  "DEL",
+                        "category":  "comments",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/comment/$CommentId",
+                        "description":  "Delete a comment from an order or job.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  165,
+                        "name":  "Remove-ConnectedDevice",
+                        "path":  "DEL/Remove-ConnectedDevice.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/connected_device/$DeviceId",
+                        "description":  "Delete a connected device (Square terminal, etc).",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  166,
+                        "name":  "Remove-Contact",
+                        "path":  "DEL/Remove-Contact.ps1",
+                        "method":  "DEL",
+                        "category":  "other",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/contact/$ContactId",
+                        "description":  "Permanently delete a contact.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  167,
+                        "name":  "Remove-CustomerAddress",
+                        "path":  "DEL/Remove-CustomerAddress.ps1",
+                        "method":  "DEL",
+                        "category":  "customers",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/customer/$CustomerId/address/$AddressId",
+                        "description":  "Permanently delete a customer address.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  168,
+                        "name":  "Remove-JobPreset",
+                        "path":  "DEL/Remove-JobPreset.ps1",
+                        "method":  "DEL",
+                        "category":  "jobs",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/job_preset/$PresetId",
+                        "description":  "Delete a job preset.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  169,
+                        "name":  "Remove-Location",
+                        "path":  "DEL/Remove-Location.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/location/$LocationId",
+                        "description":  "Delete a company location.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  170,
+                        "name":  "Remove-MessageTemplate",
+                        "path":  "DEL/Remove-MessageTemplate.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "v2",
+                        "endpoint":  "/v2/api/store/{slug}/setting/message_template/$TemplateId",
+                        "description":  "Delete a message template.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  171,
+                        "name":  "Remove-PaymentMethod",
+                        "path":  "DEL/Remove-PaymentMethod.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_method/$MethodId",
+                        "description":  "Remove a payment method from YoPrint.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  172,
+                        "name":  "Remove-PaymentTerm",
+                        "path":  "DEL/Remove-PaymentTerm.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/payment_term/$TermId",
+                        "description":  "Remove a payment term from YoPrint.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  173,
+                        "name":  "Remove-Pipeline",
+                        "path":  "DEL/Remove-Pipeline.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/pipeline/$PipelineId",
+                        "description":  "Delete a pipeline configuration.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  174,
+                        "name":  "Remove-Service",
+                        "path":  "DEL/Remove-Service.ps1",
+                        "method":  "DEL",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service/$ServiceId",
+                        "description":  "Permanently delete a service from YoPrint.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  175,
+                        "name":  "Remove-ServiceLocation",
+                        "path":  "DEL/Remove-ServiceLocation.ps1",
+                        "method":  "DEL",
+                        "category":  "services",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/service_location/$LocationId",
+                        "description":  "Permanently delete a service location.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  176,
+                        "name":  "Remove-ShipmentBox",
+                        "path":  "DEL/Remove-ShipmentBox.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/shipment_box/$BoxId",
+                        "description":  "Delete a shipment box configuration.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  177,
+                        "name":  "Remove-ShippingType",
+                        "path":  "DEL/Remove-ShippingType.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/shipping_type/$ShipId",
+                        "description":  "Delete a shipping type.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  178,
+                        "name":  "Remove-StatusConfig",
+                        "path":  "DEL/Remove-StatusConfig.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/status/$StatusId",
+                        "description":  "Delete a status configuration.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  179,
+                        "name":  "Remove-Tag",
+                        "path":  "DEL/Remove-Tag.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/tag/$TagId",
+                        "description":  "Remove a tag from YoPrint.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  180,
+                        "name":  "Remove-TaxType",
+                        "path":  "DEL/Remove-TaxType.ps1",
+                        "method":  "DEL",
+                        "category":  "settings",
+                        "apiVersion":  "no-version",
+                        "endpoint":  "/api/store/{slug}/setting/tax_type/$TaxId",
+                        "description":  "Delete a tax type configuration.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  181,
+                        "name":  "Remove-TeamLogo",
+                        "path":  "DEL/Remove-TeamLogo.ps1",
+                        "method":  "DEL",
+                        "category":  "team",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/photo",
+                        "description":  "Delete the current team logo.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  182,
+                        "name":  "Remove-User",
+                        "path":  "DEL/Remove-User.ps1",
+                        "method":  "DEL",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/user/$UserId",
+                        "description":  "Remove a user from the team.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  183,
+                        "name":  "Remove-UserGroup",
+                        "path":  "DEL/Remove-UserGroup.ps1",
+                        "method":  "DEL",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/group/$GroupId",
+                        "description":  "Delete a user group/role.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  184,
+                        "name":  "Remove-UserInvitation",
+                        "path":  "DEL/Remove-UserInvitation.ps1",
+                        "method":  "DEL",
+                        "category":  "users",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/user/invitation/$InvitationId",
+                        "description":  "Cancel a pending user invitation.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  185,
+                        "name":  "Remove-Vendor",
+                        "path":  "DEL/Remove-Vendor.ps1",
+                        "method":  "DEL",
+                        "category":  "vendors",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/vendor/$VendorId",
+                        "description":  "Permanently delete a vendor from YoPrint.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    },
+                    {
+                        "index":  186,
+                        "name":  "Remove-Webhook",
+                        "path":  "DEL/Remove-Webhook.ps1",
+                        "method":  "DEL",
+                        "category":  "webhooks",
+                        "apiVersion":  "v1",
+                        "endpoint":  "/v1/api/store/{slug}/setting/webhook_subscription/$WebhookId",
+                        "description":  "Delete a webhook subscription.",
+                        "complexity":  "destructive",
+                        "requiresInput":  true,
+                        "testStatus":  "manual_required",
+                        "testDate":  null,
+                        "testNote":  "",
+                        "modifiesData":  true,
+                        "favorite":  false,
+                        "sampleInputs":  {
+
+                                         }
+                    }
+                ]
+}

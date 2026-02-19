@@ -1,0 +1,76 @@
+#work_pipeline.status_changed Event
+
+{
+	"id": "6oejzBp7dVv8Gq",
+	"name": "Embroidery",
+	"note": null,
+	"job_id": "q2nVrG92NAlagp",
+	"status": {
+		"id": "OaoDvOooZev8wA",
+		"role": "pipeline",
+		"type": "in_progress",
+		"color": "#982abc",
+		"label": "Ready For Production",
+		"trashed": false,
+		"position": 3,
+		"pipeline_id": "X5PVrELApzGWbB",
+		"customer_label": "In Progress"
+	},
+	"due_date": "2025-10-05T19:46:19+00:00",
+	"job_name": "Texas Trader BackPacks",
+	"order_id": "8nDRz2Znq8zMEV",
+	"position": 0,
+	"status_id": "OaoDvOooZev8wA",
+	"created_at": "2025-10-28T19:00:57+00:00",
+	"order_name": null,
+	"start_date": "2025-09-23T19:46:19+00:00",
+	"updated_at": "2025-10-28T19:02:59+00:00",
+	"job_is_rush": 0,
+	"pipeline_id": "X5PVrELApzGWbB",
+	"sales_order": {
+		"due_date": null,
+		"is_quote": false,
+		"status_id": null,
+		"created_by": null,
+		"issue_date": null,
+		"start_date": null,
+		"customer_id": null,
+		"cust_due_date": null,
+		"customer_name": null,
+		"ship_due_date": null
+	},
+	"job_scoped_id": "JOB-2949",
+	"job_status_id": "enY1z9yyWkzPmJ",
+	"assigned_users": [
+		"N4Lpz0w3Kl3R0m",
+		"OPALrYy0Wrexy9"
+	],
+	"job_item_count": 2,
+	"order_scoped_id": null,
+	"previous_status": {
+		"id": "KG1dvwXXyMleP3",
+		"role": "pipeline",
+		"type": "start",
+		"color": "#24e8e5",
+		"label": "Pending",
+		"trashed": false,
+		"position": 0,
+		"pipeline_id": "X5PVrELApzGWbB",
+		"customer_label": "Pending"
+	},
+	"previous_status_id": "KG1dvwXXyMleP3",
+	"status_completion_date": null,
+	"assigned_users_hydrated": [
+		{
+			"id": "N4Lpz0w3Kl3R0m",
+			"name": "Ashley Scott",
+			"avatar_url": "https://download.yoprint.com/749377/5f2f58c4893afd346fdff02c5555d6eb.png?s=zt2DLuLnqHi1uhfGeJhckg&e=1761717600"
+		},
+		{
+			"id": "OPALrYy0Wrexy9",
+			"name": "Brooklyn Shirley",
+			"avatar_url": "https://download.yoprint.com/1365101/5f2f58c4893afd346fdff02c5555d6eb.png?s=YqAYfS_rcKSkx-oHsosiQw&e=1761717600"
+		}
+	],
+	"status_last_change_date": "2025-10-28T19:02:59+00:00"
+}

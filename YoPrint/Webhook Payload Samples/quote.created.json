@@ -1,0 +1,277 @@
+#quote.created Event
+
+{
+	"id": "nm51l68QQorR37",
+	"mode": "view",
+	"name": "CAMS Carhartt Hoodies",
+	"tags": [],
+	"quote": true,
+	"status": {
+		"id": "xDQwr811yLvRyG",
+		"role": "quote",
+		"type": "start",
+		"color": "#0bf5fe",
+		"label": "Pending",
+		"trashed": false,
+		"position": 0,
+		"customer_label": "Pending"
+	},
+	"is_rush": false,
+	"trashed": false,
+	"version": 2,
+	"calc_tax": 0,
+	"customer": {
+		"id": "mk6bzKb30Nl9G5",
+		"pdf": {
+			"invoice_statement": "https://secure.yoprint.com/api/v2/document/pdf/customer_invoice_statement/8nvM3AJMW2fezW/hub-city-design-inc/mk6bzKb30Nl9G5"
+		},
+		"hide": false,
+		"name": "CAMS Renewables",
+		"tags": [],
+		"media": [],
+		"trashed": false,
+		"website": "",
+		"contacts": [
+			{
+				"id": "06Zjrmjb91vVRk",
+				"fax": null,
+				"email": "jtheriault@camsrenewables.com",
+				"phone": "(806) 891-1235",
+				"trashed": false,
+				"last_name": "Theriault",
+				"created_at": "2024-05-31T04:14:19+00:00",
+				"first_name": "Jacob",
+				"is_primary": true,
+				"updated_at": "2024-06-10T22:46:24+00:00",
+				"customer_id": "mk6bzKb30Nl9G5",
+				"fax_country": null,
+				"send_invoice": false,
+				"phone_country": "US",
+				"default_receive_sms": true
+			}
+		],
+		"addresses": [
+			{
+				"id": "yQ6mlp5WAMzXOo",
+				"city": "Floydada",
+				"note": null,
+				"role": "shipping",
+				"label": "Main Shipping Address",
+				"nexus": true,
+				"state": "TX",
+				"country": "United States",
+				"trashed": false,
+				"address1": "1904 FM786",
+				"address2": "",
+				"postcode": "79235",
+				"hold_stock": false,
+				"is_primary": true,
+				"state_code": "TX",
+				"customer_id": "mk6bzKb30Nl9G5",
+				"country_code": "US",
+				"postal_is_valid": false,
+				"postal_validated": false,
+				"postal_can_validate": true,
+				"is_default_warehouse": false
+			}
+		],
+		"created_at": "2024-05-31T04:14:19+00:00",
+		"tax_exempt": false,
+		"updated_at": "2025-09-16T04:15:56+00:00",
+		"vat_number": null,
+		"wallet_fund": 0,
+		"quote_amount": 0,
+		"resale_number": "",
+		"unpaid_amount": 0,
+		"assigned_users": [
+			{
+				"id": "4DKZvMB42l7n2J",
+				"name": "Dillon White",
+				"avatar_url": "https://download.yoprint.com/1230206/7.png?s=XLQwvFJqWm7RcLBMNlGbSg&e=1761717600"
+			},
+			{
+				"id": "aWO4zxLMdzw3gN",
+				"name": "Haleigh McCarley",
+				"avatar_url": "https://download.yoprint.com/653913/5f2f58c4893afd346fdff02c5555d6eb.png?s=hui69XbjX1lP3gZn_TTMaw&e=1761717600"
+			},
+			{
+				"id": "OaoDvOoEyv8wA9",
+				"name": "Allison White",
+				"avatar_url": "https://download.yoprint.com/659006/5f2f58c4893afd346fdff02c5555d6eb.png?s=_uGu8wZ2FPEFXJvEj13cIQ&e=1761717600"
+			},
+			{
+				"id": "qQxmrD66kldyA7",
+				"name": "Sarah Conner",
+				"avatar_url": "https://download.yoprint.com/770872/5f2f58c4893afd346fdff02c5555d6eb.png?s=63hMNupRU5_nJgtDpjmOZg&e=1761717600"
+			}
+		],
+		"internal_notes": "",
+		"ordered_amount": 3717070,
+		"overdue_amount": 0,
+		"wallet_currency": {
+			"id": "YyAgrW6Zjz98Me",
+			"iso": "USD",
+			"name": "United States Dollar",
+			"symbol": "$",
+			"default": true,
+			"trashed": false
+		},
+		"customer_profiles": [],
+		"last_ordered_date": "2025-05-07T07:51:04+00:00",
+		"customer_portal_id": "9p5xq2",
+		"deposit_due_amount": 0,
+		"customer_portal_link": "https://portal.hubcitydesignlbk.com/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjdXN0b21lciIsImNvbl9pZCI6Mjk0MzkzLCJ0aWQiOjMyMzIsImV4cCI6MTc5MTA1ODI0Miwic3ViIjoyNzYwMDYsImlhdCI6MTc2MTY4MjI0MiwibmJmIjoxNzYxNjgyMjQyLCJqdGkiOiJEb0dEb040bGJ3cnU2TFY2In0._hJ7joq-TIrcoVNB2fQe2sm7cj-DUFBxpoKmN5o4sl4",
+		"default_warehouse_id": null,
+		"default_payment_term_id": null,
+		"default_pricing_group_id": null,
+		"display_customer_portal_id": "CAMS",
+		"customer_portal_id_override": "CAMS",
+		"customer_portal_payment_option": null,
+		"has_customer_portal_id_override": true
+	},
+	"due_date": null,
+	"is_draft": false,
+	"is_quote": true,
+	"prod_note": null,
+	"scoped_id": "SO1285",
+	"status_id": "xDQwr811yLvRyG",
+	"calc_total": 0,
+	"created_at": "2025-10-28T20:03:58+00:00",
+	"created_by": "4DKZvMB42l7n2J",
+	"is_created": true,
+	"issue_date": "2025-10-28T20:03:58+00:00",
+	"start_date": null,
+	"unique_key": "ord_0c5090351f798af42821bab03b4165gc9044c-5gg1da80c84d95a0a845g9",
+	"updated_at": "2025-10-28T20:10:42+00:00",
+	"client_note": null,
+	"customer_id": "mk6bzKb30Nl9G5",
+	"deposit_due": "2025-10-30T20:04:13+00:00",
+	"grouped_pdf": [
+		{
+			"label": "Main",
+			"documents": [
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/quote/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "Quote",
+					"description": "Quote details"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/quote_compact/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "Quote (Compact)",
+					"description": "Quote details optimized for printing"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_invoices/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "All Invoices",
+					"description": "All invoices"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_compact_invoices/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "All Invoices (Compact)",
+					"description": "All invoices optimized for printing"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_as_invoice/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "Quote as Invoice",
+					"description": "Uses the Quote ID as the Invoice ID"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_as_invoice_compact/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "Quote as Invoice (Compact)",
+					"description": "Uses the Quote ID as the Invoice ID. Optimized for printing"
+				}
+			]
+		},
+		{
+			"label": "Job",
+			"documents": [
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "All Jobs",
+					"description": "All job details without mockup"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "All Jobs (Mockups Incl.)",
+					"description": "All job details including mockups"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs_label/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "All Job Labels (4\" x 6\")",
+					"description": "All Job Labels (4\" x 6\")"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs_dymo_label/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "All Job Labels (1\" x 2-1/8\")",
+					"description": "All Job Labels in  (1\" x 2-1/8\")"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_worksheet/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "All Jobs Worksheet",
+					"description": "All Jobs Worksheet"
+				}
+			]
+		},
+		{
+			"label": "Shipment",
+			"documents": [
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipment/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "All Packing Slips",
+					"description": "All shipment packing slips"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipment_label/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "All Shipment Labels (Letter size)",
+					"description": "All Shipment labels to be printed on Letter Size"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipment_label/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "All Shipment Labels (4\" x 6\")",
+					"description": "All Shipment labels to be printed on 4\" x 6\" labels"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipments_dymo_label/8nvM3AJMW2fezW/hub-city-design-inc/nm51l68QQorR37",
+					"label": "All Shipment Labels (1\" x 2-1/8\")",
+					"description": "All Shipment Labels to be printed on (1\" x 2-1/8\")"
+				}
+			]
+		}
+	],
+	"paid_amount": 0,
+	"warehouse_id": "1oVOzZo504rW5G",
+	"calc_discount": 0,
+	"calc_subtotal": 0,
+	"cust_due_date": "2025-11-05T05:59:59+00:00",
+	"deposit_total": 50000,
+	"ship_due_date": null,
+	"assigned_users": [],
+	"auto_saved_for": null,
+	"discount_total": 0,
+	"approval_status": null,
+	"full_amount_due": "2025-11-11T20:04:13+00:00",
+	"payment_term_id": "X5PVrExkKzGWbB",
+	"customer_profile": null,
+	"deposit_required": true,
+	"pricing_group_id": "gO4Klq8aJvMPex",
+	"pricing_strategy": "job_separately",
+	"billing_address_id": null,
+	"calc_deposit_total": 178720,
+	"customer_has_email": true,
+	"customer_po_number": null,
+	"customer_contact_id": "06Zjrmjb91vVRk",
+	"customer_profile_id": null,
+	"shipping_address_id": "yQ6mlp5WAMzXOo",
+	"has_pending_approval": false,
+	"quickbook_disable_sync": false,
+	"status_completion_date": null,
+	"status_last_change_date": null,
+	"has_pending_job_approval": false,
+	"last_payment_request_date": null,
+	"quickbook_last_error_sync": null,
+	"customer_portal_order_link": "https://portal.hubcitydesignlbk.com/external-redirect/show_sales_order?order_id=nm51l68QQorR37&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjdXN0b21lciIsImNvbl9pZCI6Mjk0MzkzLCJ0aWQiOjMyMzIsImV4cCI6MTc5MTA1ODI0Miwic3ViIjoyNzYwMDYsImlhdCI6MTc2MTY4MjI0MiwibmJmIjoxNzYxNjgyMjQyLCJqdGkiOiJSb3YxU05UeHFJV3RVZ1FMIn0.YCff7BbK9URKF3uhGMQGlv9Dbu11FMfgvxbvgHx5yRc",
+	"has_pending_order_approval": false,
+	"quickbook_last_success_sync": null,
+	"customer_portal_payment_link": "https://portal.hubcitydesignlbk.com/external-redirect/show_sales_order?order_id=nm51l68QQorR37&show_payment=true&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjdXN0b21lciIsImNvbl9pZCI6Mjk0MzkzLCJ0aWQiOjMyMzIsImV4cCI6MTc5MTA1ODI0Miwic3ViIjoyNzYwMDYsImlhdCI6MTc2MTY4MjI0MiwibmJmIjoxNzYxNjgyMjQyLCJqdGkiOiI5dXJJS2l6OWZPaEg2YTlhIn0.1A-0dHXYs8Yc37mpXkduuUJcPaiWOB6aR4zIEERgEFQ",
+	"has_external_integration_sync_error": false
+}

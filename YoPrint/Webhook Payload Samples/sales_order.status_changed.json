@@ -1,0 +1,270 @@
+#sales_order.status_changed Event
+
+{
+	"id": "06ZjrmDJOqzVRk",
+	"mode": "view",
+	"name": "PDWA PVC Hats-Printed Apparel",
+	"tags": [],
+	"quote": false,
+	"status": {
+		"id": "pDQProk6ZJr5dn",
+		"role": "order",
+		"type": "in_progress",
+		"color": "#fed9a8",
+		"label": "Waiting For PO Arrival",
+		"trashed": false,
+		"position": 4,
+		"customer_label": "Products Ordered"
+	},
+	"is_rush": false,
+	"trashed": false,
+	"version": 2,
+	"calc_tax": 0,
+	"customer": {
+		"id": "6Z9Bz52Z2ormab",
+		"pdf": {
+			"invoice_statement": "https://secure.yoprint.com/api/v2/document/pdf/customer_invoice_statement/kxvkD5WA18cklV/hub-city-design-inc/6Z9Bz52Z2ormab"
+		},
+		"hide": false,
+		"name": "Palo Duro Wildfire Academy",
+		"tags": [],
+		"media": [],
+		"trashed": false,
+		"website": "",
+		"contacts": [
+			{
+				"id": "KG1dvw4e7aleP3",
+				"fax": "",
+				"email": "jonathans4stevens@gmail.com",
+				"phone": "+1 806-433-7730",
+				"trashed": false,
+				"last_name": "Stevens",
+				"created_at": "2025-10-01T17:48:44+00:00",
+				"first_name": "Jonathan ",
+				"is_primary": false,
+				"updated_at": "2025-10-15T15:17:23+00:00",
+				"customer_id": "6Z9Bz52Z2ormab",
+				"fax_country": "",
+				"send_invoice": false,
+				"phone_country": "US",
+				"default_receive_sms": true
+			},
+			{
+				"id": "LwYOznK59drGPb",
+				"fax": "",
+				"email": "palodurowildfireacademy@gmail.com",
+				"phone": "",
+				"trashed": false,
+				"last_name": "",
+				"created_at": "2025-10-01T18:00:49+00:00",
+				"first_name": "Palo Duro Wildlife Academy",
+				"is_primary": true,
+				"updated_at": "2025-10-02T03:03:01+00:00",
+				"customer_id": "6Z9Bz52Z2ormab",
+				"fax_country": "",
+				"send_invoice": false,
+				"phone_country": "",
+				"default_receive_sms": false
+			}
+		],
+		"addresses": [],
+		"created_at": "2025-10-01T17:48:44+00:00",
+		"tax_exempt": true,
+		"updated_at": "2025-10-16T19:04:13+00:00",
+		"vat_number": "",
+		"wallet_fund": 0,
+		"quote_amount": 0,
+		"resale_number": "",
+		"unpaid_amount": 3289550,
+		"assigned_users": [
+			{
+				"id": "94mKlNO62zYaOZ",
+				"name": "Leah Andrade",
+				"avatar_url": "https://download.yoprint.com/1207855/5f2f58c4893afd346fdff02c5555d6eb.png?s=4blXCcHSDKCGi6EzZZ0GJA&e=1761717600"
+			}
+		],
+		"internal_notes": "",
+		"ordered_amount": 5476670,
+		"overdue_amount": 3289550,
+		"wallet_currency": {
+			"id": "YyAgrW6Zjz98Me",
+			"iso": "USD",
+			"name": "United States Dollar",
+			"symbol": "$",
+			"default": true,
+			"trashed": false
+		},
+		"customer_profiles": [],
+		"last_ordered_date": "2025-10-01T17:48:50+00:00",
+		"customer_portal_id": "dp5rq7",
+		"deposit_due_amount": 551220,
+		"customer_portal_link": "https://portal.hubcitydesignlbk.com/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjdXN0b21lciIsImNvbl9pZCI6NDE4MzQ3LCJ0aWQiOjMyMzIsImV4cCI6MTc5MTA1OTM0OCwic3ViIjozODE2MDgsImlhdCI6MTc2MTY4MzM0OCwibmJmIjoxNzYxNjgzMzQ4LCJqdGkiOiI4dFd4dTc5VXFiejFDTjluIn0.S24qHe26OoKYgKNO5D1zW36T8ZIdUPSih2_BqU-cQUc",
+		"default_warehouse_id": null,
+		"default_payment_term_id": null,
+		"default_pricing_group_id": null,
+		"display_customer_portal_id": "dp5rq7",
+		"customer_portal_id_override": null,
+		"customer_portal_payment_option": null,
+		"has_customer_portal_id_override": false
+	},
+	"due_date": null,
+	"is_draft": false,
+	"is_quote": false,
+	"prod_note": "<span style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-pasted=\"true\" data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">T-shirt&nbsp;</span><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">Small &nbsp; &nbsp; &nbsp; &nbsp; 5</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">Medium &nbsp; 15</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">Large &nbsp; &nbsp; &nbsp; 55</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">XL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;55</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">2XL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;20</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">Total &nbsp;150</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\"><br></div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">Hoodies&nbsp;</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">Small &nbsp; &nbsp; &nbsp; &nbsp; 5</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">Medium &nbsp; 15</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">Large &nbsp; &nbsp; &nbsp; 25&nbsp;</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">XL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;30</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">2XL &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;25</div><div style='color: rgb(222, 222, 221); font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, \"Helvetica Neue\", \"Apple Color Emoji\", sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(21, 22, 23); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; --darkreader-inline-color: var(--darkreader-text-dededd, #d4d0cb); --darkreader-inline-bgcolor: var(--darkreader-background-151617, #2f3233);' data-darkreader-inline-color=\"\" data-darkreader-inline-bgcolor=\"\">Total 100</div>",
+	"scoped_id": "SO1235",
+	"status_id": "pDQProk6ZJr5dn",
+	"calc_total": 5476670,
+	"created_at": "2025-10-01T17:48:50+00:00",
+	"created_by": "94mKlNO62zYaOZ",
+	"is_created": true,
+	"issue_date": "2025-10-01T17:48:50+00:00",
+	"start_date": null,
+	"unique_key": "ord_58gbg7bfcf0502bd25f8-eb39cc08dd1f62f7-66gg81g1acedgf8a445d02",
+	"updated_at": "2025-10-27T16:14:51+00:00",
+	"client_note": "",
+	"customer_id": "6Z9Bz52Z2ormab",
+	"deposit_due": "2025-10-03T17:48:50+00:00",
+	"grouped_pdf": [
+		{
+			"label": "Main",
+			"documents": [
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/order/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "Sales Order",
+					"description": "Sales Order details"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/order_compact/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "Sales Order (Compact)",
+					"description": "Sales Order details optimized for printing"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_invoices/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "All Invoices",
+					"description": "All invoices"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_compact_invoices/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "All Invoices (Compact)",
+					"description": "All invoices optimized for printing"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_as_invoice/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "Sales Order as Invoice",
+					"description": "Uses the Sales Order ID as the Invoice ID"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_as_invoice_compact/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "Sales Order as Invoice (Compact)",
+					"description": "Uses the Sales Order ID as the Invoice ID. Optimized for printing"
+				}
+			]
+		},
+		{
+			"label": "Job",
+			"documents": [
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "All Jobs",
+					"description": "All job details without mockup"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "All Jobs (Mockups Incl.)",
+					"description": "All job details including mockups"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs_label/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "All Job Labels (4\" x 6\")",
+					"description": "All Job Labels (4\" x 6\")"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_jobs_dymo_label/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "All Job Labels (1\" x 2-1/8\")",
+					"description": "All Job Labels in  (1\" x 2-1/8\")"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_worksheet/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "All Jobs Worksheet",
+					"description": "All Jobs Worksheet"
+				}
+			]
+		},
+		{
+			"label": "Shipment",
+			"documents": [
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipment/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "All Packing Slips",
+					"description": "All shipment packing slips"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipment_label/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "All Shipment Labels (Letter size)",
+					"description": "All Shipment labels to be printed on Letter Size"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipment_label/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "All Shipment Labels (4\" x 6\")",
+					"description": "All Shipment labels to be printed on 4\" x 6\" labels"
+				},
+				{
+					"url": "https://secure.yoprint.com/api/v2/document/pdf/so_shipments_dymo_label/kxvkD5WA18cklV/hub-city-design-inc/06ZjrmDJOqzVRk",
+					"label": "All Shipment Labels (1\" x 2-1/8\")",
+					"description": "All Shipment Labels to be printed on (1\" x 2-1/8\")"
+				}
+			]
+		}
+	],
+	"paid_amount": 2187120,
+	"warehouse_id": "1oVOzZo504rW5G",
+	"calc_discount": 0,
+	"calc_subtotal": 5476670,
+	"cust_due_date": null,
+	"deposit_total": 50000,
+	"ship_due_date": null,
+	"assigned_users": [],
+	"auto_saved_for": null,
+	"discount_total": 0,
+	"approval_status": "approved",
+	"full_amount_due": "2025-10-15T17:48:50+00:00",
+	"payment_term_id": "X5PVrExkKzGWbB",
+	"previous_status": {
+		"id": "pDQProk6ZJr5dn",
+		"role": "order",
+		"type": "in_progress",
+		"color": "#fed9a8",
+		"label": "Waiting For PO Arrival",
+		"trashed": false,
+		"position": 4,
+		"customer_label": "Products Ordered"
+	},
+	"customer_profile": null,
+	"deposit_required": true,
+	"pricing_group_id": "gO4Klq8aJvMPex",
+	"pricing_strategy": "job_separately",
+	"billing_address_id": null,
+	"calc_deposit_total": 2738340,
+	"customer_has_email": true,
+	"customer_po_number": null,
+	"participant_emails": [
+		"palodurowildfireacademy@gmail.com",
+		"jonathans4stevens@gmail.com"
+	],
+	"previous_status_id": "pDQProk6ZJr5dn",
+	"customer_contact_id": null,
+	"customer_profile_id": null,
+	"shipping_address_id": null,
+	"has_pending_approval": false,
+	"quickbook_disable_sync": false,
+	"status_completion_date": null,
+	"status_last_change_date": "2025-10-27T16:14:51+00:00",
+	"has_pending_job_approval": false,
+	"last_payment_request_date": null,
+	"quickbook_last_error_sync": null,
+	"customer_portal_order_link": "https://portal.hubcitydesignlbk.com/external-redirect/show_sales_order?order_id=06ZjrmDJOqzVRk&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjdXN0b21lciIsImNvbl9pZCI6NDE4MzQ3LCJ0aWQiOjMyMzIsImV4cCI6MTc5MTA1OTM0OCwic3ViIjozODE2MDgsImlhdCI6MTc2MTY4MzM0OCwibmJmIjoxNzYxNjgzMzQ4LCJqdGkiOiJ1MGRkUUlBVnZMdUhRMnpvIn0.upVB7H756owOZQZW9zOvUxfVNQuOrYo5K55pak0cl1Q",
+	"has_pending_order_approval": false,
+	"quickbook_last_success_sync": "2025-10-16T19:07:21+00:00",
+	"customer_portal_payment_link": "https://portal.hubcitydesignlbk.com/external-redirect/show_sales_order?order_id=06ZjrmDJOqzVRk&show_payment=true&token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJjdXN0b21lciIsImNvbl9pZCI6NDE4MzQ3LCJ0aWQiOjMyMzIsImV4cCI6MTc5MTA1OTM0OCwic3ViIjozODE2MDgsImlhdCI6MTc2MTY4MzM0OCwibmJmIjoxNzYxNjgzMzQ4LCJqdGkiOiJiaUpVTWMzdHk2bzk2enM4In0.LH6NZjFe3WZjuPdgEmHLQJ_ri39iUAXS1sxWa4vcPe8",
+	"has_external_integration_sync_error": false
+}

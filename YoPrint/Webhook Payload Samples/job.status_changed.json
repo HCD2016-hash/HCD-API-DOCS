@@ -1,0 +1,234 @@
+#job.status_changed Event
+
+{
+	"id": "q2nVrG92NAlagp",
+	"pdf": [
+		{
+			"url": "https://secure.yoprint.com/api/v2/document/pdf/job/2WvVMxJn6Yuwrx/hub-city-design-inc/q2nVrG92NAlagp?show_mockup=0",
+			"label": "Job Details",
+			"description": "Job details without mockup",
+			"object_type": "job"
+		},
+		{
+			"url": "https://secure.yoprint.com/api/v2/document/pdf/job/2WvVMxJn6Yuwrx/hub-city-design-inc/q2nVrG92NAlagp?show_mockup=1",
+			"label": "Job Details (Mockups Incl.)",
+			"description": "Job details including mockups",
+			"object_type": "job"
+		},
+		{
+			"url": "https://secure.yoprint.com/api/v2/document/pdf/job_label/2WvVMxJn6Yuwrx/hub-city-design-inc/q2nVrG92NAlagp",
+			"label": "Job Label (4\" x 6\")",
+			"description": "Job Label (4\" x 6\")",
+			"object_type": "job"
+		},
+		{
+			"url": "https://secure.yoprint.com/api/v2/document/pdf/job_dymo_label/2WvVMxJn6Yuwrx/hub-city-design-inc/q2nVrG92NAlagp",
+			"label": "Job Label (1\" x 2-1/8\")",
+			"description": "Job Label (1\" x 2-1/8\")",
+			"object_type": "job"
+		}
+	],
+	"name": "Texas Trader BackPacks",
+	"note": "&nbsp;<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"913\" style=\"border-collapse: collapse;width:684pt;\" data-pasted=\"true\"><tbody><tr><td height=\"20\" align=\"right\" style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; height: 15pt; width: 84px; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">42918</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; width: 79px; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Alberto</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; width: 111px; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Saenz</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; width: 70px; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">DEQ</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; width: 67px; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">BG223</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; width: 156px; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">BG223 &mdash; Exec Backpack</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; width: 19px; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\"><br></td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; width: 31px; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\"><br></td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; width: 148px; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Ron Hoover Equipment</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; width: 148px; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">DEQ</td></tr><tr><td height=\"20\" align=\"right\" style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; height: 15pt; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">45782</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Raul</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Coronado Jr</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">COR</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">BG223</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">BG223 &mdash; Exec Backpack</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\"><br></td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\"><br></td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Ron Hoover Equipment</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">COR</td></tr><tr><td height=\"20\" align=\"right\" style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; height: 15pt; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">41938</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">James</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Farley</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">COR</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">BG223</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">BG223 &mdash; Exec Backpack</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\"><br></td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\"><br></td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Ron Hoover Equipment</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">COR</td></tr><tr><td height=\"20\" align=\"right\" style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; height: 15pt; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">60168</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Trevor</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Mathis</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">COR</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">BG223</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">BG223 &mdash; Exec Backpack</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\"><br></td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\"><br></td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Ron Hoover Equipment</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">COR</td></tr><tr><td height=\"20\" align=\"right\" style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; height: 15pt; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">42915</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Roel</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Lopez</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">DEQ</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">BG223</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">BG223 &mdash; Exec Backpack</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\"><br></td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\"><br></td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">Ron Hoover Equipment</td><td style='color: black; font-size: 15px; font-weight: 400; font-style: normal; text-decoration: none; font-family: \"Aptos Narrow\", sans-serif; vertical-align: bottom; border: none; --darkreader-inline-color: var(--darkreader-text-000000, #e8e6e3); --darkreader-inline-border-top: none; --darkreader-inline-border-right: none; --darkreader-inline-border-bottom: none; --darkreader-inline-border-left: none;' data-darkreader-inline-color=\"\" data-darkreader-inline-border-top=\"\" data-darkreader-inline-border-right=\"\" data-darkreader-inline-border-bottom=\"\" data-darkreader-inline-border-left=\"\">DEQ</td></tr></tbody></table>",
+	"mockup": [
+		{
+			"id": "NEV1vXKoeYr3LR",
+			"url": "https://download.yoprint.com/1435118/Asset-1xmas.png?s=QWw7PKtb5ETbeC8wHPRXog&e=1761717600&download=1",
+			"name": "Asset 1xmas",
+			"size": 10170613,
+			"job_id": "q2nVrG92NAlagp",
+			"preview": {
+				"large": "https://preview-v1.yoprint.com/12/fit/1200/1200/sm/0/plain/1435118/Asset-1xmas.png?secure=Eht2Shfg_2-Ocrl2M0pSQg==,1813518177",
+				"small": "https://preview-v1.yoprint.com/12/fit/250/250/sm/0/plain/1435118/Asset-1xmas.png?secure=A_oB7IUycZ1EgWOHuU5R8Q==,1813518177",
+				"medium": "https://preview-v1.yoprint.com/12/fit/800/800/sm/0/plain/1435118/Asset-1xmas.png?secure=CtNwff_4z1MtzGj4hkOzWQ==,1813518177"
+			},
+			"is_image": true,
+			"position": 4294967295,
+			"view_url": "https://download.yoprint.com/1435118/Asset-1xmas.png?s=QWw7PKtb5ETbeC8wHPRXog&e=1761717600",
+			"file_name": "Asset-1xmas.png",
+			"mime_type": "image/png",
+			"collection": "mockup",
+			"created_at": "2025-10-28T19:00:58+00:00",
+			"job_service": [
+				"OPALrYAQEbrexy"
+			],
+			"show_in_pdf": true,
+			"current_approval": null,
+			"custom_properties": {
+				"show_in_pdf": true
+			},
+			"current_approval_status": null,
+			"current_approval_notes_to_customer": null,
+			"current_approval_notes_from_customer": null
+		}
+	],
+	"status": {
+		"id": "enY1z9yyWkzPmJ",
+		"role": "job",
+		"type": "in_progress",
+		"color": "#be04fb",
+		"label": "Ready for Production",
+		"trashed": false,
+		"position": 4,
+		"customer_label": "Scheduled For Production"
+	},
+	"is_rush": false,
+	"version": 2,
+	"customer": {
+		"id": "BVXdlj7pVNzpgY",
+		"name": "Ron Hoover RV & Marine"
+	},
+	"due_date": "2025-10-05T19:46:19+00:00",
+	"order_id": "8nDRz2Znq8zMEV",
+	"position": 1337471,
+	"services": [
+		{
+			"id": "OPALrYAQEbrexy",
+			"note": "",
+			"_edit": {
+				"is_new": true
+			},
+			"valid": true,
+			"option": "5000 Stitches or less",
+			"version": 2,
+			"location": {
+				"id": "LwYOzn1RdlGPbn",
+				"type": "database",
+				"trashed": false,
+				"display_name": "TBD"
+			},
+			"position": 1,
+			"service_id": "mk6bzKMbnv9G5y",
+			"from_legacy": false,
+			"service_name": "Embroidery - Apparel/Accessory VIP",
+			"customer_note": "",
+			"pricing_total": {
+				"dp": 3,
+				"value": 11560
+			},
+			"pricing_strategy": "job_separately",
+			"pricing_matrix_used": "primary_pricing"
+		}
+	],
+	"pipelines": [
+		{
+			"id": "6oejzBp7dVv8Gq",
+			"name": "Embroidery",
+			"note": null,
+			"job_id": "q2nVrG92NAlagp",
+			"status": {
+				"id": "KG1dvwXXyMleP3",
+				"role": "pipeline",
+				"type": "start",
+				"color": "#24e8e5",
+				"label": "Pending",
+				"trashed": false,
+				"position": 0,
+				"pipeline_id": "X5PVrELApzGWbB",
+				"customer_label": "Pending"
+			},
+			"due_date": "2025-10-05T19:46:19+00:00",
+			"job_name": "Texas Trader BackPacks",
+			"order_id": "8nDRz2Znq8zMEV",
+			"position": 0,
+			"status_id": "KG1dvwXXyMleP3",
+			"created_at": "2025-10-28T19:00:57+00:00",
+			"order_name": null,
+			"start_date": "2025-09-23T19:46:19+00:00",
+			"updated_at": "2025-10-28T19:00:57+00:00",
+			"job_is_rush": 0,
+			"pipeline_id": "X5PVrELApzGWbB",
+			"sales_order": {
+				"due_date": null,
+				"is_quote": false,
+				"status_id": null,
+				"created_by": null,
+				"issue_date": null,
+				"start_date": null,
+				"customer_id": null,
+				"cust_due_date": null,
+				"customer_name": null,
+				"ship_due_date": null
+			},
+			"job_scoped_id": "JOB-2949",
+			"job_status_id": "enY1z9yyWkzPmJ",
+			"assigned_users": [
+				"N4Lpz0w3Kl3R0m",
+				"OPALrYy0Wrexy9"
+			],
+			"job_item_count": 2,
+			"order_scoped_id": null,
+			"status_completion_date": null,
+			"assigned_users_hydrated": [
+				{
+					"id": "N4Lpz0w3Kl3R0m",
+					"name": "Ashley Scott",
+					"avatar_url": "https://download.yoprint.com/749377/5f2f58c4893afd346fdff02c5555d6eb.png?s=zt2DLuLnqHi1uhfGeJhckg&e=1761717600"
+				},
+				{
+					"id": "OPALrYy0Wrexy9",
+					"name": "Brooklyn Shirley",
+					"avatar_url": "https://download.yoprint.com/1365101/5f2f58c4893afd346fdff02c5555d6eb.png?s=YqAYfS_rcKSkx-oHsosiQw&e=1761717600"
+				}
+			],
+			"status_last_change_date": "2025-10-22T15:11:28+00:00"
+		}
+	],
+	"scoped_id": "JOB-2949",
+	"status_id": "enY1z9yyWkzPmJ",
+	"item_count": 2,
+	"start_date": "2025-09-23T19:46:19+00:00",
+	"unique_key": "job_92aa3489d-9b1bb-c-03a5bb--298246-cc-c96001f9728g699a4a3e6557",
+	"from_legacy": false,
+	"has_service": true,
+	"qr_code_url": "https://ypnt.us/qr/y9-0p-job-1337471",
+	"sales_order": {
+		"name": "Online Store Options",
+		"is_rush": false,
+		"due_date": "2025-10-05T19:46:19+00:00",
+		"is_quote": true,
+		"status_id": "xDQwr811yLvRyG",
+		"created_by": "4DKZvMB42l7n2J",
+		"issue_date": "2025-09-23T19:46:19+00:00",
+		"start_date": "2025-09-30T19:46:19+00:00",
+		"cust_due_date": "2025-10-07T19:46:19+00:00",
+		"ship_due_date": null
+	},
+	"pricing_total": {
+		"dp": 3,
+		"value": 11560
+	},
+	"assigned_users": [],
+	"auto_saved_for": null,
+	"location_count": 1,
+	"order_scoped_id": "SO1217",
+	"previous_status": {
+		"id": "qdgwz3mm9bvG19",
+		"role": "job",
+		"type": "start",
+		"color": "#0df6ff",
+		"label": "Pending",
+		"trashed": false,
+		"position": 0,
+		"customer_label": "Pending"
+	},
+	"production_file": [],
+	"impression_count": 2,
+	"inventory_status": "not_committed",
+	"pending_approval": null,
+	"participant_emails": [
+		"cgray@ronhoover.com"
+	],
+	"previous_status_id": "qdgwz3mm9bvG19",
+	"pricing_rule_applied": null,
+	"services_still_valid": true,
+	"pricing_original_total": {
+		"dp": 3,
+		"value": 11560
+	},
+	"status_completion_date": null,
+	"status_last_change_date": null,
+	"stock_on_hand_accounted": false,
+	"order_customer_po_number": null,
+	"need_cust_provide_product": false
+}
