@@ -46,7 +46,7 @@ For Workflow Automation
 
 Developers and automation engineers can:
 
-Reference the field structure for building Zapier, Make, or API automations
+Reference the field structure for buildin API automations
 
 Validate mappings when setting up webhook parsers
 
@@ -55,10 +55,6 @@ Test integrations using real payload data
 🧠 AI Integration Notes
 
 When training or fine-tuning your AI assistant:
-
-Use the Markdown knowledge file (Webhook_Payload_KB.md) as a structured knowledge source.
-
-Index it in your vector store or custom GPT knowledge base for semantic recall.
 
 Optionally, connect this repository to Zapier or a script so that the AI can automatically:
 
